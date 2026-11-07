@@ -38,7 +38,7 @@ function pic(r, cls = '', emoji = null) {
   const h = hue(r.id);
   const style = `--h1:hsl(${h} 55% 38%);--h2:hsl(${(h + 40) % 360} 45% 16%)`;
   const img = r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '';
-  return `<div class="pic ${cls}" style="${style}">${r.image ? '' : `<span class="emoji">${emoji ?? r.emoji ?? '🍽️'}</span>`}${img}</div>`;
+  return `<div class="pic ${r.image ? 'photo ' : ''}${cls}" style="${style}">${r.image ? '' : `<span class="emoji">${emoji ?? r.emoji ?? '🍽️'}</span>`}${img}</div>`;
 }
 function timeText(r) {
   const t = r.time || {};
