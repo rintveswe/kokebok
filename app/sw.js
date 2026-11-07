@@ -1,13 +1,19 @@
-// Enkel offline-cache: stale-while-revalidate for alt under scope.
-const CACHE = 'kokebok-v7';
+// Offline-cache: nettet først (alltid ferskt når man er på nett), lagret kopi når nettet er borte.
+// Bump CACHE-navnet når filer under SHELL endres, så gamle kopier slettes.
+const CACHE = 'kokebok-v8';
 const SHELL = [
-  './', './index.html', './css/style.css', './js/app.js', './js/shopping.js', './js/firebase-config.js','./manifest.webmanifest',
+  './', './index.html', './css/style.css', './js/app.js', './js/shopping.js', './js/firebase-config.js', './manifest.webmanifest',
   './icons/icon.svg', './icons/cart.svg', './data/index.json', './data/profiles.json',
   './handleliste/index.html', './handleliste/app.js', './handleliste/manifest.webmanifest'
 ];
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  // cache: 'reload' = hopp over nettleserens HTTP-cache, hent alltid ferske filer
+  e.waitUntil(
+    caches.open(CACHE)
+      .then((c) => c.addAll(SHELL.map((u) => new Request(u, { cache: 'reload' }))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', (e) => {
@@ -24,10 +30,14 @@ self.addEventListener('fetch', (e) => {
   e.respondWith(
     caches.open(CACHE).then(async (cache) => {
       const cached = await cache.match(e.request);
-      const network = fetch(e.request)
-        .then((res) => { if (res.ok) cache.put(e.request, res.clone()); return res; })
-        .catch(() => cached);
-      return cached || network;
+      // no-cache = spør serveren om filen er endret, selv om GitHub Pages sier "gjenbruk i 10 min"
+      const net = fetch(e.request, { cache: 'no-cache' }).then((res) => {
+        if (res.ok) cache.put(e.request, res.clone());
+        return res;
+      });
+      if (!cached) return net;
+      // Har vi en lagret kopi: vent maks 4 sek på nettet, ellers bruk kopien (treg eller ingen forbindelse)
+      return Promise.race([net, new Promise((_, rej) => setTimeout(rej, 4000))]).catch(() => cached);
     })
   );
 });
