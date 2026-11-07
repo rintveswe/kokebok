@@ -1,0 +1,23 @@
+{
+  "id": "aioli", "title": "Aioli", "category": "Saus og tilbehør", "emoji": "🧄",
+  "image": null, "servings": "ca. 2 dl", "time": { "active": 10, "total": 10 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Rask hvitløksmajones. Supergod til burger, pommes frites og sandwicher.",
+  "tips": [
+    "Bruk gode ingredienser. Smaken kommer fra hvitløk og sitron.",
+    "Holder 3 dager i kjøleskapet. Inneholder rå eggeplomme."
+  ],
+  "pairs": {},
+  "ingredients": [
+    { "name": "Majones (god kvalitet)", "qty": "2 dl" },
+    { "name": "Hvitløksfedd, finrevet", "qty": "2 stk" },
+    { "name": "Sitronsaft", "qty": "1 ss" },
+    { "name": "Olivenolje", "qty": "1 ss" },
+    { "name": "Salt", "qty": "1 klype" }
+  ],
+  "steps": [
+    { "text": "Riv hvitløken veldig fint.", "anim": "chop", "icon": "🧄" },
+    { "text": "Rør alt sammen i en liten bolle.", "anim": "stir", "icon": "🥣" },
+    { "text": "Smak til med mer sitron eller salt. La stå en time i kjøleskapet så smaken trekker.", "anim": "rest", "icon": "❄️", "timer": 60 }
+  ]
+}

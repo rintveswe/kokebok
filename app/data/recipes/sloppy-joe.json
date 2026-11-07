@@ -1,0 +1,33 @@
+{
+  "id": "sloppy-joe", "title": "Sloppy Joe", "category": "Fast food", "emoji": "🍔",
+  "image": null, "servings": "4 personer", "time": { "active": 20, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Søt og syrlig kjøttblanding i burgerbrød. Det er lov å søle.",
+  "tips": [
+    "La sausen småkoke til den er tykk – ellers renner alt ut av brødet.",
+    "Rist brødene lett så de ikke blir bløte."
+  ],
+  "uses": ["brioche-burgerbrod"],
+  "pairs": { "drink": ["Cola", "Milkshake"], "side": ["Pommes frites", "Coleslaw"] },
+  "ingredients": [
+    { "name": "Kjøttdeig", "qty": "500 g" },
+    { "name": "Løk", "qty": "1 stk" },
+    { "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "name": "Paprika", "qty": "1/2 stk", "optional": true },
+    { "name": "Ketchup", "qty": "1,5 dl" },
+    { "name": "Tomatpuré", "qty": "2 ss" },
+    { "name": "Brunt sukker", "qty": "2 ss" },
+    { "name": "Worcestershiresaus", "qty": "1 ss" },
+    { "name": "Sennep", "qty": "1 ts" },
+    { "name": "Burgerbrød", "qty": "4 stk" },
+    { "name": "Sterk saus", "qty": "etter smak", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Hakk løk, hvitløk og paprika.", "anim": "chop", "icon": "🧅" },
+    { "text": "Brun kjøttdeigen med løken i en stor panne.", "anim": "fry", "icon": "🥩" },
+    { "text": "Rør inn ketchup, tomatpuré, sukker, worcestershire og sennep.", "anim": "stir", "icon": "🥄" },
+    { "text": "La det småkoke uten lokk til sausen er tykk.", "anim": "boil", "icon": "🍲", "timer": 12 },
+    { "text": "Rist brødene. Hell kjøttblandingen på brødskivene.", "anim": "assemble", "icon": "🍔" },
+    { "text": "Server med servietter.", "anim": "serve", "icon": "🧻" }
+  ]
+}

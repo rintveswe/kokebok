@@ -1,0 +1,15 @@
+{
+  "name": "Familiekokeboka",
+  "short_name": "Kokeboka",
+  "lang": "nb",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#1c1410",
+  "theme_color": "#1c1410",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ostekake", "title": "Ostekake", "category": "Dessert", "emoji": "🍰",
+  "image": null, "servings": "10–12 stykker", "time": { "active": 30, "total": 330 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kald, kremet ostekake på kjeksbunn. Uten steking.",
+  "headsUp": "Må stå i kjøleskapet minst 5 timer, helst over natten.",
+  "tips": [
+    "Alt skal ha romtemperatur før du blander, ellers blir kremen klumpete.",
+    "Topp med bær, syltetøy eller karamellsaus."
+  ],
+  "pairs": { "drink": ["Kaffe", "Melk", "Saft"] },
+  "ingredients": [
+    { "group": "Bunn", "name": "Digestivekjeks eller havrekjeks", "qty": "250 g" },
+    { "group": "Bunn", "name": "Smør, smeltet", "qty": "100 g" },
+    { "group": "Fyll", "name": "Kremost naturell", "qty": "400 g" },
+    { "group": "Fyll", "name": "Piskefløte", "qty": "3 dl" },
+    { "group": "Fyll", "name": "Melis", "qty": "1,5 dl" },
+    { "group": "Fyll", "name": "Vaniljesukker", "qty": "1 ss" },
+    { "group": "Fyll", "name": "Sitronsaft", "qty": "2 ss" },
+    { "group": "Fyll", "name": "Gelatinblader", "qty": "5 stk" },
+    { "group": "Topping", "name": "Bær eller syltetøy", "qty": "2 dl" }
+  ],
+  "steps": [
+    { "text": "Knus kjeksene til fint smuler og bland med smeltet smør. Press ut i bunnen av en form (22 cm) og kjøl.", "anim": "assemble", "icon": "🍪", "timer": 20 },
+    { "text": "Legg gelatin i kaldt vann i 5–10 minutter.", "anim": "rest", "icon": "💧", "timer": 5 },
+    { "text": "Visp kremost, melis, vanilje og sitron glatt. Pisk fløten til myk krem og vend inn.", "anim": "stir", "icon": "🥣" },
+    { "text": "Varm opp gelatinen i en kjele med 2 ss vann til den er smeltet. Rør den inn i kremen.", "anim": "stir", "icon": "🔥" },
+    { "text": "Hell fyllet på bunnen og jevn ut. Kjøl i minst 5 timer.", "anim": "rest", "icon": "❄️", "timer": 300 },
+    { "text": "Pynt med bær eller syltetøy. Løsne fra formen og server.", "anim": "serve", "icon": "🍓" }
+  ]
+}

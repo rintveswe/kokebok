@@ -1,0 +1,31 @@
+{
+  "id": "one-pan-kylling-poteter", "title": "One pan-kylling med poteter og grønnsaker", "category": "One pan", "emoji": "🍗",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 55 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kyllinglår, poteter og grønnsaker på én langpanne i ovnen.",
+  "tips": [
+    "Legg kyllingen med skinnsiden opp. Da blir skinnet sprøtt.",
+    "Kjernetemperatur 165 °F. Bruk steketermometer.",
+    "Skjær potetene i små biter, så blir de ferdige samtidig som kyllingen."
+  ],
+  "pairs": { "drink": ["Eplejuice", "Vann med sitron"], "side": ["Salat", "aioli"] },
+  "ingredients": [
+    { "name": "Kyllinglår med skinn", "qty": "8 stk" },
+    { "name": "Poteter, i terninger", "qty": "800 g" },
+    { "name": "Gulrot", "qty": "3 stk" },
+    { "name": "Rødløk", "qty": "2 stk" },
+    { "name": "Hvitløksfedd", "qty": "4 stk" },
+    { "name": "Olivenolje", "qty": "4 ss" },
+    { "name": "Paprikapulver", "qty": "2 ts" },
+    { "name": "Timian", "qty": "1 ts" },
+    { "name": "Salt og pepper", "qty": "etter smak" },
+    { "name": "Sitron", "qty": "1 stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 220 °C. Skjær poteter, gulrot og løk i biter.", "anim": "chop", "icon": "🥔" },
+    { "text": "Vend grønnsakene i olje, salt, pepper og timian på en stor langpanne.", "anim": "season", "icon": "🥕" },
+    { "text": "Gni kyllinglårene med olje, paprika, salt og pepper. Legg dem på toppen med skinnsiden opp.", "anim": "season", "icon": "🍗" },
+    { "text": "Stek midt i ovnen til skinnet er sprøtt og kjernetemperaturen er 165 °F.", "anim": "bake", "icon": "🔥", "timer": 40 },
+    { "text": "Press sitron over og server direkte fra pannen.", "anim": "serve", "icon": "🍋" }
+  ]
+}

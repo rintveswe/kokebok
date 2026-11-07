@@ -1,0 +1,27 @@
+{
+  "id": "baconjam", "title": "Baconjam", "category": "Saus og tilbehør", "emoji": "🥓",
+  "image": null, "servings": "ca. 2 dl", "time": { "active": 15, "total": 60 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Søt, røkt og salt baconmarmelade. Fantastisk på burger.",
+  "tips": [
+    "Holder 2 uker i kjøleskapet i et lufttett glass.",
+    "Stek baconet sprøtt før du tilsetter resten, ellers blir jammen seig."
+  ],
+  "pairs": { "side": ["smash-burger"] },
+  "ingredients": [
+    { "name": "Bacon, i små biter", "qty": "300 g" },
+    { "name": "Løk, finhakket", "qty": "1 stk" },
+    { "name": "Brunt sukker", "qty": "1 dl" },
+    { "name": "Balsamicoeddik", "qty": "3 ss" },
+    { "name": "Kaffe, sterk", "qty": "1 dl" },
+    { "name": "Hvitløksfedd", "qty": "2 stk", "optional": true },
+    { "name": "Chiliflak", "qty": "1 klype", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Stek baconet sprøtt i en panne. Ta opp og la fettet bli igjen (ca. 2 ss).", "anim": "fry", "icon": "🥓" },
+    { "text": "Stek løken i baconfettet til den er myk og gyllen.", "anim": "fry", "icon": "🧅", "timer": 8 },
+    { "text": "Tilsett sukker, eddik, kaffe og hvitløk. La det småkoke til væsken er sirupstykk.", "anim": "boil", "icon": "☕", "timer": 25 },
+    { "text": "Rør inn baconet. Smak til og la avkjøle.", "anim": "stir", "icon": "🥄" },
+    { "text": "Hakk gjerne grovt i blender for en finere konsistens. Oppbevares kaldt.", "anim": "stir", "icon": "🫙" }
+  ]
+}

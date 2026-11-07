@@ -1,0 +1,29 @@
+{
+  "id": "grilled-cheese-burrito", "title": "Grilled cheese burrito", "category": "Mexicansk", "emoji": "🌯",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Burrito med sprø osteskorpe utenpå. Ost på innsiden og på utsiden.",
+  "tips": [
+    "Legg osten rett i panna før burritoen, så blir skorpen sprø og gyllen.",
+    "Ikke fyll for mye – da sprekker den når du ruller."
+  ],
+  "pairs": { "drink": ["Limonade", "Cola"], "side": ["Rømme", "Salsa"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "name": "Store hvetetortillaer", "qty": "4 stk" },
+    { "name": "Kjøttdeig eller kylling", "qty": "400 g" },
+    { "name": "Tacokrydder (mild)", "qty": "1 ss" },
+    { "name": "Ris, kokt", "qty": "3 dl" },
+    { "name": "Svarte bønner", "qty": "1 boks" },
+    { "name": "Revet ost", "qty": "300 g" },
+    { "name": "Rømme", "qty": "1 dl" },
+    { "name": "Jalapeño", "qty": "1 ss", "spicy": true, "optional": true },
+    { "name": "Smør til steking", "qty": "1 ss" }
+  ],
+  "steps": [
+    { "text": "Stek kjøttet med tacokrydder. Bland med ris og bønner.", "anim": "fry", "icon": "🥩" },
+    { "text": "Legg fylt på hver tortilla med rømme og litt ost. Brett sidene inn og rull stramt.", "anim": "assemble", "icon": "🌯" },
+    { "text": "Strø en liten haug ost på en panne på middels varme. Legg burritoen med skjøten ned på osten.", "anim": "fry", "icon": "🧀" },
+    { "text": "Stek 2–3 minutter til osten er gyllen og festet. Snu og stek siden også.", "anim": "fry", "icon": "🔥", "timer": 3 },
+    { "text": "Skjær i to og server varm med salsa og rømme.", "anim": "serve", "icon": "🍽️" }
+  ]
+}

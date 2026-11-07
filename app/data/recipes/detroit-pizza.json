@@ -1,0 +1,35 @@
+{
+  "id": "detroit-pizza", "title": "Detroit style pizza", "category": "Pizza og brød", "emoji": "🍕",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 120 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Firkantet, luftig pizza med sprø, ostebrent kant. Osten legges helt ut til kantene.",
+  "headsUp": "Deigen trenger ca. 1,5 time hevetid.",
+  "tips": [
+    "Legg osten (helst brick-ost eller mozzarella i terninger) helt ut til kanten av formen. Det er den brente ostekanten som gjør pizzaen.",
+    "Saus legges på toppen, i striper, etter osten.",
+    "Smør formen godt med olje. Bruk stor, mørk langpanne eller 20×30 cm form."
+  ],
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["Salat"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "group": "Deig", "name": "Hvetemel", "qty": "300 g" },
+    { "group": "Deig", "name": "Lunkent vann", "qty": "2,2 dl" },
+    { "group": "Deig", "name": "Tørrgjær", "qty": "1 ts" },
+    { "group": "Deig", "name": "Salt", "qty": "1,5 ts" },
+    { "group": "Deig", "name": "Olivenolje (+ til formen)", "qty": "4 ss" },
+    { "group": "Topping", "name": "Mozzarella i terninger", "qty": "300 g" },
+    { "group": "Topping", "name": "Pepperoni", "qty": "20 skiver", "optional": true },
+    { "group": "Topping", "name": "Pizzasaus", "qty": "2 dl" },
+    { "group": "Topping", "name": "Hvitløkspulver", "qty": "1 ts" },
+    { "group": "Topping", "name": "Chilihonning", "qty": "til servering", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Bland mel, vann, gjær og salt til en klissete deig. Elt i noen minutter.", "anim": "knead", "icon": "🥣" },
+    { "text": "La deigen heve under et klede i 1 time.", "anim": "rest", "icon": "⏳", "timer": 60 },
+    { "text": "Smør formen rikelig med olje. Trykk deigen ut i hjørnene. Hvis den trekker seg tilbake, hvil 10 min og prøv igjen.", "anim": "knead", "icon": "🫓" },
+    { "text": "La heve 30 minutter til. Sett ovnen på 250 °C.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Dekk deigen med ost helt ut til alle kantene. Legg pepperoni på.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Hell sausen i brede striper over osten.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Stek nederst i ovnen til kantene er mørke og sprø.", "anim": "bake", "icon": "🔥", "timer": 15 },
+    { "text": "Løsne kantene med kniv. Løft ut pizzaen og skjær i firkanter.", "anim": "serve", "icon": "🍕" }
+  ]
+}

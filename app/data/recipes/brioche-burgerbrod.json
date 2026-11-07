@@ -1,0 +1,33 @@
+{
+  "id": "brioche-burgerbrod", "title": "Brioche-hamburgerbrød", "category": "Pizza og brød", "emoji": "🍞",
+  "image": null, "servings": "8 burgerbrød", "time": { "active": 40, "total": 200 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Myke, smøraktige burgerbrød som tåler en saftig burger.",
+  "headsUp": "Totalt ca. 3 timer, mesteparten er hevetid.",
+  "tips": [
+    "Deigen er myk og klebrig. Elt i minst 10 minutter, helst i kjøkkenmaskin.",
+    "Pensle med eggeplomme og melk for blank overflate.",
+    "Sesamfrø på toppen gjør dem enda mer burgeraktige."
+  ],
+  "pairs": { "drink": ["Milkshake", "Brus"] },
+  "ingredients": [
+    { "name": "Hvetemel", "qty": "500 g" },
+    { "name": "Melk, lunken", "qty": "2,5 dl" },
+    { "name": "Tørrgjær", "qty": "2 ts" },
+    { "name": "Sukker", "qty": "4 ss" },
+    { "name": "Salt", "qty": "1,5 ts" },
+    { "name": "Egg", "qty": "2 stk" },
+    { "name": "Smør, romtemperert", "qty": "75 g" },
+    { "name": "Eggeplomme til pensling", "qty": "1 stk" },
+    { "name": "Sesamfrø", "qty": "2 ss", "optional": true }
+  ],
+  "steps": [
+    { "text": "Bland mel, sukker, salt og gjær. Tilsett melk og egg.", "anim": "stir", "icon": "🥣" },
+    { "text": "Elt i 10 minutter. Tilsett smøret i biter, og elt til deigen er blank og elastisk.", "anim": "knead", "icon": "🫓" },
+    { "text": "La deigen heve under klede til dobbel størrelse, ca. 1,5 time.", "anim": "rest", "icon": "⏳", "timer": 90 },
+    { "text": "Del i 8 like deler, rull til runde kuler og legg på en bakeplate med god avstand. Press dem litt flate.", "anim": "assemble", "icon": "⚪" },
+    { "text": "La heve 45 minutter til. Sett ovnen på 190 °C.", "anim": "rest", "icon": "⏳", "timer": 45 },
+    { "text": "Pensle med eggeplomme og melk. Strø på sesamfrø.", "anim": "season", "icon": "🥚" },
+    { "text": "Stek midt i ovnen til brødene er gyldne. La dem avkjøles på rist før du skjærer dem i to.", "anim": "bake", "icon": "🔥", "timer": 15 }
+  ]
+}

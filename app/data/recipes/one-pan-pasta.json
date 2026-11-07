@@ -1,0 +1,32 @@
+{
+  "id": "one-pan-pasta", "title": "One pan-pasta med kylling og tomat", "category": "One pan", "emoji": "🍝",
+  "image": null, "servings": "4 personer", "time": { "active": 10, "total": 30 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Alt i én panne: pasta, kylling og saus koker sammen. Lite oppvask.",
+  "tips": [
+    "Rør innimellom så ikke pastaen setter seg fast i bunnen.",
+    "Bruk en bred, dyp panne eller gryte.",
+    "Kjernetemperatur på kyllingen er 165 °F."
+  ],
+  "pairs": { "drink": ["Eplejuice", "Sitronbrus"], "side": ["Salat"] },
+  "ingredients": [
+    { "name": "Kyllingfilet, i biter", "qty": "400 g" },
+    { "name": "Penne eller fusilli", "qty": "300 g" },
+    { "name": "Hermetiske tomater", "qty": "1 boks" },
+    { "name": "Kraft", "qty": "5 dl" },
+    { "name": "Løk", "qty": "1 stk" },
+    { "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "name": "Fløte eller matlagingskrem", "qty": "1,5 dl" },
+    { "name": "Revet parmesan", "qty": "1 dl" },
+    { "name": "Italiensk krydder", "qty": "1 ts" },
+    { "name": "Spinat", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Stek kyllingbitene i panna med olje, salt og pepper. Ta dem ut.", "anim": "fry", "icon": "🍗" },
+    { "text": "Stek løk og hvitløk i samme panne.", "anim": "fry", "icon": "🧅" },
+    { "text": "Tilsett tomater, kraft, krydder og pasta. Rør godt. Legg kyllingen tilbake.", "anim": "stir", "icon": "🍝" },
+    { "text": "Kok under lokk og rør jevnlig til pastaen er mør og det meste av væsken er borte.", "anim": "boil", "icon": "🍲", "timer": 14 },
+    { "text": "Rør inn fløte, parmesan og spinat. La det trekke ett minutt.", "anim": "stir", "icon": "🧀" },
+    { "text": "Server rett fra pannen.", "anim": "serve", "icon": "🍽️" }
+  ]
+}

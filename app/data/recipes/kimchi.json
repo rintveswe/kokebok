@@ -1,0 +1,35 @@
+{
+  "id": "kimchi", "title": "Kimchi", "category": "Asiatisk", "emoji": "🥬",
+  "image": null, "servings": "1 stort glass (ca. 1 kg)", "time": { "active": 45, "total": 4320 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Syrlig, krydret fermentert kål. Kan tilpasses til mild versjon.",
+  "headsUp": "Kimchi må stå og gjære i romtemperatur i 1–3 dager og deretter hvile i kjøleskap. Første smak etter 2–3 dager.",
+  "tips": [
+    "Bruk hansker når du blander chilipastaen. Chilien svir i øynene og på huden.",
+    "Alt må være under saltlaken i glasset. Press kålen ned med en ren skje.",
+    "Åpne glasset innimellom og slipp ut gass. Det skal boble og lukte syrlig.",
+    "Gochugaru kommer i milde og sterke varianter – velg mild til Iselin og Rakel."
+  ],
+  "pairs": { "side": ["Ris", "Nudler", "popcorn-chicken"] },
+  "ingredients": [
+    { "group": "Kål", "name": "Kinakål", "qty": "1 stort hode (ca. 1 kg)" },
+    { "group": "Kål", "name": "Grovt salt", "qty": "0,5 dl" },
+    { "group": "Kål", "name": "Vann", "qty": "2 liter" },
+    { "group": "Pasta", "name": "Gochugaru (koreansk chiliflak)", "qty": "3 ss", "spicy": true, "alt": { "name": "Paprikapulver + 1 ss mild gochugaru", "qty": "2 ss" } },
+    { "group": "Pasta", "name": "Hvitløksfedd, revet", "qty": "6 stk" },
+    { "group": "Pasta", "name": "Ingefær, revet", "qty": "1 ss" },
+    { "group": "Pasta", "name": "Fisk- eller soyasaus", "qty": "2 ss" },
+    { "group": "Pasta", "name": "Sukker", "qty": "1 ss" },
+    { "group": "Pasta", "name": "Risenmel + 2 dl vann (kokt til grøt)", "qty": "1 ss" },
+    { "group": "Pasta", "name": "Vårløk i biter", "qty": "4 stk" },
+    { "group": "Pasta", "name": "Gulrot, i strimler", "qty": "1 stk" }
+  ],
+  "steps": [
+    { "text": "Del kålen i fire på langs og strø salt mellom bladene. Ha kålen i saltvann (resten av saltet) i 1,5–2 timer og snu av og til.", "anim": "rest", "icon": "🥬", "timer": 90 },
+    { "text": "Skyll kålen tre ganger i kaldt vann og la den renne av.", "anim": "none", "icon": "💧" },
+    { "text": "Kok risenmelet med vann til en tykk grøt og la den kjølne. Bland inn gochugaru, hvitløk, ingefær, saus og sukker.", "anim": "stir", "icon": "🌶️", "note": "Bruk hansker." },
+    { "text": "Bland inn vårløk og gulrot i pastaen.", "anim": "stir", "icon": "🥕" },
+    { "text": "Smør pastaen mellom hvert kålblad. Brett kålen sammen og legg den tett i et rent glass.", "anim": "assemble", "icon": "🫙" },
+    { "text": "La stå på kjøkkenbenken i 1–3 dager. Press ned og luft daglig. Sett i kjøleskapet når den er syrlig nok.", "anim": "rest", "icon": "⏳" }
+  ]
+}

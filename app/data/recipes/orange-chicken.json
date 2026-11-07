@@ -1,0 +1,37 @@
+{
+  "id": "orange-chicken", "title": "Orange chicken", "category": "Asiatisk", "emoji": "🍊",
+  "image": null, "servings": "4 personer", "time": { "active": 35, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Sprø kylling i søt og syrlig appelsinsaus. Mild som standard.",
+  "tips": [
+    "Stek kyllingen i to omganger så den blir sprø.",
+    "Sausen skal dekke kyllingen akkurat når du serverer, så den ikke blir bløt.",
+    "Kjernetemperatur 165 °F."
+  ],
+  "pairs": { "drink": ["Appelsinbrus", "Iste"], "side": ["Jasminris", "Brokkoli"], "starter": ["Vårruller"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllinglårfilet eller -bryst", "qty": "600 g" },
+    { "group": "Kylling", "name": "Maisenna", "qty": "1 dl" },
+    { "group": "Kylling", "name": "Egg", "qty": "1 stk" },
+    { "group": "Kylling", "name": "Salt og pepper", "qty": "1 klype hver" },
+    { "group": "Kylling", "name": "Nøytral olje til steking", "qty": "ca. 3 dl" },
+    { "group": "Saus", "name": "Appelsinjuice", "qty": "2 dl" },
+    { "group": "Saus", "name": "Revet appelsinskall", "qty": "1 ss" },
+    { "group": "Saus", "name": "Soyasaus", "qty": "3 ss" },
+    { "group": "Saus", "name": "Brunt sukker", "qty": "3 ss" },
+    { "group": "Saus", "name": "Riseddik", "qty": "1 ss" },
+    { "group": "Saus", "name": "Ingefær, revet", "qty": "1 ts" },
+    { "group": "Saus", "name": "Hvitløksfedd, revet", "qty": "2 stk" },
+    { "group": "Saus", "name": "Maisenna + 2 ss vann", "qty": "2 ts" },
+    { "group": "Saus", "name": "Chiliflak", "qty": "1/2 ts", "spicy": true, "optional": true },
+    { "group": "Saus", "name": "Sesamfrø", "qty": "til pynt", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter. Vend i egg, salt og pepper, og så i maisenna.", "anim": "season", "icon": "🍗" },
+    { "text": "Varm oljen til ca. 180 °C. Stek kyllingen gyllen og sprø i to omganger. Legg på tørkepapir.", "anim": "fry", "icon": "🔥", "timer": 6, "note": "Kjernetemperatur 165 °F." },
+    { "text": "Kok opp alt til sausen unntatt maisenna.", "anim": "boil", "icon": "🍊" },
+    { "text": "Rør inn maisenna med vann. La sausen koke til den er blank og tykk.", "anim": "stir", "icon": "🥄", "timer": 2 },
+    { "text": "Vend kyllingen i sausen rett før servering. Strø over sesamfrø.", "anim": "assemble", "icon": "🥢" },
+    { "text": "Server med ris og brokkoli.", "anim": "serve", "icon": "🍚" }
+  ]
+}

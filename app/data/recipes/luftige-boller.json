@@ -1,0 +1,30 @@
+{
+  "id": "luftige-boller", "title": "Luftige boller", "category": "Bakst", "emoji": "🥐",
+  "image": null, "servings": "12 boller", "time": { "active": 30, "total": 130 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Myke og luftige boller som kan spises varme med smør og ost, eller brukes som grunnlag for andre boller.",
+  "tips": [
+    "Melken skal være lunken (ca. 37 °C), ikke varm, ellers dør gjæren.",
+    "Deigen skal være litt klissete. Ikke tilsett for mye mel.",
+    "Dekk til med klede mens bollene hever."
+  ],
+  "pairs": { "drink": ["Kakao", "Melk", "Saft"] },
+  "ingredients": [
+    { "name": "Melk, lunken", "qty": "5 dl" },
+    { "name": "Smør", "qty": "75 g" },
+    { "name": "Fersk gjær (eller 2 ts tørrgjær)", "qty": "25 g" },
+    { "name": "Sukker", "qty": "1 dl" },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Kardemomme", "qty": "1 ts", "optional": true },
+    { "name": "Hvetemel", "qty": "ca. 800 g" },
+    { "name": "Egg til pensling", "qty": "1 stk" }
+  ],
+  "steps": [
+    { "text": "Smelt smøret og tilsett melken. Det skal være lunkent. Rør ut gjæren i væsken.", "anim": "stir", "icon": "🥛" },
+    { "text": "Tilsett sukker, salt, kardemomme og det meste av melet. Elt i 10 minutter til deigen slipper bolla.", "anim": "knead", "icon": "🫓" },
+    { "text": "La deigen heve under klede i 45 minutter til den er dobbel.", "anim": "rest", "icon": "⏳", "timer": 45 },
+    { "text": "Del i 12 deler og form til runde boller. Legg på bakeplate.", "anim": "assemble", "icon": "⚪" },
+    { "text": "La heve 30 minutter. Sett ovnen på 225 °C og pensle bollene med egg.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 10 }
+  ]
+}

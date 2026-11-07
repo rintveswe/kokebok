@@ -1,0 +1,33 @@
+{
+  "id": "chicken-parm-baguette", "title": "Chicken parmesan-baguett", "category": "Fast food", "emoji": "🥖",
+  "image": null, "servings": "4 baguetter", "time": { "active": 35, "total": 50 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Panert kylling med tomatsaus og smeltet ost i sprø baguett.",
+  "tips": [
+    "Slå kyllingfileten tynn og jevn. Da blir den mør og stekt på kort tid.",
+    "Kjernetemperaturen skal være 165 °F.",
+    "Smelt osten i ovnen under grill de siste minuttene."
+  ],
+  "pairs": { "drink": ["Limonade", "Brus"], "side": ["Salat"] },
+  "ingredients": [
+    { "name": "Kyllingfilet", "qty": "2 stk" },
+    { "name": "Hvetemel", "qty": "1 dl" },
+    { "name": "Egg", "qty": "2 stk" },
+    { "name": "Panko eller brødsmuler", "qty": "2 dl" },
+    { "name": "Parmesan, revet", "qty": "50 g" },
+    { "name": "Salt og pepper", "qty": "etter smak" },
+    { "name": "Olje til steking", "qty": "5 ss" },
+    { "name": "Tomatsaus eller pizzasaus", "qty": "3 dl" },
+    { "name": "Mozzarella", "qty": "200 g" },
+    { "name": "Baguetter", "qty": "4 stk" },
+    { "name": "Basilikum", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Del hver kyllingfilet i to tynne biter og bank dem flate med en kjevle.", "anim": "assemble", "icon": "🍗" },
+    { "text": "Panér i tre trinn: mel, egg, og panko blandet med parmesan, salt og pepper.", "anim": "season", "icon": "🥚" },
+    { "text": "Stek i olje på middels varme til de er gyldne. Kjernetemperatur 165 °F.", "anim": "fry", "icon": "🔥", "timer": 10 },
+    { "text": "Sett ovnen på grill 225 °C. Legg kyllingen på bakeplate, ha på tomatsaus og mozzarella.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Gratiner til osten har smeltet og er gyllen. Varm baguettene i ovnen samtidig.", "anim": "bake", "icon": "🔥", "timer": 5 },
+    { "text": "Skjær baguettene opp, legg kylling og basilikum i og server med en gang.", "anim": "serve", "icon": "🥖" }
+  ]
+}

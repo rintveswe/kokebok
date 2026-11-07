@@ -1,0 +1,11 @@
+{
+  "name": "Handleliste",
+  "short_name": "Handleliste",
+  "lang": "nb",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1c1410",
+  "theme_color": "#1c1410",
+  "icons": [{ "src": "../icons/cart.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

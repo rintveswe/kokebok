@@ -1,0 +1,32 @@
+{
+  "id": "one-pan-kremet-kylling-ris", "title": "One pan-kremet kylling og ris", "category": "One pan", "emoji": "🍛",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Mild, kremet kyllinggryte der risen koker sammen med kyllingen. Barnevennlig.",
+  "tips": [
+    "Ikke løft lokket underveis, ellers slipper dampen ut og risen blir ikke ferdig.",
+    "Kjernetemperatur 165 °F.",
+    "Tilsett karri eller paprika for ekstra smak. Hold den mild."
+  ],
+  "pairs": { "drink": ["Eplejuice", "Melk"], "side": ["Erter", "Brokkoli"] },
+  "ingredients": [
+    { "name": "Kyllinglårfilet eller -bryst", "qty": "500 g" },
+    { "name": "Jasminris", "qty": "3 dl" },
+    { "name": "Kraft", "qty": "6 dl" },
+    { "name": "Matlagingskrem", "qty": "2 dl" },
+    { "name": "Løk", "qty": "1 stk" },
+    { "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "name": "Paprikapulver", "qty": "2 ts" },
+    { "name": "Karri (mild)", "qty": "1 ts", "optional": true },
+    { "name": "Frosne erter eller brokkoli", "qty": "2 dl" },
+    { "name": "Revet ost", "qty": "1 dl", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter og stek den gyllen i en dyp panne. Ta ut.", "anim": "fry", "icon": "🍗" },
+    { "text": "Stek løk og hvitløk i samme panne. Rør inn krydder og ris.", "anim": "fry", "icon": "🧅" },
+    { "text": "Hell over kraft og krem og legg kyllingen tilbake. Kok opp.", "anim": "boil", "icon": "🥛" },
+    { "text": "Sett på lokk, skru ned til lav varme og la det trekke uten å røre.", "anim": "boil", "icon": "🍲", "timer": 18 },
+    { "text": "Rør inn erter eller brokkoli og la lokket ligge på 5 minutter til. Strø på ost.", "anim": "rest", "icon": "🥦", "timer": 5, "note": "Kjernetemperatur 165 °F." },
+    { "text": "Server med en gang.", "anim": "serve", "icon": "🍛" }
+  ]
+}

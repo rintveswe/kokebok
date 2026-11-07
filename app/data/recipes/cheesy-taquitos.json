@@ -1,0 +1,31 @@
+{
+  "id": "cheesy-taquitos", "title": "Cheesy kylling-taquitos", "category": "Mexicansk", "emoji": "🌯",
+  "image": null, "servings": "4 personer (8–10 stk)", "time": { "active": 30, "total": 55 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Rullede tortillaer fylt med kylling og ost, stekt sprø i ovnen. Perfekt å dyppe.",
+  "tips": [
+    "Varm tortillaene i 20 sekunder i mikro eller panne før rulling, så sprekker de ikke.",
+    "Legg skjøten ned på platen så de ikke ruller opp.",
+    "Kyllingen er ferdig ved 165 °F kjernetemperatur."
+  ],
+  "pairs": { "drink": ["Limonade", "Cola"], "side": ["Rømme", "Guacamole", "Salsa"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "name": "Kyllingfilet", "qty": "500 g" },
+    { "name": "Tacokrydder (mild)", "qty": "1 ss" },
+    { "name": "Kremost naturell", "qty": "100 g" },
+    { "name": "Revet ost", "qty": "200 g" },
+    { "name": "Salsa", "qty": "1 dl" },
+    { "name": "Jalapeño, finhakket", "qty": "1 ss", "spicy": true, "optional": true },
+    { "name": "Små tortillalefser (mais eller hvete)", "qty": "10 stk" },
+    { "name": "Olje til pensling", "qty": "2 ss" },
+    { "name": "Rømme eller guacamole til dipp", "qty": "til servering" }
+  ],
+  "steps": [
+    { "text": "Kok eller stek kyllingen til kjernetemperaturen er 165 °F. Riv den i små biter med to gafler.", "anim": "fry", "icon": "🍗", "timer": 20 },
+    { "text": "Bland kylling, kremost, halvparten av osten, salsa og tacokrydder.", "anim": "stir", "icon": "🥣" },
+    { "text": "Sett ovnen på 220 °C. Varm tortillaene så de blir myke.", "anim": "season", "icon": "🌮" },
+    { "text": "Ha en stripe fyll på hver tortilla og rull stramt. Legg dem med skjøten ned på bakepapir.", "anim": "assemble", "icon": "🌯" },
+    { "text": "Pensle med olje og strø over resten av osten. Stek til de er gylne og sprø.", "anim": "bake", "icon": "🔥", "timer": 15 },
+    { "text": "Server varme med rømme, guacamole eller salsa.", "anim": "serve", "icon": "🥑" }
+  ]
+}

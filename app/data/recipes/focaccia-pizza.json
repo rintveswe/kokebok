@@ -1,0 +1,34 @@
+{
+  "id": "focaccia-pizza", "title": "Focaccia-pizza", "category": "Pizza og brød", "emoji": "🍕",
+  "image": null, "servings": "4 personer (1 stor plate)", "time": { "active": 30, "total": 150 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Luftig, olivenoljestekt focaccia-bunn med pizzatopping. Ligner tykk pizza, men enklere å lage.",
+  "headsUp": "Deigen må heve i ca. 2 timer. Start tidlig på ettermiddagen.",
+  "tips": [
+    "Deigen er klissete. Bruk olje på hendene, ikke mer mel.",
+    "Trykk fingrene helt ned i deigen så det blir hull som holder olje og saus.",
+    "Bunnen skal være gyllen og sprø under. Sjekk med spatel."
+  ],
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["Salat med fetadressing"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "group": "Deig", "name": "Hvetemel", "qty": "500 g" },
+    { "group": "Deig", "name": "Lunkent vann", "qty": "4 dl" },
+    { "group": "Deig", "name": "Tørrgjær", "qty": "1 ts" },
+    { "group": "Deig", "name": "Salt", "qty": "2 ts" },
+    { "group": "Deig", "name": "Olivenolje", "qty": "6 ss" },
+    { "group": "Topping", "name": "Pizzasaus eller passata", "qty": "2 dl" },
+    { "group": "Topping", "name": "Mozzarella", "qty": "250 g" },
+    { "group": "Topping", "name": "Pepperoni eller skinke", "qty": "100 g", "optional": true },
+    { "group": "Topping", "name": "Oregano", "qty": "1 ts" },
+    { "group": "Topping", "name": "Chiliflak", "qty": "1 ts", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Rør sammen mel, vann, gjær og salt i en stor bolle til det ikke er tørt mel igjen. Ingen elting.", "anim": "stir", "icon": "🥣" },
+    { "text": "Dekk til og la deigen heve i 2 timer, til den er dobbelt så stor.", "anim": "rest", "icon": "⏳", "timer": 120 },
+    { "text": "Hell 3 ss olje i en stor langpanne. Legg deigen oppi og brett den utover med oljede hender. Hvil 20 minutter.", "anim": "knead", "icon": "🫓", "timer": 20 },
+    { "text": "Sett ovnen på 250 °C. Trykk fingrene ned i deigen så den får groper.", "anim": "knead", "icon": "👆" },
+    { "text": "Smør på saus, strø ost og topping.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Stek nederst i ovnen til osten er gyllen og bunnen sprø.", "anim": "bake", "icon": "🔥", "timer": 18 },
+    { "text": "Dryss over olivenolje og oregano. La hvile i 3 minutter og skjær i firkanter.", "anim": "serve", "icon": "🍕" }
+  ]
+}

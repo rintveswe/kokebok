@@ -1,0 +1,34 @@
+{
+  "id": "ragu", "title": "Ragu (grunnoppskrift)", "category": "Pasta", "emoji": "🍅",
+  "image": null, "servings": "6–8 porsjoner", "time": { "active": 30, "total": 180 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Langtidskokt kjøttsaus som kan brukes til spaghetti, tagliatelle, lasagne og pizza.",
+  "headsUp": "Småkoker i 2–3 timer. Lag gjerne dobbel porsjon og frys.",
+  "tips": [
+    "Frys i porsjonsposer. Da har du middag klar på 15 minutter.",
+    "Jo lenger den koker, jo bedre. Rør av og til og tilsett vann hvis den blir for tørr."
+  ],
+  "pairs": { "drink": ["Sitronbrus", "Eplejuice"], "side": ["Parmesan", "Grønn salat"] },
+  "ingredients": [
+    { "name": "Kjøttdeig (gjerne halvt svin, halvt okse)", "qty": "600 g" },
+    { "name": "Løk", "qty": "1 stk" },
+    { "name": "Gulrot", "qty": "1 stk" },
+    { "name": "Selleri", "qty": "1 stilk", "optional": true },
+    { "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "name": "Tomatpuré", "qty": "2 ss" },
+    { "name": "Hermetiske tomater", "qty": "2 bokser" },
+    { "name": "Kraft", "qty": "2 dl" },
+    { "name": "Melk", "qty": "1 dl", "note": "Gir en mildere og rundere saus" },
+    { "name": "Oregano og timian", "qty": "1 ts hver" },
+    { "name": "Laurbærblad", "qty": "2 stk" },
+    { "name": "Salt og pepper", "qty": "etter smak" }
+  ],
+  "steps": [
+    { "text": "Hakk løk, gulrot, selleri og hvitløk veldig fint.", "anim": "chop", "icon": "🥕" },
+    { "text": "Stek grønnsakene mykt i olje i en stor gryte i 8 minutter.", "anim": "fry", "icon": "🧅", "timer": 8 },
+    { "text": "Tilsett kjøttdeigen og brun den godt. Rør inn tomatpuré og la den steke ett minutt.", "anim": "fry", "icon": "🥩" },
+    { "text": "Hell i tomater, kraft, melk og krydder. Rør godt.", "anim": "stir", "icon": "🍅" },
+    { "text": "Sett lokket på skjevt og småkok på lav varme i 2–3 timer. Rør av og til.", "anim": "boil", "icon": "🍲", "timer": 150 },
+    { "text": "Smak til med salt og pepper. Fjern laurbærbladene.", "anim": "season", "icon": "🧂" }
+  ]
+}

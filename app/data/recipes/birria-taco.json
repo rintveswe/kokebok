@@ -1,0 +1,41 @@
+{
+  "id": "birria-taco", "title": "Birria taco", "category": "Mexicansk", "emoji": "🌮",
+  "image": null, "servings": "4 personer (12 taco)", "time": { "active": 40, "total": 210 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Mørkt, saftig oksekjøtt i krydret saus, stekt i tortilla med ost og dyppet i kraften (consomé).",
+  "headsUp": "Kjøttet må småkoke i ca. 3 timer. Start senest 3,5 time før dere skal spise.",
+  "tips": [
+    "Stek tortillaene i fettet som flyter på toppen av kraften – det gir den røde, sprø overflaten.",
+    "Sil kraften før servering, ellers blir den grov.",
+    "Spar tid: bruk trykkoker i 60 min i stedet for 3 timer på komfyr."
+  ],
+  "pairs": { "drink": ["Limonade med lime og mynte", "Hibiscus-iste", "Cola"], "starter": ["nachos"], "dessert": ["Vaniljeis med kanel"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Oksekjøtt til gryte (bog/nakke)", "qty": "1 kg" },
+    { "group": "Kjøtt", "name": "Salt", "qty": "2 ts" },
+    { "group": "Sausen", "name": "Tørkede guajillo-chili (mild)", "qty": "4 stk", "note": "Fjern frø og stilk" },
+    { "group": "Sausen", "name": "Tørket chile de árbol", "qty": "2 stk", "spicy": true, "optional": true },
+    { "group": "Sausen", "name": "Chipotle i adobo", "qty": "1 ss", "spicy": true, "optional": true, "alt": { "name": "Røkt paprikapulver", "qty": "1 ts" } },
+    { "group": "Sausen", "name": "Tomater, hermetiske hakkede", "qty": "1 boks" },
+    { "group": "Sausen", "name": "Løk", "qty": "1 stk" },
+    { "group": "Sausen", "name": "Hvitløksfedd", "qty": "4 stk" },
+    { "group": "Sausen", "name": "Eplecidereddik", "qty": "2 ss" },
+    { "group": "Sausen", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Sausen", "name": "Oregano", "qty": "1 ts" },
+    { "group": "Sausen", "name": "Laurbærblad", "qty": "2 stk" },
+    { "group": "Sausen", "name": "Vann eller kraft", "qty": "5 dl" },
+    { "group": "Servering", "name": "Tortillalefser (mais eller små hvetelomper)", "qty": "12 stk" },
+    { "group": "Servering", "name": "Revet ost (mozzarella eller cheddar)", "qty": "250 g" },
+    { "group": "Servering", "name": "Finhakket løk og koriander", "qty": "1 neve", "optional": true },
+    { "group": "Servering", "name": "Lime", "qty": "2 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær kjøttet i store biter og strø over salt.", "anim": "chop", "icon": "🥩" },
+    { "text": "Bløtlegg chilien i varmt vann i 15 minutter. Fjern frø og stilk.", "note": "Bruk hansker eller vask hendene godt etterpå.", "anim": "rest", "icon": "🌶️", "timer": 15 },
+    { "text": "Ha chili, tomat, løk, hvitløk, eddik og krydder i en blender. Kjør til en jevn saus.", "anim": "stir", "icon": "🫙" },
+    { "text": "Brun kjøttet i en stor gryte, hell over sausen, vann og laurbærblad. Legg på lokk og småkok i 3 timer til kjøttet faller fra hverandre.", "anim": "boil", "icon": "🍲", "timer": 180 },
+    { "text": "Ta opp kjøttet og riv det. Sil kraften og ta vare på fettet fra toppen.", "anim": "stir", "icon": "🥄" },
+    { "text": "Pensle tortillaene med fettet, stek dem i panne, strø på ost og kjøtt, brett sammen og stek til sprø.", "anim": "fry", "icon": "🌮" },
+    { "text": "Server med en kopp varm kraft til å dyppe i, hakket løk, koriander og lime.", "anim": "assemble", "icon": "🍋" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "nachos", "title": "Nachos", "category": "Mexicansk", "emoji": "🧀",
+  "image": null, "servings": "4 personer", "time": { "active": 20, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Ovnsbakte nachos med kjøttdeig, mye ost og alt du vil ha på toppen.",
+  "tips": [
+    "Lag to lag: chips, fyll og ost, så chips, fyll og ost. Da blir ikke de nederste chipsene nakne.",
+    "Tilsett salsa, rømme og guacamole først etter ovnen, så chipsen holder seg sprø."
+  ],
+  "pairs": { "drink": ["Cola", "Limonade", "Tropisk smoothie"], "side": ["Rømme", "Guacamole"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "group": "Fyll", "name": "Kjøttdeig", "qty": "400 g" },
+    { "group": "Fyll", "name": "Tacokrydder (mild)", "qty": "1 pose" },
+    { "group": "Fyll", "name": "Mais, hermetisk", "qty": "1 boks", "optional": true },
+    { "group": "Fyll", "name": "Salsa", "qty": "2 dl" },
+    { "group": "Toppen", "name": "Tortillachips", "qty": "300 g" },
+    { "group": "Toppen", "name": "Revet ost", "qty": "300 g" },
+    { "group": "Toppen", "name": "Jalapeño på glass", "qty": "1 neve", "spicy": true, "optional": true },
+    { "group": "Toppen", "name": "Rømme", "qty": "2 dl" },
+    { "group": "Toppen", "name": "Tomat, terninger", "qty": "2 stk", "optional": true },
+    { "group": "Toppen", "name": "Vårløk", "qty": "2 stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 200 °C. Brun kjøttdeigen i en stekepanne.", "anim": "fry", "icon": "🥩" },
+    { "text": "Rør inn tacokrydder, salsa og mais. La det småkoke et par minutter.", "anim": "stir", "icon": "🥄" },
+    { "text": "Legg halvparten av chipsen på en stor bakeplate eller i en form. Fordel halvparten av fyllet og osten.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Legg på resten av chipsen, fyllet og osten.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Stek i ovnen til osten har smeltet og er gyllen.", "anim": "bake", "icon": "🔥", "timer": 10 },
+    { "text": "Topp med rømme, tomat og vårløk. Server med en gang.", "anim": "serve", "icon": "🍅" }
+  ]
+}
