@@ -1,0 +1,31 @@
+{
+  "id": "lasagne", "title": "Lasagne med bechamel", "category": "Pasta", "emoji": "🧀",
+  "image": null, "servings": "6 personer", "time": { "active": 40, "total": 90 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Klassisk lasagne med ragu og kremet hvit saus. Bruker grunnoppskriften på ragu.",
+  "headsUp": "Ragu må være ferdig på forhånd. Bruk frossen ragu eller lag den dagen før.",
+  "tips": [
+    "Bechamelen skal være tykk som tykk rømme. Rør hele tiden.",
+    "La lasagnen hvile 10–15 minutter før du skjærer, så holder bitene formen."
+  ],
+  "uses": ["ragu"],
+  "pairs": { "drink": ["Eplejuice", "Sitronbrus"], "side": ["Grønn salat", "Hvitløksbrød"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "group": "Lasagne", "name": "Ragu (se Ragu)", "qty": "ca. 1 liter" },
+    { "group": "Lasagne", "name": "Lasagneplater", "qty": "ca. 12 stk" },
+    { "group": "Lasagne", "name": "Revet mozzarella eller parmesan", "qty": "250 g" },
+    { "group": "Bechamel", "name": "Smør", "qty": "75 g" },
+    { "group": "Bechamel", "name": "Hvetemel", "qty": "6 ss" },
+    { "group": "Bechamel", "name": "Melk", "qty": "8 dl" },
+    { "group": "Bechamel", "name": "Muskatnøtt", "qty": "1 klype" },
+    { "group": "Bechamel", "name": "Salt og pepper", "qty": "etter smak" }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 200 °C. Smelt smøret i en kjele, rør inn melet og la det surre et minutt.", "anim": "stir", "icon": "🧈" },
+    { "text": "Tilsett melken litt om gangen under konstant visping. La det koke til tykk saus. Smak til med muskat, salt og pepper.", "anim": "stir", "icon": "🥛", "timer": 8 },
+    { "text": "Smør litt ragu i bunnen av en ildfast form. Legg lasagneplater over.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Fordel ragu, bechamel og ost. Gjenta lagene til alt er brukt. Avslutt med bechamel og ost.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Stek midt i ovnen til toppen er gyllen og boblende.", "anim": "bake", "icon": "🔥", "timer": 40 },
+    { "text": "La stå 10 minutter før servering.", "anim": "rest", "icon": "⏳", "timer": 10 }
+  ]
+}

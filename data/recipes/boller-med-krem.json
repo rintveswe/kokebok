@@ -1,0 +1,27 @@
+{
+  "id": "boller-med-krem", "title": "Boller med hjemmelaget gul krem", "category": "Bakst", "emoji": "🥮",
+  "image": null, "servings": "12 boller", "time": { "active": 50, "total": 150 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Luftige boller med vaniljekrem inni, som skolebrød, men med hjemmelaget krem.",
+  "headsUp": "Lag vaniljekremen først, slik at den rekker å bli kald.",
+  "tips": [
+    "Kremen må være kald og tykk, ellers renner den ut av bollene.",
+    "Sprøyt kremen inn med en sprøytepose med spiss tut etter at bollene er bakt og avkjølt."
+  ],
+  "uses": ["luftige-boller", "vaniljekrem"],
+  "pairs": { "drink": ["Kakao", "Melk"] },
+  "ingredients": [
+    { "name": "Bolledeig (se Luftige boller)", "qty": "1 porsjon" },
+    { "name": "Vaniljekrem (se Vaniljekrem)", "qty": "1 porsjon" },
+    { "name": "Melis", "qty": "1 dl" },
+    { "name": "Kokos eller strøsel", "qty": "til pynt", "optional": true }
+  ],
+  "steps": [
+    { "text": "Lag vaniljekremen etter oppskriften og la den kjøle seg ned i kjøleskapet.", "anim": "stir", "icon": "🥣" },
+    { "text": "Lag bolledeig, hev og stek bollene som i oppskriften for luftige boller. La dem avkjøles helt.", "anim": "bake", "icon": "🥐" },
+    { "text": "Stikk hull i siden av hver bolle med en pinne eller skarp kniv, og lag en liten lomme.", "anim": "assemble", "icon": "🔪" },
+    { "text": "Fyll kremen i en sprøytepose og sprøyt inn i hver bolle til den er godt fylt.", "anim": "assemble", "icon": "🟡" },
+    { "text": "Rør melis med litt vann til en glasur, pensle på toppen og strø over kokos.", "anim": "season", "icon": "🥥" },
+    { "text": "Server med kakao eller melk.", "anim": "serve", "icon": "🥛" }
+  ]
+}

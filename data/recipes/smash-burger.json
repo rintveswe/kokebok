@@ -1,0 +1,33 @@
+{
+  "id": "smash-burger", "title": "Smash burger", "category": "Fast food", "emoji": "🍔",
+  "image": null, "servings": "4 burgere", "time": { "active": 20, "total": 25 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Tynne burgere som presses flate i veldig varm panne og får sprø, brun kant.",
+  "tips": [
+    "Panna må være svært varm. Bruk støpejern hvis du har.",
+    "Rull kjøttdeigen til løse kuler, ikke form fast. Press dem flate med en stiv spatel i 10 sekunder.",
+    "Salt rett etter at du har presset, ikke før.",
+    "Kjøttet skal ha 15–20 % fett."
+  ],
+  "uses": ["brioche-burgerbrod", "baconjam", "aioli"],
+  "pairs": { "drink": ["Milkshake", "Cola"], "side": ["Pommes frites", "Løkringer"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "name": "Kjøttdeig (15–20 % fett)", "qty": "600 g" },
+    { "name": "Brioche-hamburgerbrød (se Brioche)", "qty": "4 stk" },
+    { "name": "Cheddar i skiver", "qty": "8 skiver" },
+    { "name": "Aioli (se Aioli)", "qty": "4 ss" },
+    { "name": "Baconjam (se Baconjam)", "qty": "4 ss", "optional": true },
+    { "name": "Rødløk, tynne ringer", "qty": "1 stk", "optional": true },
+    { "name": "Sylteagurk", "qty": "8 skiver", "optional": true },
+    { "name": "Salt og pepper", "qty": "etter smak" },
+    { "name": "Smør", "qty": "1 ss" }
+  ],
+  "steps": [
+    { "text": "Del kjøttdeigen i 8 løse kuler på ca. 75 g.", "anim": "assemble", "icon": "🥩" },
+    { "text": "Rist brødene i smør i en panne til de er gylne. Smør aioli på begge sider.", "anim": "fry", "icon": "🍞" },
+    { "text": "Varm en panne til den nesten ryker. Legg kjøttkulene på og press dem flate med spatelen. Strø salt og pepper.", "anim": "fry", "icon": "🔥" },
+    { "text": "Stek i ca. 2 minutter til kanten er mørk. Skrap løs, snu og legg ost på med en gang.", "anim": "fry", "icon": "🧀", "timer": 2 },
+    { "text": "Stable to kjøttkaker per burger. Bygg: bunn, løk, agurk, burger, baconjam, topp.", "anim": "assemble", "icon": "🍔" },
+    { "text": "Server med en gang, med pommes frites.", "anim": "serve", "icon": "🍟" }
+  ]
+}

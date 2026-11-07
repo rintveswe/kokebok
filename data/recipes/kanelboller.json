@@ -1,0 +1,34 @@
+{
+  "id": "kanelboller", "title": "Luftige kanelboller", "category": "Bakst", "emoji": "🍥",
+  "image": null, "servings": "16 boller", "time": { "active": 40, "total": 150 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Myke kanelsnurrer med smør og kanelsukker. Tåler mye fyll.",
+  "tips": [
+    "Rull deigen stramt, men ikke så hardt at den revner.",
+    "Bruk tanntråd til å skjære rullen. Det gir rene snitt.",
+    "Frys ned ubakte boller etter siste heving, og stek rett fra frys med noen minutter ekstra."
+  ],
+  "pairs": { "drink": ["Kakao", "Melk"] },
+  "ingredients": [
+    { "group": "Deig", "name": "Melk, lunken", "qty": "5 dl" },
+    { "group": "Deig", "name": "Smør", "qty": "100 g" },
+    { "group": "Deig", "name": "Fersk gjær", "qty": "25 g" },
+    { "group": "Deig", "name": "Sukker", "qty": "1 dl" },
+    { "group": "Deig", "name": "Salt", "qty": "1 ts" },
+    { "group": "Deig", "name": "Kardemomme", "qty": "2 ts" },
+    { "group": "Deig", "name": "Hvetemel", "qty": "ca. 850 g" },
+    { "group": "Fyll", "name": "Smør, bløtt", "qty": "100 g" },
+    { "group": "Fyll", "name": "Sukker", "qty": "1 dl" },
+    { "group": "Fyll", "name": "Kanel", "qty": "2 ss" },
+    { "group": "Topping", "name": "Egg", "qty": "1 stk" },
+    { "group": "Topping", "name": "Perlesukker", "qty": "til pynt", "optional": true }
+  ],
+  "steps": [
+    { "text": "Smelt smøret, tilsett melken og rør ut gjæren. Bland inn sukker, salt, kardemomme og mel.", "anim": "stir", "icon": "🥛" },
+    { "text": "Elt deigen i 10 minutter. La den heve i 45 minutter.", "anim": "knead", "icon": "🫓", "timer": 45 },
+    { "text": "Kjevle deigen ut til et stort rektangel. Smør på bløtt smør, strø over sukker og kanel.", "anim": "season", "icon": "🧈" },
+    { "text": "Rull deigen opp fra langsiden og skjær i 16 like skiver.", "anim": "chop", "icon": "🍥" },
+    { "text": "Legg boller i form eller på plate. La heve 30 minutter. Sett ovnen på 225 °C.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Pensle med egg og strø over perlesukker. Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 10 }
+  ]
+}

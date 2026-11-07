@@ -1,0 +1,34 @@
+{
+  "id": "popcorn-chicken", "title": "Koreansk popcorn chicken", "category": "Asiatisk", "emoji": "🍗",
+  "image": null, "servings": "4 personer", "time": { "active": 35, "total": 50 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Sprø kyllingbiter i klissete søt-hvitløkssaus. Smaker som koreansk streetfood.",
+  "tips": [
+    "Gochujang kan gi mye varme. Bruk litt eller dropp den helt og bruk mer honning og soyasaus.",
+    "Dobbeltsteking gir ekstra sprø kylling.",
+    "Kjernetemperatur 165 °F."
+  ],
+  "pairs": { "drink": ["Iste", "Sprite"], "side": ["Ris", "kimchi", "Syltet agurk"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllinglårfilet", "qty": "600 g" },
+    { "group": "Kylling", "name": "Potetmel eller maisenna", "qty": "1,5 dl" },
+    { "group": "Kylling", "name": "Salt", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Melk", "qty": "1 dl", "note": "For å marinere" },
+    { "group": "Kylling", "name": "Olje til frityr", "qty": "ca. 5 dl" },
+    { "group": "Saus", "name": "Soyasaus", "qty": "3 ss" },
+    { "group": "Saus", "name": "Honning", "qty": "3 ss" },
+    { "group": "Saus", "name": "Hvitløksfedd, finrevet", "qty": "4 stk" },
+    { "group": "Saus", "name": "Ingefær, revet", "qty": "1 ts" },
+    { "group": "Saus", "name": "Gochujang", "qty": "1 ss", "spicy": true, "optional": true, "alt": { "name": "Ketchup", "qty": "1 ss" } },
+    { "group": "Saus", "name": "Sesamolje", "qty": "1 ts" },
+    { "group": "Saus", "name": "Sesamfrø og vårløk", "qty": "til pynt", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i små biter. La den ligge i melk og salt i 15 minutter.", "anim": "chop", "icon": "🍗", "timer": 15 },
+    { "text": "Vend bitene i potetmel til de er helt dekket.", "anim": "season", "icon": "🥣" },
+    { "text": "Stek i olje på 175 °C i 5 minutter. Ta opp og hvil 5 minutter. Stek så på nytt i 2 minutter til sprø.", "anim": "fry", "icon": "🔥", "timer": 5, "note": "Kjernetemperatur 165 °F." },
+    { "text": "Kok sammen soyasaus, honning, hvitløk, ingefær og eventuell gochujang til den tykner litt.", "anim": "boil", "icon": "🍯", "timer": 3 },
+    { "text": "Vend kyllingen i sausen. Strø over sesamfrø og vårløk.", "anim": "assemble", "icon": "🥢" },
+    { "text": "Server med ris og kimchi.", "anim": "serve", "icon": "🍚" }
+  ]
+}

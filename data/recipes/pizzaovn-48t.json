@@ -1,0 +1,35 @@
+{
+  "id": "pizzaovn-48t", "title": "Pizza i pizzaovn (48 timer kaldheving)", "category": "Pizza og brød", "emoji": "🍕",
+  "image": null, "servings": "4 personer (4 pizzaer)", "time": { "active": 45, "total": 2970 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Napolitansk pizza med deig som har kaldhevet i 48 timer. Mer smak, luftig kant og sprø bunn.",
+  "headsUp": "Deigen lages 2 dager før. Lag den torsdag kveld hvis dere vil spise lørdag. Ta den ut av kjøleskapet 2 timer før baking.",
+  "tips": [
+    "Pizzaovnen skal være 400–450 °C. Gi den 20–30 minutter til å bli varm.",
+    "Pizzaen bakes på 60–90 sekunder. Ikke gå fra den.",
+    "Gå sparsomt med topping – mindre er mer."
+  ],
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["Salat"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "group": "Deig (4 kuler)", "name": "Tipo 00-mel eller sterkt hvetemel", "qty": "625 g" },
+    { "group": "Deig (4 kuler)", "name": "Kaldt vann", "qty": "400 g" },
+    { "group": "Deig (4 kuler)", "name": "Salt", "qty": "17 g" },
+    { "group": "Deig (4 kuler)", "name": "Tørrgjær", "qty": "0,5 g", "note": "En liten klype. Vei hvis du kan." },
+    { "group": "Topping", "name": "San Marzano-tomater eller passata", "qty": "1 boks" },
+    { "group": "Topping", "name": "Mozzarella", "qty": "250 g" },
+    { "group": "Topping", "name": "Basilikum", "qty": "1 neve" },
+    { "group": "Topping", "name": "Olivenolje", "qty": "til servering" },
+    { "group": "Topping", "name": "Salt til sausen", "qty": "1 klype" }
+  ],
+  "steps": [
+    { "text": "Løs opp salt og gjær i vannet. Rør inn melet til det er samlet.", "anim": "stir", "icon": "🥣" },
+    { "text": "Elt deigen i ca. 10 minutter til den er glatt og elastisk.", "anim": "knead", "icon": "🫓" },
+    { "text": "La deigen hvile 1 time, form den så til 4 kuler.", "anim": "rest", "icon": "⚪", "timer": 60 },
+    { "text": "Legg kulene i en tett boks eller i hver sin lukkede beholder. Sett i kjøleskapet i 48 timer.", "anim": "rest", "icon": "❄️" },
+    { "text": "Ta kulene ut 2 timer før baking. Fyr opp pizzaovnen til 400–450 °C.", "anim": "rest", "icon": "🔥", "timer": 120 },
+    { "text": "Strekk kulen ut forsiktig for hånd. Ikke bruk kjevle – da forsvinner luften i kanten.", "anim": "knead", "icon": "👐" },
+    { "text": "Smør på et tynt lag saus. Legg på biter av mozzarella.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Skyv pizzaen inn i ovnen med spade. Snu etter 30 sekunder. Ferdig etter 60–90 sekunder.", "anim": "bake", "icon": "🔥", "timer": 2 },
+    { "text": "Topp med basilikum og olivenolje. Server med en gang.", "anim": "serve", "icon": "🌿" }
+  ]
+}

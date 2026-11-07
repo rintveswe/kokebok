@@ -1,0 +1,25 @@
+{
+  "id": "fetadressing", "title": "Fetadressing", "category": "Saus og tilbehør", "emoji": "🥗",
+  "image": null, "servings": "ca. 2,5 dl", "time": { "active": 5, "total": 5 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kremet, salt dressing med feta og yoghurt. Passer til salat, pizza og kjøtt.",
+  "tips": [
+    "Bruk stavmikser for jevn dressing, eller gaffel for en grov.",
+    "Holder 4 dager i kjøleskap."
+  ],
+  "pairs": {},
+  "ingredients": [
+    { "name": "Feta", "qty": "100 g" },
+    { "name": "Gresk yoghurt", "qty": "1,5 dl" },
+    { "name": "Olivenolje", "qty": "2 ss" },
+    { "name": "Sitronsaft", "qty": "1 ss" },
+    { "name": "Hvitløksfedd", "qty": "1 stk" },
+    { "name": "Tørket oregano", "qty": "1/2 ts" },
+    { "name": "Pepper", "qty": "etter smak" }
+  ],
+  "steps": [
+    { "text": "Ha alt i en høy beholder.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Kjør med stavmikser til jevn dressing.", "anim": "stir", "icon": "🌀" },
+    { "text": "Smak til med pepper og tynn med litt vann eller melk hvis den er for tykk.", "anim": "season", "icon": "🥄" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "chopped-sandwich", "title": "Chopped sandwich", "category": "Fast food", "emoji": "🥪",
+  "image": null, "servings": "2 sandwicher", "time": { "active": 20, "total": 20 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kjøtt, ost og grønt hakkes fint på stekeplaten og stappes i et brød. Et stort hit fra New York.",
+  "tips": [
+    "Hakk med to spatler direkte i panna. Det er derfor den heter chopped.",
+    "Bruk fersk baguett eller hoagie-brød."
+  ],
+  "uses": ["aioli"],
+  "pairs": { "drink": ["Cola", "Limonade"], "side": ["Chips"] },
+  "ingredients": [
+    { "name": "Kyllingfilet eller kjøttdeig", "qty": "300 g" },
+    { "name": "Baguett eller sandwichbrød", "qty": "2 stk" },
+    { "name": "Cheddar eller amerikansk ost", "qty": "4 skiver" },
+    { "name": "Tomat", "qty": "1 stk" },
+    { "name": "Isbergsalat", "qty": "1 neve" },
+    { "name": "Løk", "qty": "1/2 stk" },
+    { "name": "Aioli (se Aioli)", "qty": "4 ss" },
+    { "name": "Krydder: salt, pepper, løkpulver, hvitløkspulver", "qty": "1 ts hver" },
+    { "name": "Sterk saus", "qty": "etter smak", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Kutt kyllingen i terninger og krydre. Stek i en varm panne eller på platen.", "anim": "fry", "icon": "🍗", "note": "Kjernetemperatur 165 °F." },
+    { "text": "Hakk det ferdigstekte kjøttet i små biter med to spatler. Hakk løken og stek den også.", "anim": "chop", "icon": "🔪" },
+    { "text": "Legg osten over og la den smelte. Hakk det hele videre så ost og kjøtt blander seg.", "anim": "chop", "icon": "🧀" },
+    { "text": "Skjær brødet opp og rist det lett. Smør på aioli.", "anim": "season", "icon": "🥖" },
+    { "text": "Hakk tomat og salat og bland i kjøttblandingen, eller legg i brødet.", "anim": "chop", "icon": "🥬" },
+    { "text": "Fyll brødet, pakk i folie og skjær i to. Server med en gang.", "anim": "serve", "icon": "🥪" }
+  ]
+}

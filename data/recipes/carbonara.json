@@ -1,0 +1,29 @@
+{
+  "id": "carbonara", "title": "Pasta carbonara", "category": "Pasta", "emoji": "🍝",
+  "image": null, "servings": "4 personer", "time": { "active": 25, "total": 25 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kremet pasta uten fløte. Kremen kommer fra egg, ost og pastavann.",
+  "tips": [
+    "Ta pannen av varmen før du tilsetter eggeblandingen – ellers blir det eggerøre.",
+    "Spar 2 dl av pastavannet. Det gjør sausen silkemyk.",
+    "Bruk pecorino eller parmesan. Ikke tilsett fløte."
+  ],
+  "pairs": { "drink": ["Sitronbrus", "Eplejuice"], "side": ["Grønn salat"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "name": "Spaghetti", "qty": "400 g" },
+    { "name": "Guanciale, pancetta eller bacon i terninger", "qty": "200 g" },
+    { "name": "Egg", "qty": "2 stk" },
+    { "name": "Eggeplommer", "qty": "3 stk" },
+    { "name": "Parmesan eller pecorino, finrevet", "qty": "100 g" },
+    { "name": "Svart pepper, nykvernet", "qty": "1 ts" },
+    { "name": "Salt til pastavannet", "qty": "1 ss" }
+  ],
+  "steps": [
+    { "text": "Kok opp vann med mye salt. Kok spaghettien 1 minutt kortere enn pakken sier.", "anim": "boil", "icon": "🍝", "timer": 9 },
+    { "text": "Stek baconen sprø i en stor panne. Ta pannen av varmen.", "anim": "fry", "icon": "🥓" },
+    { "text": "Visp egg, plommer, parmesan og pepper i en bolle.", "anim": "stir", "icon": "🥚" },
+    { "text": "Ta ut 2 dl av pastavannet før du heller av resten.", "anim": "none", "icon": "💧" },
+    { "text": "Ha pastaen i pannen med baconet. Når pannen er av varmen, rør inn eggeblandingen og litt pastavann til en blank saus.", "anim": "stir", "icon": "🍝" },
+    { "text": "Server med en gang med ekstra ost og pepper.", "anim": "serve", "icon": "🧀" }
+  ]
+}

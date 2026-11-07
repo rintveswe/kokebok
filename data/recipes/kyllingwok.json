@@ -1,0 +1,35 @@
+{
+  "id": "kyllingwok", "title": "Kyllingwok", "category": "Asiatisk", "emoji": "🥡",
+  "image": null, "servings": "4 personer", "time": { "active": 25, "total": 25 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Rask hverdagswok med kylling, grønnsaker og en søt soyasaus.",
+  "tips": [
+    "Alt skal være kuttet og klart før du starter. Wok går fort.",
+    "Høy varme og ikke for mye i panna om gangen, så blir det wokket, ikke kokt.",
+    "Kjernetemperatur 165 °F."
+  ],
+  "pairs": { "drink": ["Iste", "Eplejuice"], "side": ["Ris", "Nudler"], "starter": ["Vårruller"] },
+  "ingredients": [
+    { "name": "Kyllingfilet", "qty": "500 g" },
+    { "name": "Brokkoli", "qty": "1 liten" },
+    { "name": "Paprika", "qty": "1 stk" },
+    { "name": "Gulrot", "qty": "2 stk" },
+    { "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "name": "Ingefær, revet", "qty": "1 ts" },
+    { "name": "Soyasaus", "qty": "4 ss" },
+    { "name": "Honning eller brunt sukker", "qty": "1 ss" },
+    { "name": "Osterssaus", "qty": "1 ss", "optional": true },
+    { "name": "Maisenna", "qty": "2 ts" },
+    { "name": "Sesamolje", "qty": "1 ts" },
+    { "name": "Chili, finhakket", "qty": "1 stk", "spicy": true, "optional": true },
+    { "name": "Ris eller nudler til servering", "qty": "4 porsjoner" }
+  ],
+  "steps": [
+    { "text": "Skjær kylling og grønnsaker i like store biter. Riv hvitløk og ingefær.", "anim": "chop", "icon": "🔪" },
+    { "text": "Rør sammen soyasaus, honning, osterssaus, maisenna og 1 dl vann til wokken.", "anim": "stir", "icon": "🥣" },
+    { "text": "Stek kyllingen i varm wok i 5–6 minutter. Ta ut av wokken.", "anim": "fry", "icon": "🍗", "timer": 6, "note": "Kjernetemperatur 165 °F." },
+    { "text": "Wok grønnsakene i 3–4 minutter, hvitløk og ingefær de siste 30 sekundene.", "anim": "fry", "icon": "🥦", "timer": 4 },
+    { "text": "Ha kyllingen tilbake og hell over sausen. Rør til sausen tykner.", "anim": "stir", "icon": "🥄", "timer": 2 },
+    { "text": "Server med ris eller nudler.", "anim": "serve", "icon": "🍚" }
+  ]
+}

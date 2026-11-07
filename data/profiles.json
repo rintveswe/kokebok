@@ -1,0 +1,7 @@
+[
+  { "id": "iselin", "name": "Iselin", "mild": true },
+  { "id": "fia", "name": "Fia", "mild": false },
+  { "id": "rakel", "name": "Rakel", "mild": true },
+  { "id": "hugo", "name": "Hugo", "mild": false },
+  { "id": "rino", "name": "Rino", "mild": false }
+]
