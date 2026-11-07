@@ -162,6 +162,24 @@ button { font: inherit; color: inherit; border: 0; cursor: pointer; touch-action
   .grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
   .btn { font-size: 20px; padding: 0 20px; }
   .card h3 { font-size: 21px; }
+  /* Oppskriftsside: vanlig scrollbar kolonne, ikke rutenett */
+  .recipe { display: flex; flex-direction: column; gap: 16px; overflow-y: auto; padding: 0 14px 16px; -webkit-overflow-scrolling: touch; }
+  .recipe .hero { flex: none; min-height: auto; gap: 12px; }
+  .recipe .hero .pic { flex: none; height: 200px; min-height: 0; }
+  .recipe .hero .pic .emoji { font-size: 110px; }
+  .recipe .body { flex: none; overflow: visible; padding-right: 0; gap: 14px; }
+  .recipe .body > p:first-child { font-size: 19px !important; }
+  .fact { font-size: 17px; padding: 8px 14px; }
+  .panel { padding: 14px 16px; }
+  .panel h2 { font-size: 21px; }
+  .ing .q { min-width: 80px; }
+  .row { flex-wrap: wrap; gap: 6px; }
+  .row b { min-width: 100%; }
+  .link { font-size: 18px; padding: 10px 14px; }
+  .top #back ~ h1 { order: 3; flex: 1 0 100%; }
+  .top #shop { margin-left: auto; }
+  .startbar { padding: 0 14px calc(12px + env(safe-area-inset-bottom)); }
+  .startbar .btn { font-size: 22px; min-height: 64px; }
   .stephead { padding: 8px 14px; gap: 10px; }
   .stagewrap { padding: 0 14px; }
   .stext { padding: 12px 18px 6px; min-height: 0; }
