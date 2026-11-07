@@ -22,7 +22,20 @@ python -m http.server 8080
 3. Sett `"status": "testet"` når dere har laget retten. Bare testede retter kommer med i den trykte boka.
 4. Bilder: legg `.webp` i `app/data/images/` og sett `"image": "data/images/<id>.webp"`.
 
-## Publisere på GitHub Pages
+## Live-adresser (publisert)
+- Kokebok: https://rintveswe.github.io/kokebok/
+- Handleliste: https://rintveswe.github.io/kokebok/handleliste/
+
+## Publisere endringer
+`app/` publiseres via grenen `gh-pages`. Etter endringer:
+```
+git add . && git commit -m "Beskrivelse"
+git push
+git subtree push --prefix app origin gh-pages
+```
+Det tar ca. 1 minutt før endringen er live. Hvis appen virker gammel på nettbrettet: last siden på nytt to ganger (offline-cachen oppdateres i bakgrunnen).
+
+## Publisere på GitHub Pages (førstegangsoppsett – allerede gjort)
 1. Lag et nytt repo på github.com (f.eks. `kokebok`).
 2. I mappen `C:\Prosjekter\kokebok`:
    ```
