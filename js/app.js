@@ -187,7 +187,7 @@ function openShop(r) {
     ov.querySelectorAll('[data-i]').forEach((b) => b.onclick = () => { const i = +b.dataset.i; checked[i] = !checked[i]; const st = ov.querySelector('.srows').scrollTop; paint(); ov.querySelector('.srows').scrollTop = st; });
     ov.querySelector('#dok').onclick = () => {
       const p2 = profiles.find((x) => x.id === pid);
-      const picked = cands.filter((_, i) => checked[i]).map((c) => ({ name: c.name, qty: c.qty, recipe: r.title, by: p2.name }));
+      const picked = cands.filter((_, i) => checked[i]).map((c) => ({ label: c.qty && !/^etter smak$/.test(c.qty) ? `${c.qty} ${c.name}` : c.name, by: p2.name }));
       addItems(picked); ov.remove();
       toast(`🛒 ${picked.length} varer lagt i handlelisten`);
     };

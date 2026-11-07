@@ -1,7 +1,7 @@
 // Enkel offline-cache: stale-while-revalidate for alt under scope.
-const CACHE = 'kokebok-v2';
+const CACHE = 'kokebok-v3';
 const SHELL = [
-  './', './index.html', './css/style.css', './js/app.js', './js/shopping.js', './manifest.webmanifest',
+  './', './index.html', './css/style.css', './js/app.js', './js/shopping.js', './js/firebase-config.js','./manifest.webmanifest',
   './icons/icon.svg', './icons/cart.svg', './data/index.json', './data/profiles.json',
   './handleliste/index.html', './handleliste/app.js', './handleliste/manifest.webmanifest'
 ];
