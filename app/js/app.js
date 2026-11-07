@@ -36,7 +36,7 @@ document.addEventListener('visibilitychange', () => {
 function hue(id) { let h = 0; for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 360; return h; }
 function pic(r, cls = '', emoji = null) {
   const h = hue(r.id);
-  const style = `--h1:hsl(${h} 55% 38%);--h2:hsl(${(h + 40) % 360} 45% 16%)`;
+  const style = `--h1:hsl(${h} 55% 38%);--h2:hsl(${(h + 40) % 360} 45% 16%)${r.imagePos ? `;--pos:${esc(r.imagePos)}` : ''}`;
   const img = r.image ? `<img src="${esc(r.image)}" alt="" loading="lazy">` : '';
   return `<div class="pic ${r.image ? 'photo ' : ''}${cls}" style="${style}">${r.image ? '' : `<span class="emoji">${emoji ?? r.emoji ?? '🍽️'}</span>`}${img}</div>`;
 }

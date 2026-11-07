@@ -9,6 +9,7 @@
     "category": { "type": "string", "description": "Mexicansk, Pizza og brød, Bakst, Pasta, Fast food, Asiatisk, One pan, Saus og tilbehør, Dessert ..." },
     "emoji": { "type": "string", "description": "Plassholder til ekte bilde er på plass" },
     "image": { "type": ["string", "null"], "description": "Relativ sti, f.eks. data/images/birria-taco.webp" },
+    "imagePos": { "type": "string", "description": "Valgfritt utsnitt på forsiden (CSS object-position), f.eks. \"50% 70%\"" },
     "servings": { "type": "string", "description": "F.eks. '4 personer'" },
     "time": {
       "type": "object",
