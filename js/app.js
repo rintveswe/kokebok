@@ -265,5 +265,13 @@ window.addEventListener('hashchange', route);
   $app.innerHTML = '<p class="center">Laster kokeboka …</p>';
   try { await loadAll(); } catch { $app.innerHTML = '<p class="center">Kunne ikke laste oppskriftene.</p>'; return; }
   route();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) {
+    // Ny versjon av appen tok over: last siden på nytt én gang så man ser siste versjon med en gang
+    const hadController = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (hadController && !reloaded) { reloaded = true; location.reload(); }
+    });
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  }
 })();
