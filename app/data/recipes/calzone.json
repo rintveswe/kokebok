@@ -1,0 +1,37 @@
+{
+  "id": "calzone", "title": "Calzone i ovn", "category": "Pizza og brød", "emoji": "🥟",
+  "image": null, "servings": "4 personer (4 calzoner)", "time": { "active": 25, "total": 55 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Sammenbrettet pizza fylt med ost og skinke, bakt sprø og gyllen. Bruker ferdig kjøpt fersk pizzadeig, så det går raskt.",
+  "headsUp": "Ta deigen ut av kjøleskapet 30 minutter før du skal bruke den. Kald deig er seig og krymper tilbake.",
+  "tips": [
+    "Ikke fyll for mye. Fyll halve sirkelen og la det være 2 cm kant, ellers lekker osten ut.",
+    "Hold fyllet tørt. Dryss litt mel på bunnen og bruk lite saus inni, resten serveres ved siden av.",
+    "Press ut luften før du lukker. Trykk kanten sammen med en gaffel så den holder.",
+    "Kutt en liten sprekk i toppen så dampen slipper ut.",
+    "Stek på en plate som har stått varm i ovnen, så blir bunnen sprø."
+  ],
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["Salat med fetadressing"], "dessert": ["ostekake"] },
+  "ingredients": [
+    { "group": "Deig", "name": "Fersk pizzadeig, kjøpt ferdig", "qty": "ca. 500 g", "note": "Typisk 2 pakker. Del i 4 like store biter." },
+    { "group": "Deig", "name": "Hvetemel til utrulling", "qty": "litt" },
+    { "group": "Fyll", "name": "Mozzarella, revet", "qty": "250 g" },
+    { "group": "Fyll", "name": "Skinke i strimler", "qty": "150 g", "optional": true },
+    { "group": "Fyll", "name": "Ricotta", "qty": "125 g", "optional": true, "note": "Gjør fyllet kremet. La den dryppe av seg i en sil først." },
+    { "group": "Fyll", "name": "Pizzasaus", "qty": "1 dl", "note": "Bare ca. 1 ss inni hver calzone, resten til dypping." },
+    { "group": "Fyll", "name": "Oregano", "qty": "1 ts" },
+    { "group": "Fyll", "name": "Chiliflak", "qty": "0,5 ts", "spicy": true, "optional": true },
+    { "group": "Til slutt", "name": "Olivenolje", "qty": "2 ss", "note": "Til å pensle toppen." }
+  ],
+  "steps": [
+    { "text": "Ta deigen ut av kjøleskapet og la den stå på benken i 30 minutter.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Sett ovnen på 240 °C med en bakeplate eller pizzastein inni, så den blir varm.", "anim": "bake", "icon": "🔥" },
+    { "text": "Bland mozzarella, skinke, ricotta og oregano i en bolle. Legg på chiliflak hvis dere vil ha det.", "anim": "stir", "icon": "🥣" },
+    { "text": "Del deigen i 4 like store biter. Strø litt mel på benken og trykk eller kjevle hver bit ut til en sirkel på ca. 22 cm.", "anim": "knead", "icon": "🫓" },
+    { "text": "Legg 1 ss pizzasaus på halve sirkelen, la det være 2 cm kant. Legg fyll oppå.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Brett den tomme halvdelen over fyllet. Trykk kanten sammen og press den ned med en gaffel.", "anim": "assemble", "icon": "🥟" },
+    { "text": "Pensle toppen med olivenolje og kutt en liten sprekk i midten.", "anim": "season", "icon": "🫒" },
+    { "text": "Legg calzonene på bakepapir og skyv dem på den varme platen. Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 14 },
+    { "text": "La dem hvile i 5 minutter, fyllet er veldig varmt. Server med resten av pizzasausen varmet opp til dypping.", "anim": "serve", "icon": "🥟" }
+  ]
+}
