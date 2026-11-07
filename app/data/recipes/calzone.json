@@ -1,6 +1,6 @@
 {
   "id": "calzone", "title": "Calzone i ovn", "category": "Pizza og brød", "emoji": "🥟",
-  "image": null, "servings": "4 personer (4 calzoner)", "time": { "active": 25, "total": 55 },
+  "image": "data/images/calzone.webp", "servings": "4 personer (4 calzoner)", "time": { "active": 25, "total": 55 },
   "status": "kladd", "source": { "type": "egen" },
   "intro": "Sammenbrettet pizza fylt med ost og skinke, bakt sprø og gyllen. Bruker ferdig kjøpt fersk pizzadeig, så det går raskt.",
   "headsUp": "Ta deigen ut av kjøleskapet 30 minutter før du skal bruke den. Kald deig er seig og krymper tilbake.",
