@@ -13,7 +13,7 @@
   "ingredients": [
     { "name": "Bolledeig (se Luftige boller)", "qty": "1 porsjon" },
     { "name": "Vaniljekrem (se Vaniljekrem)", "qty": "1 porsjon" },
-    { "name": "Melis", "qty": "1 dl" },
+    { "name": "Melis", "qty": "60 g" },
     { "name": "Kokos eller strøsel", "qty": "til pynt", "optional": true }
   ],
   "steps": [

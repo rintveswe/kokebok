@@ -13,7 +13,7 @@
   "pairs": { "side": ["Ris", "Nudler", "popcorn-chicken"] },
   "ingredients": [
     { "group": "Kål", "name": "Kinakål", "qty": "1 stort hode (ca. 1 kg)" },
-    { "group": "Kål", "name": "Grovt salt", "qty": "0,5 dl" },
+    { "group": "Kål", "name": "Grovt salt", "qty": "50 g" },
     { "group": "Kål", "name": "Vann", "qty": "2 liter" },
     { "group": "Pasta", "name": "Gochugaru (koreansk chiliflak)", "qty": "3 ss", "spicy": true, "alt": { "name": "Paprikapulver + 1 ss mild gochugaru", "qty": "2 ss" } },
     { "group": "Pasta", "name": "Hvitløksfedd, revet", "qty": "6 stk" },

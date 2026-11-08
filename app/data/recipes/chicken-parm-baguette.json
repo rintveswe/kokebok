@@ -11,9 +11,9 @@
   "pairs": { "drink": ["Limonade", "Brus"], "side": ["Salat"] },
   "ingredients": [
     { "name": "Kyllingfilet", "qty": "2 stk" },
-    { "name": "Hvetemel", "qty": "1 dl" },
+    { "name": "Hvetemel", "qty": "60 g" },
     { "name": "Egg", "qty": "2 stk" },
-    { "name": "Panko eller brødsmuler", "qty": "2 dl" },
+    { "name": "Panko eller brødsmuler", "qty": "ca. 80 g" },
     { "name": "Parmesan, revet", "qty": "50 g" },
     { "name": "Salt og pepper", "qty": "etter smak" },
     { "name": "Olje til steking", "qty": "5 ss" },
