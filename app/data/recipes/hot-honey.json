@@ -1,0 +1,29 @@
+{
+  "id": "hot-honey", "title": "Hot honey", "category": "Saus og tilbehør", "emoji": "🍯",
+  "image": null, "servings": "ca. 2 dl", "time": { "active": 10, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Søt og litt sterk honning med et sting av eddik. Dryss den over pizza rett etter steking, eller dypp skorpene i den.",
+  "headsUp": "Honningen skal bare bli varm, ikke koke. Kokt honning blir bitter.",
+  "tips": [
+    "Drypp den over pizzaen etter at den er tatt ut av ovnen, ikke før. Da holder den seg fin og glinsende.",
+    "Passer ekstra godt til pizza med pepperoni, skinke eller bacon, og til ost som feta og mozzarella.",
+    "Smak deg frem. Start med 1 ts chiliflak. La den trekke lenger hvis du vil ha mer varme.",
+    "Vil du slippe chiliflakene i glasset, sil honningen etter at den har trukket.",
+    "Hvis honningen blir tykk eller stivner, sett glasset i en bolle med varmt vann i noen minutter.",
+    "Kjøkkenbenken og et glass med lokk holder fint i flere uker. Bruk ikke fersk hvitløk, det holder seg dårligere."
+  ],
+  "ingredients": [
+    { "name": "Honning", "qty": "250 g", "note": "Vanlig flytende honning. Ingen grunn til å bruke den dyreste." },
+    { "name": "Chiliflak", "qty": "1–2 ts", "spicy": true, "alt": { "name": "Mild paprikaflak eller røkt paprikapulver", "qty": "1 ts" } },
+    { "name": "Eplecidereddik eller hvitvinseddik", "qty": "1 ss" },
+    { "name": "Salt", "qty": "1 klype" }
+  ],
+  "steps": [
+    { "text": "Ha honningen i en liten kjele og varm den på lav varme i 2–3 minutter, til den er lett å røre i. Den skal ikke koke.", "anim": "stir", "icon": "🍯", "timer": 3 },
+    { "text": "Rør inn chiliflak og salt. Hold på lav varme i 5 minutter og rør av og til.", "anim": "stir", "icon": "🌶️", "timer": 5, "note": "Sterk lukt av chili er normalt." },
+    { "text": "Ta kjelen av varmen og rør inn eddiken.", "anim": "season", "icon": "🧴" },
+    { "text": "La honningen trekke i 30 minutter. Smak på den, og la den trekke lenger hvis du vil ha den sterkere.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Hell over i et rent glass med lokk. Sil først hvis du ikke vil ha chiliflak i.", "anim": "assemble", "icon": "🫙" },
+    { "text": "Drypp over pizzaen rett etter steking, og server resten til dypping.", "anim": "serve", "icon": "🍕" }
+  ]
+}
