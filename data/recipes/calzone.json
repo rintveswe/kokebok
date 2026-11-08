@@ -11,7 +11,7 @@
     "Kutt en liten sprekk i toppen så dampen slipper ut.",
     "Stek på en plate som har stått varm i ovnen, så blir bunnen sprø."
   ],
-  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "Salat med fetadressing"], "dessert": ["ostekake"] },
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "hot-honey-sriracha", "Salat med fetadressing"], "dessert": ["ostekake"] },
   "ingredients": [
     { "group": "Deig", "name": "Fersk pizzadeig, kjøpt ferdig", "qty": "ca. 500 g", "note": "Typisk 2 pakker. Del i 4 like store biter." },
     { "group": "Deig", "name": "Hvetemel til utrulling", "qty": "litt" },

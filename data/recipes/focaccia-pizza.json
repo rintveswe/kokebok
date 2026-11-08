@@ -9,7 +9,7 @@
     "Trykk fingrene helt ned i deigen så det blir hull som holder olje og saus.",
     "Bunnen skal være gyllen og sprø under. Sjekk med spatel."
   ],
-  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "Salat med fetadressing"], "dessert": ["ostekake"] },
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "hot-honey-sriracha", "Salat med fetadressing"], "dessert": ["ostekake"] },
   "ingredients": [
     { "group": "Deig", "name": "Hvetemel", "qty": "500 g" },
     { "group": "Deig", "name": "Lunkent vann", "qty": "4 dl" },

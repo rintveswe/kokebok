@@ -9,7 +9,7 @@
     "Saus legges på toppen, i striper, etter osten.",
     "Smør formen godt med olje. Bruk stor, mørk langpanne eller 20×30 cm form."
   ],
-  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "Salat"], "dessert": ["ostekake"] },
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "hot-honey-sriracha", "Salat"], "dessert": ["ostekake"] },
   "ingredients": [
     { "group": "Deig", "name": "Hvetemel", "qty": "300 g" },
     { "group": "Deig", "name": "Lunkent vann", "qty": "2,2 dl" },

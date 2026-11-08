@@ -9,7 +9,7 @@
     "Pizzaen bakes på 60–90 sekunder. Ikke gå fra den.",
     "Gå sparsomt med topping – mindre er mer."
   ],
-  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "Salat"], "dessert": ["ostekake"] },
+  "pairs": { "drink": ["Brus", "Eplejuice"], "side": ["hot-honey", "hot-honey-sriracha", "Salat"], "dessert": ["ostekake"] },
   "ingredients": [
     { "group": "Deig (4 kuler)", "name": "Tipo 00-mel eller sterkt hvetemel", "qty": "625 g" },
     { "group": "Deig (4 kuler)", "name": "Kaldt vann", "qty": "400 g" },
