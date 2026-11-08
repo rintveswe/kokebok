@@ -1,0 +1,28 @@
+{
+  "id": "hot-honey-sriracha", "title": "Hot honey med sriracha", "category": "Saus og tilbehør", "emoji": "🔥",
+  "image": null, "servings": "ca. 2 dl", "time": { "active": 5, "total": 10 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Raskere variant av hot honey. Sriracha gir varme, hvitløk og syre, så det er ingen ventetid. Passer til pizza, kylling og pommes frites.",
+  "headsUp": "Sriracha er sterkere enn den ser ut. Start med litt og smak deg opp.",
+  "tips": [
+    "Drypp den over pizzaen etter at den er tatt ut av ovnen.",
+    "God til kylling også, for eksempel popcorn chicken, og som dip til pommes frites.",
+    "Start med 2 ss sriracha og smak. Legg til mer hvis du vil ha den sterkere.",
+    "Rør godt. Honning og sriracha vil skille seg litt etter en stund, bare rør om før bruk.",
+    "Oppbevar i glass med lokk i kjøleskapet. Ta den ut en halv time før bruk, så er den lettere å helle.",
+    "Vil du ha den uten sriracha, se oppskriften på vanlig hot honey."
+  ],
+  "ingredients": [
+    { "name": "Honning", "qty": "200 g", "note": "Vanlig flytende honning." },
+    { "name": "Sriracha", "qty": "2–3 ss", "spicy": true, "alt": { "name": "Ketchup", "qty": "2 ss" } },
+    { "name": "Limesaft eller eplecidereddik", "qty": "1 ss" },
+    { "name": "Hvitløkspulver", "qty": "0,5 ts", "optional": true }
+  ],
+  "steps": [
+    { "text": "Ha honningen i en liten kjele og varm den på lav varme i 1–2 minutter, til den er lett å røre i. Den skal ikke koke.", "anim": "stir", "icon": "🍯", "timer": 2 },
+    { "text": "Ta kjelen av varmen. Rør inn sriracha, limesaft og eventuelt hvitløkspulver til det er helt blandet.", "anim": "stir", "icon": "🌶️" },
+    { "text": "Smak på den. Legg til mer sriracha hvis du vil ha den sterkere, eller litt honning hvis den er for sterk.", "anim": "season", "icon": "👅" },
+    { "text": "Hell over i et rent glass med lokk og la den kjøle seg ned.", "anim": "assemble", "icon": "🫙" },
+    { "text": "Drypp over pizzaen rett etter steking, og server resten til dypping.", "anim": "serve", "icon": "🍕" }
+  ]
+}
