@@ -11,7 +11,7 @@
   "ingredients": [
     { "name": "Melk", "qty": "5 dl" },
     { "name": "Eggeplommer", "qty": "4 stk" },
-    { "name": "Sukker", "qty": "1 dl" },
+    { "name": "Sukker", "qty": "85 g" },
     { "name": "Maisenna", "qty": "3 ss" },
     { "name": "Vaniljesukker eller 1 ts vaniljeekstrakt", "qty": "1 ss" },
     { "name": "Smør", "qty": "1 ss", "optional": true }

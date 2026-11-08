@@ -11,7 +11,7 @@
   "pairs": { "drink": ["Iste", "Sprite"], "side": ["Ris", "kimchi", "Syltet agurk"] },
   "ingredients": [
     { "group": "Kylling", "name": "Kyllinglårfilet", "qty": "600 g" },
-    { "group": "Kylling", "name": "Potetmel eller maisenna", "qty": "1,5 dl" },
+    { "group": "Kylling", "name": "Potetmel eller maisenna", "qty": "90 g" },
     { "group": "Kylling", "name": "Salt", "qty": "1 ts" },
     { "group": "Kylling", "name": "Melk", "qty": "1 dl", "note": "For å marinere" },
     { "group": "Kylling", "name": "Olje til frityr", "qty": "ca. 5 dl" },

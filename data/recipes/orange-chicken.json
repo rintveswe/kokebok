@@ -11,7 +11,7 @@
   "pairs": { "drink": ["Appelsinbrus", "Iste"], "side": ["Jasminris", "Brokkoli"], "starter": ["Vårruller"], "dessert": ["Mango og is"] },
   "ingredients": [
     { "group": "Kylling", "name": "Kyllinglårfilet eller -bryst", "qty": "600 g" },
-    { "group": "Kylling", "name": "Maisenna", "qty": "1 dl" },
+    { "group": "Kylling", "name": "Maisenna", "qty": "60 g" },
     { "group": "Kylling", "name": "Egg", "qty": "1 stk" },
     { "group": "Kylling", "name": "Salt og pepper", "qty": "1 klype hver" },
     { "group": "Kylling", "name": "Nøytral olje til steking", "qty": "ca. 3 dl" },

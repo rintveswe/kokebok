@@ -11,7 +11,7 @@
   "pairs": { "drink": ["Eplejuice", "Melk"], "side": ["Erter", "Brokkoli"] },
   "ingredients": [
     { "name": "Kyllinglårfilet eller -bryst", "qty": "500 g" },
-    { "name": "Jasminris", "qty": "3 dl" },
+    { "name": "Jasminris", "qty": "250 g" },
     { "name": "Kraft", "qty": "6 dl" },
     { "name": "Matlagingskrem", "qty": "2 dl" },
     { "name": "Løk", "qty": "1 stk" },
