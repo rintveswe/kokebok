@@ -21,7 +21,8 @@
   ],
   "steps": [
     { "text": "Smelt smøret og tilsett melken. Det skal være lunkent. Rør ut gjæren i væsken.", "anim": "stir", "icon": "🥛" },
-    { "text": "Tilsett sukker, salt, kardemomme og det meste av melet. Elt i 10 minutter til deigen slipper bolla.", "anim": "knead", "icon": "🫓" },
+    { "text": "Sett eltekroken på KitchenAid. Tilsett sukker, salt, kardemomme og det meste av melet.", "anim": "assemble", "icon": "🥄" },
+    { "text": "Elt i 10 minutter. Start på hastighet 1 og øk gradvis: 2, 4, 6, 8 og til slutt 10. Deigen er ferdig når den slipper bolla.", "anim": "knead", "icon": "🫓", "timer": 10 },
     { "text": "La deigen heve under klede i 45 minutter til den er dobbel.", "anim": "rest", "icon": "⏳", "timer": 45 },
     { "text": "Del i 12 deler og form til runde boller. Legg på bakeplate.", "anim": "assemble", "icon": "⚪" },
     { "text": "La heve 30 minutter. Sett ovnen på 225 °C og pensle bollene med egg.", "anim": "rest", "icon": "⏳", "timer": 30 },
