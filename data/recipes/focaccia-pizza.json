@@ -23,12 +23,12 @@
     { "group": "Topping", "name": "Chiliflak", "qty": "1 ts", "spicy": true, "optional": true }
   ],
   "steps": [
-    { "text": "Rør sammen mel, vann, gjær og salt i en stor bolle til det ikke er tørt mel igjen. Ingen elting.", "anim": "stir", "icon": "🥣" },
+    { "text": "Rør sammen mel, vann, gjær og salt i en stor bolle til det ikke er tørt mel igjen. Ingen elting.", "anim": "stir", "icon": "🥣", "ingredients": ["Hvetemel", "Lunkent vann", "Tørrgjær", "Salt"] },
     { "text": "Dekk til og la deigen heve i 2 timer, til den er dobbelt så stor.", "anim": "rest", "icon": "⏳", "timer": 120 },
-    { "text": "Hell 3 ss olje i en stor langpanne. Legg deigen oppi og brett den utover med oljede hender. Hvil 20 minutter.", "anim": "knead", "icon": "🫓", "timer": 20 },
+    { "text": "Hell 3 ss olje i en stor langpanne. Legg deigen oppi og brett den utover med oljede hender. Hvil 20 minutter.", "anim": "knead", "icon": "🫓", "timer": 20, "ingredients": [{ "name": "Olivenolje", "qty": "3 ss" }] },
     { "text": "Sett ovnen på 250 °C. Trykk fingrene ned i deigen så den får groper.", "anim": "knead", "icon": "👆" },
-    { "text": "Smør på saus, strø ost og topping.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Smør på saus, strø ost og topping.", "anim": "assemble", "icon": "🍅", "ingredients": ["Pizzasaus eller passata", "Mozzarella", "Pepperoni eller skinke", "Chiliflak"] },
     { "text": "Stek nederst i ovnen til osten er gyllen og bunnen sprø.", "anim": "bake", "icon": "🔥", "timer": 18 },
-    { "text": "Dryss over olivenolje og oregano. La hvile i 3 minutter og skjær i firkanter.", "anim": "serve", "icon": "🍕" }
+    { "text": "Dryss over olivenolje og oregano. La hvile i 3 minutter og skjær i firkanter.", "anim": "serve", "icon": "🍕", "ingredients": [{ "name": "Olivenolje", "qty": "3 ss" }, "Oregano"] }
   ]
 }

@@ -23,11 +23,11 @@
     { "name": "Sterk saus", "qty": "etter smak", "spicy": true, "optional": true }
   ],
   "steps": [
-    { "text": "Hakk løk, hvitløk og paprika.", "anim": "chop", "icon": "🧅" },
-    { "text": "Brun kjøttdeigen med løken i en stor panne.", "anim": "fry", "icon": "🥩" },
-    { "text": "Rør inn ketchup, tomatpuré, sukker, worcestershire og sennep.", "anim": "stir", "icon": "🥄" },
+    { "text": "Hakk løk, hvitløk og paprika.", "anim": "chop", "icon": "🧅", "ingredients": ["Løk", "Hvitløksfedd", "Paprika"] },
+    { "text": "Brun kjøttdeigen med løken i en stor panne.", "anim": "fry", "icon": "🥩", "ingredients": ["Kjøttdeig"] },
+    { "text": "Rør inn ketchup, tomatpuré, sukker, worcestershire og sennep.", "anim": "stir", "icon": "🥄", "ingredients": ["Ketchup", "Tomatpuré", "Brunt sukker", "Worcestershiresaus", "Sennep", "Sterk saus"] },
     { "text": "La det småkoke uten lokk til sausen er tykk.", "anim": "boil", "icon": "🍲", "timer": 12 },
-    { "text": "Rist brødene. Hell kjøttblandingen på brødskivene.", "anim": "assemble", "icon": "🍔" },
+    { "text": "Rist brødene. Hell kjøttblandingen på brødskivene.", "anim": "assemble", "icon": "🍔", "ingredients": ["Burgerbrød"] },
     { "text": "Server med servietter.", "anim": "serve", "icon": "🧻" }
   ]
 }

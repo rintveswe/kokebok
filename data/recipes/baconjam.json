@@ -18,9 +18,9 @@
     { "name": "Chiliflak", "qty": "1 klype", "spicy": true, "optional": true }
   ],
   "steps": [
-    { "text": "Stek baconet sprøtt i en panne. Ta opp og la fettet bli igjen (ca. 2 ss).", "anim": "fry", "icon": "🥓" },
-    { "text": "Stek løken i baconfettet til den er myk og gyllen.", "anim": "fry", "icon": "🧅", "timer": 8 },
-    { "text": "Tilsett sukker, eddik, kaffe og hvitløk. La det småkoke til væsken er sirupstykk.", "anim": "boil", "icon": "☕", "timer": 25 },
+    { "text": "Stek baconet sprøtt i en panne. Ta opp og la fettet bli igjen (ca. 2 ss).", "anim": "fry", "icon": "🥓", "ingredients": ["Bacon, i små biter"] },
+    { "text": "Stek løken i baconfettet til den er myk og gyllen.", "anim": "fry", "icon": "🧅", "timer": 8, "ingredients": ["Løk, finhakket"] },
+    { "text": "Tilsett sukker, eddik, kaffe og hvitløk. La det småkoke til væsken er sirupstykk.", "anim": "boil", "icon": "☕", "timer": 25, "ingredients": ["Brunt sukker", "Balsamicoeddik", "Kaffe, sterk", "Hvitløksfedd", "Chiliflak"] },
     { "text": "Rør inn baconet. Smak til og la avkjøle.", "anim": "stir", "icon": "🥄" },
     { "text": "Hakk gjerne grovt i blender for en finere konsistens. Oppbevares kaldt.", "anim": "stir", "icon": "🫙" }
   ]

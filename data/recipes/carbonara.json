@@ -19,9 +19,9 @@
     { "name": "Salt til pastavannet", "qty": "1 ss" }
   ],
   "steps": [
-    { "text": "Kok opp vann med mye salt. Kok spaghettien 1 minutt kortere enn pakken sier.", "anim": "boil", "icon": "🍝", "timer": 9 },
-    { "text": "Stek baconen sprø i en stor panne. Ta pannen av varmen.", "anim": "fry", "icon": "🥓" },
-    { "text": "Visp egg, plommer, parmesan og pepper i en bolle.", "anim": "stir", "icon": "🥚" },
+    { "text": "Kok opp vann med mye salt. Kok spaghettien 1 minutt kortere enn pakken sier.", "anim": "boil", "icon": "🍝", "timer": 9, "ingredients": ["Salt til pastavannet", "Spaghetti"] },
+    { "text": "Stek baconen sprø i en stor panne. Ta pannen av varmen.", "anim": "fry", "icon": "🥓", "ingredients": [{ "name": "Guanciale, pancetta eller bacon i terninger", "label": "Guanciale, pancetta eller bacon" }] },
+    { "text": "Visp egg, plommer, parmesan og pepper i en bolle.", "anim": "stir", "icon": "🥚", "ingredients": ["Egg", "Eggeplommer", { "name": "Parmesan eller pecorino, finrevet", "label": "Parmesan eller pecorino" }, { "name": "Svart pepper, nykvernet", "label": "Svart pepper" }] },
     { "text": "Ta ut 2 dl av pastavannet før du heller av resten.", "anim": "none", "icon": "💧" },
     { "text": "Ha pastaen i pannen med baconet. Når pannen er av varmen, rør inn eggeblandingen og litt pastavann til en blank saus.", "anim": "stir", "icon": "🍝" },
     { "text": "Server med en gang med ekstra ost og pepper.", "anim": "serve", "icon": "🧀" }

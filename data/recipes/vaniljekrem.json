@@ -17,10 +17,10 @@
     { "name": "Smør", "qty": "1 ss", "optional": true }
   ],
   "steps": [
-    { "text": "Visp eggeplommer, sukker, maisenna og vanilje sammen i en bolle.", "anim": "stir", "icon": "🥚" },
-    { "text": "Varm melken til den nesten koker. Hell den sakte over eggemassen mens du visper.", "anim": "stir", "icon": "🥛" },
+    { "text": "Visp eggeplommer, sukker, maisenna og vanilje sammen i en bolle.", "anim": "stir", "icon": "🥚", "ingredients": ["Eggeplommer", "Sukker", "Maisenna", "Vaniljesukker eller 1 ts vaniljeekstrakt"] },
+    { "text": "Varm melken til den nesten koker. Hell den sakte over eggemassen mens du visper.", "anim": "stir", "icon": "🥛", "ingredients": ["Melk"] },
     { "text": "Hell alt tilbake i kjelen. Rør på middels varme til kremen tykner og så vidt koker.", "anim": "boil", "icon": "🍮", "timer": 5 },
-    { "text": "Ta av varmen og rør inn smør. Dekk med plast rett på kremen.", "anim": "rest", "icon": "🧈" },
+    { "text": "Ta av varmen og rør inn smør. Dekk med plast rett på kremen.", "anim": "rest", "icon": "🧈", "ingredients": ["Smør"] },
     { "text": "La kremen kjøle seg ned, og sett den så i kjøleskapet i minst 2 timer.", "anim": "rest", "icon": "❄️", "timer": 120 }
   ]
 }

@@ -60,7 +60,25 @@
           "icon": { "type": "string", "description": "Emoji som plassholder" },
           "image": { "type": ["string", "null"] },
           "video": { "type": ["string", "null"] },
-          "timer": { "type": "integer", "description": "Minutter" }
+          "timer": { "type": "integer", "description": "Minutter" },
+          "ingredients": {
+            "type": "array",
+            "description": "Ingrediensene steget bruker. Appen viser dem med mengde under instruksjonen («Du trenger»). Mengden hentes fra ingredienslisten, så tallene står bare ett sted. Før opp en ingrediens i det steget der den først måles opp.",
+            "items": {
+              "oneOf": [
+                { "type": "string", "description": "Navnet nøyaktig slik det står i ingredienslisten" },
+                {
+                  "type": "object", "required": ["name"], "additionalProperties": false,
+                  "properties": {
+                    "name": { "type": "string", "description": "Navnet nøyaktig slik det står i ingredienslisten" },
+                    "group": { "type": "string", "description": "Gruppen, når samme navn står i flere grupper (f.eks. smør i både deig og fyll)" },
+                    "qty": { "type": "string", "description": "Egen mengde når steget bare bruker en del, f.eks. «150 g» eller «3 ss»" },
+                    "label": { "type": "string", "description": "Kortere navn å vise i steget" }
+                  }
+                }
+              ]
+            }
+          }
         }
       }
     }

@@ -167,6 +167,7 @@
 .say-in.again>*{animation:rise .5s var(--ease) both}
 .say-in>:nth-child(2){animation-delay:.05s}
 .say-in>:nth-child(3){animation-delay:.11s}
+.say-in>:nth-child(4){animation-delay:.16s}
 @keyframes from-right{from{opacity:0;transform:translateX(2.6rem)}}
 @keyframes from-left{from{opacity:0;transform:translateX(-2.6rem)}}
 .stepno{display:flex;align-items:center;gap:1rem;white-space:nowrap}
@@ -180,6 +181,17 @@
 .say .t.s3{font-size:2.05rem}
 .say .t.fin{font-style:italic;font-size:3.6rem;line-height:1.1}
 .say .note{display:flex;align-items:flex-start;gap:.8rem;margin-top:1.5rem;padding:.15rem 0 .15rem 1.2rem;border-left:2px solid var(--brass);color:var(--soft);font:400 1.5rem/1.35 var(--sans)}
+/* Mengdene steget trenger: én rolig linje under instruksjonen, så man slipper å bla tilbake til ingredienslisten.
+   Strekene mellom varene er klippet bort i starten av hver linje (negativ marg + overflow). */
+.need{margin-top:1.7rem;overflow:hidden}
+.need ul{display:flex;flex-wrap:wrap;gap:.45rem 0;margin:.6rem 0 0 -1.2rem}
+.need li{position:relative;display:flex;align-items:baseline;gap:.55rem;max-width:100%;padding:0 1.2rem;color:var(--soft);font:400 1.45rem/1.3 var(--sans)}
+.need li::before{content:"";position:absolute;left:-1px;top:.3em;bottom:.3em;width:1px;background:var(--line2)}
+.need b{color:var(--brass);font-weight:500;white-space:nowrap}
+.say.dense .need{margin-top:1.1rem}
+.say.dense .need ul{gap:.25rem 0;margin-top:.4rem}
+.say.dense .need li{padding:0 .9rem;font-size:1.25rem}
+.say.dense .need ul{margin-left:-.9rem}
 
 .cook-nav{display:flex;gap:.9rem;padding:1rem 2.2rem 1.4rem}
 .cook-nav .btn{min-width:10.5rem}
@@ -317,6 +329,14 @@
   .say .t.s3{font-size:1.42rem}
   .say .t.fin{font-size:2.6rem}
   .say .note{font-size:1.2rem;margin-top:1.1rem}
+  .need{margin-top:1.1rem}
+  .need ul{gap:.3rem 0;margin:.45rem 0 0 -.85rem}
+  .need li{gap:.45rem;padding:0 .85rem;font-size:1.12rem}
+  .cook-stage.tight{height:19vh}
+  .cook-stage.tight .medal{--d:min(8rem,15vh)}
+  .cook-stage.tight .dish{--d:min(8.5rem,16vh)}
+  .say.dense .need li{padding:0 .7rem;font-size:1.02rem}
+  .say.dense .need ul{margin-left:-.7rem}
   .cook-nav{flex-wrap:wrap;gap:.6rem;padding:.7rem 1.2rem calc(.9rem + env(safe-area-inset-bottom))}
   .cook-nav .btn{flex:1;min-width:0;padding:0 .5rem;gap:.5rem;font-size:1.1rem}
   .cook-nav .next{flex:1 0 100%;padding:0 1.3rem 0 1.5rem;font-size:1.2rem}

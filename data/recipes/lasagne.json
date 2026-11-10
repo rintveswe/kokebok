@@ -21,10 +21,10 @@
     { "group": "Bechamel", "name": "Salt og pepper", "qty": "etter smak" }
   ],
   "steps": [
-    { "text": "Sett ovnen på 200 °C. Smelt smøret i en kjele, rør inn melet og la det surre et minutt.", "anim": "stir", "icon": "🧈" },
-    { "text": "Tilsett melken litt om gangen under konstant visping. La det koke til tykk saus. Smak til med muskat, salt og pepper.", "anim": "stir", "icon": "🥛", "timer": 8 },
-    { "text": "Smør litt ragu i bunnen av en ildfast form. Legg lasagneplater over.", "anim": "assemble", "icon": "🍅" },
-    { "text": "Fordel ragu, bechamel og ost. Gjenta lagene til alt er brukt. Avslutt med bechamel og ost.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Sett ovnen på 200 °C. Smelt smøret i en kjele, rør inn melet og la det surre et minutt.", "anim": "stir", "icon": "🧈", "ingredients": ["Smør", "Hvetemel"] },
+    { "text": "Tilsett melken litt om gangen under konstant visping. La det koke til tykk saus. Smak til med muskat, salt og pepper.", "anim": "stir", "icon": "🥛", "timer": 8, "ingredients": ["Melk", "Muskatnøtt", "Salt og pepper"] },
+    { "text": "Smør litt ragu i bunnen av en ildfast form. Legg lasagneplater over.", "anim": "assemble", "icon": "🍅", "ingredients": ["Lasagneplater"] },
+    { "text": "Fordel ragu, bechamel og ost. Gjenta lagene til alt er brukt. Avslutt med bechamel og ost.", "anim": "assemble", "icon": "🧀", "ingredients": ["Ragu (se Ragu)", "Revet mozzarella eller parmesan"] },
     { "text": "Stek midt i ovnen til toppen er gyllen og boblende.", "anim": "bake", "icon": "🔥", "timer": 40 },
     { "text": "La stå 10 minutter før servering.", "anim": "rest", "icon": "⏳", "timer": 10 }
   ]

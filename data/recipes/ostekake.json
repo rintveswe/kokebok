@@ -21,11 +21,11 @@
     { "group": "Topping", "name": "Bær eller syltetøy", "qty": "2 dl" }
   ],
   "steps": [
-    { "text": "Knus kjeksene til fint smuler og bland med smeltet smør. Press ut i bunnen av en form (22 cm) og kjøl.", "anim": "assemble", "icon": "🍪", "timer": 20 },
-    { "text": "Legg gelatin i kaldt vann i 5–10 minutter.", "anim": "rest", "icon": "💧", "timer": 5 },
-    { "text": "Visp kremost, melis, vanilje og sitron glatt. Pisk fløten til myk krem og vend inn.", "anim": "stir", "icon": "🥣" },
+    { "text": "Knus kjeksene til fint smuler og bland med smeltet smør. Press ut i bunnen av en form (22 cm) og kjøl.", "anim": "assemble", "icon": "🍪", "timer": 20, "ingredients": ["Digestivekjeks eller havrekjeks", "Smør, smeltet"] },
+    { "text": "Legg gelatin i kaldt vann i 5–10 minutter.", "anim": "rest", "icon": "💧", "timer": 5, "ingredients": ["Gelatinblader"] },
+    { "text": "Visp kremost, melis, vanilje og sitron glatt. Pisk fløten til myk krem og vend inn.", "anim": "stir", "icon": "🥣", "ingredients": ["Kremost naturell", "Melis", "Vaniljesukker", "Sitronsaft", "Piskefløte"] },
     { "text": "Varm opp gelatinen i en kjele med 2 ss vann til den er smeltet. Rør den inn i kremen.", "anim": "stir", "icon": "🔥" },
     { "text": "Hell fyllet på bunnen og jevn ut. Kjøl i minst 5 timer.", "anim": "rest", "icon": "❄️", "timer": 300 },
-    { "text": "Pynt med bær eller syltetøy. Løsne fra formen og server.", "anim": "serve", "icon": "🍓" }
+    { "text": "Pynt med bær eller syltetøy. Løsne fra formen og server.", "anim": "serve", "icon": "🍓", "ingredients": ["Bær eller syltetøy"] }
   ]
 }

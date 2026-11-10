@@ -24,11 +24,11 @@
     { "group": "Topping", "name": "Perlesukker", "qty": "til pynt", "optional": true }
   ],
   "steps": [
-    { "text": "Smelt smøret, tilsett melken og rør ut gjæren. Bland inn sukker, salt, kardemomme og mel.", "anim": "stir", "icon": "🥛" },
+    { "text": "Smelt smøret, tilsett melken og rør ut gjæren. Bland inn sukker, salt, kardemomme og mel.", "anim": "stir", "icon": "🥛", "ingredients": [{ "name": "Smør", "group": "Deig" }, "Melk, lunken", "Fersk gjær", { "name": "Sukker", "group": "Deig" }, "Salt", "Kardemomme", "Hvetemel"] },
     { "text": "Elt deigen i 10 minutter. La den heve i 45 minutter.", "anim": "knead", "icon": "🫓", "timer": 45 },
-    { "text": "Kjevle deigen ut til et stort rektangel. Smør på bløtt smør, strø over sukker og kanel.", "anim": "season", "icon": "🧈" },
+    { "text": "Kjevle deigen ut til et stort rektangel. Smør på bløtt smør, strø over sukker og kanel.", "anim": "season", "icon": "🧈", "ingredients": ["Smør, bløtt", { "name": "Sukker", "group": "Fyll" }, "Kanel"] },
     { "text": "Rull deigen opp fra langsiden og skjær i 16 like skiver.", "anim": "chop", "icon": "🍥" },
     { "text": "Legg boller i form eller på plate. La heve 30 minutter. Sett ovnen på 225 °C.", "anim": "rest", "icon": "⏳", "timer": 30 },
-    { "text": "Pensle med egg og strø over perlesukker. Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 10 }
+    { "text": "Pensle med egg og strø over perlesukker. Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 10, "ingredients": ["Egg", "Perlesukker"] }
   ]
 }

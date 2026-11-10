@@ -23,11 +23,11 @@
     { "name": "Basilikum", "qty": "1 neve", "optional": true }
   ],
   "steps": [
-    { "text": "Del hver kyllingfilet i to tynne biter og bank dem flate med en kjevle.", "anim": "assemble", "icon": "🍗" },
-    { "text": "Panér i tre trinn: mel, egg, og panko blandet med parmesan, salt og pepper.", "anim": "season", "icon": "🥚" },
-    { "text": "Stek i olje på middels varme til de er gyldne. Kjernetemperatur 165 °F.", "anim": "fry", "icon": "🔥", "timer": 10 },
-    { "text": "Sett ovnen på grill 225 °C. Legg kyllingen på bakeplate, ha på tomatsaus og mozzarella.", "anim": "assemble", "icon": "🧀" },
-    { "text": "Gratiner til osten har smeltet og er gyllen. Varm baguettene i ovnen samtidig.", "anim": "bake", "icon": "🔥", "timer": 5 },
-    { "text": "Skjær baguettene opp, legg kylling og basilikum i og server med en gang.", "anim": "serve", "icon": "🥖" }
+    { "text": "Del hver kyllingfilet i to tynne biter og bank dem flate med en kjevle.", "anim": "assemble", "icon": "🍗", "ingredients": ["Kyllingfilet"] },
+    { "text": "Panér i tre trinn: mel, egg, og panko blandet med parmesan, salt og pepper.", "anim": "season", "icon": "🥚", "ingredients": ["Hvetemel", "Egg", "Panko eller brødsmuler", "Parmesan, revet", "Salt og pepper"] },
+    { "text": "Stek i olje på middels varme til de er gyldne. Kjernetemperatur 165 °F.", "anim": "fry", "icon": "🔥", "timer": 10, "ingredients": ["Olje til steking"] },
+    { "text": "Sett ovnen på grill 225 °C. Legg kyllingen på bakeplate, ha på tomatsaus og mozzarella.", "anim": "assemble", "icon": "🧀", "ingredients": ["Tomatsaus eller pizzasaus", "Mozzarella"] },
+    { "text": "Gratiner til osten har smeltet og er gyllen. Varm baguettene i ovnen samtidig.", "anim": "bake", "icon": "🔥", "timer": 5, "ingredients": ["Baguetter"] },
+    { "text": "Skjær baguettene opp, legg kylling og basilikum i og server med en gang.", "anim": "serve", "icon": "🥖", "ingredients": ["Basilikum"] }
   ]
 }

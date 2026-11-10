@@ -16,8 +16,8 @@
     { "name": "Salt", "qty": "1 klype" }
   ],
   "steps": [
-    { "text": "Riv hvitløken veldig fint.", "anim": "chop", "icon": "🧄" },
-    { "text": "Rør alt sammen i en liten bolle.", "anim": "stir", "icon": "🥣" },
+    { "text": "Riv hvitløken veldig fint.", "anim": "chop", "icon": "🧄", "ingredients": ["Hvitløksfedd, finrevet"] },
+    { "text": "Rør alt sammen i en liten bolle.", "anim": "stir", "icon": "🥣", "ingredients": [{ "name": "Majones (god kvalitet)", "label": "Majones" }, "Sitronsaft", "Olivenolje", "Salt"] },
     { "text": "Smak til med mer sitron eller salt. La stå en time i kjøleskapet så smaken trekker.", "anim": "rest", "icon": "❄️", "timer": 60 }
   ]
 }

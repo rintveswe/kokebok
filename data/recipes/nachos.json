@@ -21,11 +21,11 @@
     { "group": "Toppen", "name": "Vårløk", "qty": "2 stk", "optional": true }
   ],
   "steps": [
-    { "text": "Sett ovnen på 200 °C. Brun kjøttdeigen i en stekepanne.", "anim": "fry", "icon": "🥩" },
-    { "text": "Rør inn tacokrydder, salsa og mais. La det småkoke et par minutter.", "anim": "stir", "icon": "🥄" },
-    { "text": "Legg halvparten av chipsen på en stor bakeplate eller i en form. Fordel halvparten av fyllet og osten.", "anim": "assemble", "icon": "🧀" },
-    { "text": "Legg på resten av chipsen, fyllet og osten.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Sett ovnen på 200 °C. Brun kjøttdeigen i en stekepanne.", "anim": "fry", "icon": "🥩", "ingredients": ["Kjøttdeig"] },
+    { "text": "Rør inn tacokrydder, salsa og mais. La det småkoke et par minutter.", "anim": "stir", "icon": "🥄", "ingredients": ["Tacokrydder (mild)", "Salsa", "Mais, hermetisk"] },
+    { "text": "Legg halvparten av chipsen på en stor bakeplate eller i en form. Fordel halvparten av fyllet og osten.", "anim": "assemble", "icon": "🧀", "ingredients": [{ "name": "Tortillachips", "qty": "150 g" }, { "name": "Revet ost", "qty": "150 g" }] },
+    { "text": "Legg på resten av chipsen, fyllet og osten.", "anim": "assemble", "icon": "🧀", "ingredients": [{ "name": "Tortillachips", "qty": "150 g" }, { "name": "Revet ost", "qty": "150 g" }] },
     { "text": "Stek i ovnen til osten har smeltet og er gyllen.", "anim": "bake", "icon": "🔥", "timer": 10 },
-    { "text": "Topp med rømme, tomat og vårløk. Server med en gang.", "anim": "serve", "icon": "🍅" }
+    { "text": "Topp med rømme, tomat og vårløk. Server med en gang.", "anim": "serve", "icon": "🍅", "ingredients": ["Rømme", "Tomat, terninger", "Vårløk", "Jalapeño på glass"] }
   ]
 }

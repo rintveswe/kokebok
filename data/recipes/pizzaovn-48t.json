@@ -22,14 +22,14 @@
     { "group": "Topping", "name": "Salt til sausen", "qty": "1 klype" }
   ],
   "steps": [
-    { "text": "Løs opp salt og gjær i vannet. Rør inn melet til det er samlet.", "anim": "stir", "icon": "🥣" },
+    { "text": "Løs opp salt og gjær i vannet. Rør inn melet til det er samlet.", "anim": "stir", "icon": "🥣", "ingredients": ["Kaldt vann", "Salt", "Tørrgjær", "Tipo 00-mel eller sterkt hvetemel"] },
     { "text": "Elt deigen i ca. 10 minutter til den er glatt og elastisk.", "anim": "knead", "icon": "🫓" },
     { "text": "La deigen hvile 1 time, form den så til 4 kuler.", "anim": "rest", "icon": "⚪", "timer": 60 },
     { "text": "Legg kulene i en tett boks eller i hver sin lukkede beholder. Sett i kjøleskapet i 48 timer.", "anim": "rest", "icon": "❄️" },
     { "text": "Ta kulene ut 2 timer før baking. Fyr opp pizzaovnen til 400–450 °C.", "anim": "rest", "icon": "🔥", "timer": 120 },
     { "text": "Strekk kulen ut forsiktig for hånd. Ikke bruk kjevle – da forsvinner luften i kanten.", "anim": "knead", "icon": "👐" },
-    { "text": "Smør på et tynt lag saus. Legg på biter av mozzarella.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Smør på et tynt lag saus. Legg på biter av mozzarella.", "anim": "assemble", "icon": "🍅", "ingredients": [{ "name": "San Marzano-tomater eller passata", "qty": "1 boks til alle 4" }, "Salt til sausen", { "name": "Mozzarella", "qty": "250 g til alle 4" }] },
     { "text": "Skyv pizzaen inn i ovnen med spade. Snu etter 30 sekunder. Ferdig etter 60–90 sekunder.", "anim": "bake", "icon": "🔥", "timer": 2 },
-    { "text": "Topp med basilikum og olivenolje. Server med en gang.", "anim": "serve", "icon": "🌿" }
+    { "text": "Topp med basilikum og olivenolje. Server med en gang.", "anim": "serve", "icon": "🌿", "ingredients": ["Basilikum", "Olivenolje"] }
   ]
 }

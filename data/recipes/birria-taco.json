@@ -30,12 +30,12 @@
     { "group": "Servering", "name": "Lime", "qty": "2 stk" }
   ],
   "steps": [
-    { "text": "Skjær kjøttet i store biter og strø over salt.", "anim": "chop", "icon": "🥩" },
-    { "text": "Bløtlegg chilien i varmt vann i 15 minutter. Fjern frø og stilk.", "note": "Bruk hansker eller vask hendene godt etterpå.", "anim": "rest", "icon": "🌶️", "timer": 15 },
-    { "text": "Ha chili, tomat, løk, hvitløk, eddik og krydder i en blender. Kjør til en jevn saus.", "anim": "stir", "icon": "🫙" },
-    { "text": "Brun kjøttet i en stor gryte, hell over sausen, vann og laurbærblad. Legg på lokk og småkok i 3 timer til kjøttet faller fra hverandre.", "anim": "boil", "icon": "🍲", "timer": 180 },
+    { "text": "Skjær kjøttet i store biter og strø over salt.", "anim": "chop", "icon": "🥩", "ingredients": [{ "name": "Oksekjøtt til gryte (bog/nakke)", "label": "Oksekjøtt" }, "Salt"] },
+    { "text": "Bløtlegg chilien i varmt vann i 15 minutter. Fjern frø og stilk.", "note": "Bruk hansker eller vask hendene godt etterpå.", "anim": "rest", "icon": "🌶️", "timer": 15, "ingredients": [{ "name": "Tørkede guajillo-chili (mild)", "label": "Tørkede guajillo-chili" }, "Tørket chile de árbol"] },
+    { "text": "Ha chili, tomat, løk, hvitløk, eddik og krydder i en blender. Kjør til en jevn saus.", "anim": "stir", "icon": "🫙", "ingredients": ["Chipotle i adobo", { "name": "Tomater, hermetiske hakkede", "label": "Hermetiske tomater" }, "Løk", "Hvitløksfedd", "Eplecidereddik", "Kumin", "Oregano"] },
+    { "text": "Brun kjøttet i en stor gryte, hell over sausen, vann og laurbærblad. Legg på lokk og småkok i 3 timer til kjøttet faller fra hverandre.", "anim": "boil", "icon": "🍲", "timer": 180, "ingredients": ["Vann eller kraft", "Laurbærblad"] },
     { "text": "Ta opp kjøttet og riv det. Sil kraften og ta vare på fettet fra toppen.", "anim": "stir", "icon": "🥄" },
-    { "text": "Pensle tortillaene med fettet, stek dem i panne, strø på ost og kjøtt, brett sammen og stek til sprø.", "anim": "fry", "icon": "🌮" },
-    { "text": "Server med en kopp varm kraft til å dyppe i, hakket løk, koriander og lime.", "anim": "assemble", "icon": "🍋" }
+    { "text": "Pensle tortillaene med fettet, stek dem i panne, strø på ost og kjøtt, brett sammen og stek til sprø.", "anim": "fry", "icon": "🌮", "ingredients": [{ "name": "Tortillalefser (mais eller små hvetelomper)", "label": "Tortillalefser" }, { "name": "Revet ost (mozzarella eller cheddar)", "label": "Revet ost" }] },
+    { "text": "Server med en kopp varm kraft til å dyppe i, hakket løk, koriander og lime.", "anim": "assemble", "icon": "🍋", "ingredients": ["Finhakket løk og koriander", "Lime"] }
   ]
 }

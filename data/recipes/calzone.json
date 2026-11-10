@@ -24,13 +24,13 @@
     { "group": "Til slutt", "name": "Olivenolje", "qty": "2 ss", "note": "Til å pensle toppen." }
   ],
   "steps": [
-    { "text": "Ta deigen ut av kjøleskapet og la den stå på benken i 30 minutter.", "anim": "rest", "icon": "⏳", "timer": 30 },
+    { "text": "Ta deigen ut av kjøleskapet og la den stå på benken i 30 minutter.", "anim": "rest", "icon": "⏳", "timer": 30, "ingredients": [{ "name": "Fersk pizzadeig, kjøpt ferdig", "label": "Fersk pizzadeig" }] },
     { "text": "Sett ovnen på 240 °C med en bakeplate eller pizzastein inni, så den blir varm.", "anim": "bake", "icon": "🔥" },
-    { "text": "Bland mozzarella, skinke, ricotta og oregano i en bolle. Legg på chiliflak hvis dere vil ha det.", "anim": "stir", "icon": "🥣" },
-    { "text": "Del deigen i 4 like store biter. Strø litt mel på benken og trykk eller kjevle hver bit ut til en sirkel på ca. 22 cm.", "anim": "knead", "icon": "🫓" },
-    { "text": "Legg 1 ss pizzasaus på halve sirkelen, la det være 2 cm kant. Legg fyll oppå.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Bland mozzarella, skinke, ricotta og oregano i en bolle. Legg på chiliflak hvis dere vil ha det.", "anim": "stir", "icon": "🥣", "ingredients": ["Mozzarella, revet", "Skinke i strimler", "Ricotta", "Oregano", "Chiliflak"] },
+    { "text": "Del deigen i 4 like store biter. Strø litt mel på benken og trykk eller kjevle hver bit ut til en sirkel på ca. 22 cm.", "anim": "knead", "icon": "🫓", "ingredients": ["Hvetemel til utrulling"] },
+    { "text": "Legg 1 ss pizzasaus på halve sirkelen, la det være 2 cm kant. Legg fyll oppå.", "anim": "assemble", "icon": "🍅", "ingredients": [{ "name": "Pizzasaus", "qty": "1 ss per calzone" }] },
     { "text": "Brett den tomme halvdelen over fyllet. Trykk kanten sammen og press den ned med en gaffel.", "anim": "assemble", "icon": "🥟" },
-    { "text": "Pensle toppen med olivenolje og kutt en liten sprekk i midten.", "anim": "season", "icon": "🫒" },
+    { "text": "Pensle toppen med olivenolje og kutt en liten sprekk i midten.", "anim": "season", "icon": "🫒", "ingredients": ["Olivenolje"] },
     { "text": "Legg calzonene på bakepapir og skyv dem på den varme platen. Stek midt i ovnen til de er gyldne.", "anim": "bake", "icon": "🔥", "timer": 14 },
     { "text": "La dem hvile i 5 minutter, fyllet er veldig varmt. Server med resten av pizzasausen varmet opp til dypping.", "anim": "serve", "icon": "🥟" }
   ]

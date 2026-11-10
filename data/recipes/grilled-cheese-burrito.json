@@ -20,9 +20,9 @@
     { "name": "Smør til steking", "qty": "1 ss" }
   ],
   "steps": [
-    { "text": "Stek kjøttet med tacokrydder. Bland med ris og bønner.", "anim": "fry", "icon": "🥩" },
-    { "text": "Legg fylt på hver tortilla med rømme og litt ost. Brett sidene inn og rull stramt.", "anim": "assemble", "icon": "🌯" },
-    { "text": "Strø en liten haug ost på en panne på middels varme. Legg burritoen med skjøten ned på osten.", "anim": "fry", "icon": "🧀" },
+    { "text": "Stek kjøttet med tacokrydder. Bland med ris og bønner.", "anim": "fry", "icon": "🥩", "ingredients": ["Kjøttdeig eller kylling", "Tacokrydder (mild)", "Ris, kokt", "Svarte bønner"] },
+    { "text": "Legg fylt på hver tortilla med rømme og litt ost. Brett sidene inn og rull stramt.", "anim": "assemble", "icon": "🌯", "ingredients": ["Store hvetetortillaer", "Rømme", { "name": "Revet ost", "qty": "300 g i alt" }, "Jalapeño"] },
+    { "text": "Strø en liten haug ost på en panne på middels varme. Legg burritoen med skjøten ned på osten.", "anim": "fry", "icon": "🧀", "ingredients": ["Smør til steking"] },
     { "text": "Stek 2–3 minutter til osten er gyllen og festet. Snu og stek siden også.", "anim": "fry", "icon": "🔥", "timer": 3 },
     { "text": "Skjær i to og server varm med salsa og rømme.", "anim": "serve", "icon": "🍽️" }
   ]
