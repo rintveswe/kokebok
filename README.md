@@ -7,6 +7,9 @@ Digital kokebok (PWA) for nettbrett på kjøkkenet, med egen handlelisteapp.
   - `data/recipes/*.json` – én fil per rett. `data/index.json` lister dem. `data/schema/` beskriver formatet.
   - `data/profiles.json` – familieprofiler (`mild: true` = mild versjon av sterke retter).
   - `handleliste/` – installerbar handlelisteapp.
+  - `css/system.css` og `js/ui.js` – designsystemet (farger, typografi, komponenter) som begge appene deler.
+  - `fonts/` – fontene ligger lokalt, så appen virker uten nett.
+- `design/DESIGNSYSTEM.md` – reglene for utseendet «Kveldsservering». Les den før du endrer noe visuelt.
 - `hardware/` – kommer: nettbrettholder (3MF), når nettbrettet er kjøpt.
 
 ## Kjøre lokalt
