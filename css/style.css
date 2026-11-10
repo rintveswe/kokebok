@@ -137,6 +137,7 @@
 /* ---------- Steg for steg ---------- */
 .cook{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto}
 .cook-top{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:2.2rem;padding:1.3rem 2.2rem 1rem}
+.cook-exit{display:flex;gap:.6rem}
 .prog .label{margin-bottom:.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .segs{display:flex;gap:.4rem}
 .segs i{flex:1;height:.32rem;border-radius:var(--pill);background:var(--line);overflow:hidden}
@@ -162,9 +163,10 @@
 
 .say{display:flex;flex-direction:column;min-height:0;overflow:hidden;padding:.6rem 3.4rem .6rem 1.2rem}
 .say-in{margin:auto 0}
-.say-in.fwd>*{animation:from-right .5s var(--ease) both}
-.say-in.back>*{animation:from-left .5s var(--ease) both}
-.say-in.again>*{animation:rise .5s var(--ease) both}
+/* Retningen ligger i data-dir, ikke som klasse: klassen .back er tilbakeknappen på rettsiden */
+.say-in[data-dir="fwd"]>*{animation:from-right .5s var(--ease) both}
+.say-in[data-dir="back"]>*{animation:from-left .5s var(--ease) both}
+.say-in[data-dir="again"]>*{animation:rise .5s var(--ease) both}
 .say-in>:nth-child(2){animation-delay:.05s}
 .say-in>:nth-child(3){animation-delay:.11s}
 .say-in>:nth-child(4){animation-delay:.16s}
@@ -314,6 +316,9 @@
   /* Steg for steg */
   .cook-top{grid-template-columns:auto 1fr;gap:.9rem 1rem;padding:.8rem 1.2rem .6rem}
   .cook-top .prog{grid-column:1/-1;grid-row:2}
+  .cook-exit{gap:.5rem}
+  #to-recipe{width:var(--tap);padding:0}
+  #to-recipe span{display:none}
   .count b{font-size:2.2rem}
   .cook-main{grid-template-columns:1fr;grid-template-rows:auto minmax(0,1fr)}
   .cook-stage{height:27vh}

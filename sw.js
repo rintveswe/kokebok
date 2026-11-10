@@ -1,6 +1,6 @@
 // Offline-cache: nettet først (alltid ferskt når man er på nett), lagret kopi når nettet er borte.
 // Bump CACHE-navnet når filer under SHELL endres, så gamle kopier slettes.
-const CACHE = 'kokebok-v9';
+const CACHE = 'kokebok-v10';
 const SHELL = [
   './', './index.html', './css/system.css', './css/style.css', './js/ui.js', './js/app.js', './js/shopping.js', './js/firebase-config.js',
   './fonts/bodoni-moda.woff2', './fonts/bodoni-moda-italic.woff2', './fonts/jost.woff2',

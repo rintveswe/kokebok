@@ -355,7 +355,7 @@ function stepAmounts(r, s) {
 function sayHtml(r, n, dir) {
   const { done, s } = stepOf(r, n);
   const need = done ? [] : stepAmounts(r, s);
-  return `<div class="say-in ${dir}">
+  return `<div class="say-in" data-dir="${dir}">
     <p class="stepno label"><span>${done ? esc(r.title) : `Steg ${n + 1}`}</span><i></i></p>
     <p class="t ${done ? 'fin' : ''}" data-xl="${!done && s.text.length <= 70 ? 1 : 0}">${esc(done ? 'Ferdig! Server og nyt.' : s.text)}</p>
     ${need.length ? `<div class="need"><p class="label dim">Du trenger</p><ul>${need.map((x) => `<li><span>${esc(x.name)}</span>${x.qty ? `<b>${esc(x.qty)}</b>` : ''}</li>`).join('')}</ul></div>` : ''}
@@ -411,7 +411,10 @@ function viewCook(id, n) {
   $app.innerHTML = `
   <div class="cook">
     <header class="cook-top">
-      <a class="pill quiet" id="quit" href="#/r/${esc(id)}">${icons.close}<span>Avslutt</span></a>
+      <div class="cook-exit">
+        <a class="pill quiet" id="quit" href="#/">${icons.close}<span>Avslutt</span></a>
+        <a class="pill quiet" id="to-recipe" href="#/r/${esc(id)}" aria-label="Tilbake til oppskriften">${icons.book}<span>Oppskriften</span></a>
+      </div>
       <div class="prog"><p class="label dim">${esc(r.title)}</p><div class="segs" aria-hidden="true">${r.steps.map(() => '<i><b></b></i>').join('')}</div></div>
       <p class="count" aria-live="polite"></p>
     </header>
