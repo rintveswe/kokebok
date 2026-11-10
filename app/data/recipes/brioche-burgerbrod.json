@@ -22,12 +22,12 @@
     { "name": "Sesamfrø", "qty": "2 ss", "optional": true }
   ],
   "steps": [
-    { "text": "Bland mel, sukker, salt og gjær. Tilsett melk og egg.", "anim": "stir", "icon": "🥣" },
-    { "text": "Elt i 10 minutter. Tilsett smøret i biter, og elt til deigen er blank og elastisk.", "anim": "knead", "icon": "🫓" },
+    { "text": "Bland mel, sukker, salt og gjær. Tilsett melk og egg.", "anim": "stir", "icon": "🥣", "ingredients": ["Hvetemel", "Sukker", "Salt", "Tørrgjær", "Melk, lunken", "Egg"] },
+    { "text": "Elt i 10 minutter. Tilsett smøret i biter, og elt til deigen er blank og elastisk.", "anim": "knead", "icon": "🫓", "ingredients": ["Smør, romtemperert"] },
     { "text": "La deigen heve under klede til dobbel størrelse, ca. 1,5 time.", "anim": "rest", "icon": "⏳", "timer": 90 },
     { "text": "Del i 8 like deler, rull til runde kuler og legg på en bakeplate med god avstand. Press dem litt flate.", "anim": "assemble", "icon": "⚪" },
     { "text": "La heve 45 minutter til. Sett ovnen på 190 °C.", "anim": "rest", "icon": "⏳", "timer": 45 },
-    { "text": "Pensle med eggeplomme og melk. Strø på sesamfrø.", "anim": "season", "icon": "🥚" },
+    { "text": "Pensle med eggeplomme og melk. Strø på sesamfrø.", "anim": "season", "icon": "🥚", "ingredients": ["Eggeplomme til pensling", "Sesamfrø"] },
     { "text": "Stek midt i ovnen til brødene er gyldne. La dem avkjøles på rist før du skjærer dem i to.", "anim": "bake", "icon": "🔥", "timer": 15 }
   ]
 }

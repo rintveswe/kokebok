@@ -24,11 +24,11 @@
     { "name": "Salt og pepper", "qty": "etter smak" }
   ],
   "steps": [
-    { "text": "Hakk løk, gulrot, selleri og hvitløk veldig fint.", "anim": "chop", "icon": "🥕" },
+    { "text": "Hakk løk, gulrot, selleri og hvitløk veldig fint.", "anim": "chop", "icon": "🥕", "ingredients": ["Løk", "Gulrot", "Selleri", "Hvitløksfedd"] },
     { "text": "Stek grønnsakene mykt i olje i en stor gryte i 8 minutter.", "anim": "fry", "icon": "🧅", "timer": 8 },
-    { "text": "Tilsett kjøttdeigen og brun den godt. Rør inn tomatpuré og la den steke ett minutt.", "anim": "fry", "icon": "🥩" },
-    { "text": "Hell i tomater, kraft, melk og krydder. Rør godt.", "anim": "stir", "icon": "🍅" },
+    { "text": "Tilsett kjøttdeigen og brun den godt. Rør inn tomatpuré og la den steke ett minutt.", "anim": "fry", "icon": "🥩", "ingredients": [{ "name": "Kjøttdeig (gjerne halvt svin, halvt okse)", "label": "Kjøttdeig" }, "Tomatpuré"] },
+    { "text": "Hell i tomater, kraft, melk og krydder. Rør godt.", "anim": "stir", "icon": "🍅", "ingredients": ["Hermetiske tomater", "Kraft", "Melk", "Oregano og timian", "Laurbærblad"] },
     { "text": "Sett lokket på skjevt og småkok på lav varme i 2–3 timer. Rør av og til.", "anim": "boil", "icon": "🍲", "timer": 150 },
-    { "text": "Smak til med salt og pepper. Fjern laurbærbladene.", "anim": "season", "icon": "🧂" }
+    { "text": "Smak til med salt og pepper. Fjern laurbærbladene.", "anim": "season", "icon": "🧂", "ingredients": ["Salt og pepper"] }
   ]
 }

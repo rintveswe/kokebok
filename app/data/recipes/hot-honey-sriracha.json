@@ -19,8 +19,8 @@
     { "name": "Hvitløkspulver", "qty": "0,5 ts", "optional": true }
   ],
   "steps": [
-    { "text": "Ha honningen i en liten kjele og varm den på lav varme i 1–2 minutter, til den er lett å røre i. Den skal ikke koke.", "anim": "stir", "icon": "🍯", "timer": 2 },
-    { "text": "Ta kjelen av varmen. Rør inn sriracha, limesaft og eventuelt hvitløkspulver til det er helt blandet.", "anim": "stir", "icon": "🌶️" },
+    { "text": "Ha honningen i en liten kjele og varm den på lav varme i 1–2 minutter, til den er lett å røre i. Den skal ikke koke.", "anim": "stir", "icon": "🍯", "timer": 2, "ingredients": ["Honning"] },
+    { "text": "Ta kjelen av varmen. Rør inn sriracha, limesaft og eventuelt hvitløkspulver til det er helt blandet.", "anim": "stir", "icon": "🌶️", "ingredients": ["Sriracha", "Limesaft eller eplecidereddik", "Hvitløkspulver"] },
     { "text": "Smak på den. Legg til mer sriracha hvis du vil ha den sterkere, eller litt honning hvis den er for sterk.", "anim": "season", "icon": "👅" },
     { "text": "Hell over i et rent glass med lokk og la den kjøle seg ned.", "anim": "assemble", "icon": "🫙" },
     { "text": "Drypp over pizzaen rett etter steking, og server resten til dypping.", "anim": "serve", "icon": "🍕" }

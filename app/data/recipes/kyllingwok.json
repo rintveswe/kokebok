@@ -25,11 +25,11 @@
     { "name": "Ris eller nudler til servering", "qty": "4 porsjoner" }
   ],
   "steps": [
-    { "text": "Skjær kylling og grønnsaker i like store biter. Riv hvitløk og ingefær.", "anim": "chop", "icon": "🔪" },
-    { "text": "Rør sammen soyasaus, honning, osterssaus, maisenna og 1 dl vann til wokken.", "anim": "stir", "icon": "🥣" },
+    { "text": "Skjær kylling og grønnsaker i like store biter. Riv hvitløk og ingefær.", "anim": "chop", "icon": "🔪", "ingredients": ["Kyllingfilet", "Brokkoli", "Paprika", "Gulrot", "Hvitløksfedd", "Ingefær, revet", "Chili, finhakket"] },
+    { "text": "Rør sammen soyasaus, honning, osterssaus, maisenna og 1 dl vann til wokken.", "anim": "stir", "icon": "🥣", "ingredients": ["Soyasaus", "Honning eller brunt sukker", "Osterssaus", "Maisenna", "Sesamolje"] },
     { "text": "Stek kyllingen i varm wok i 5–6 minutter. Ta ut av wokken.", "anim": "fry", "icon": "🍗", "timer": 6, "note": "Kjernetemperatur 165 °F." },
     { "text": "Wok grønnsakene i 3–4 minutter, hvitløk og ingefær de siste 30 sekundene.", "anim": "fry", "icon": "🥦", "timer": 4 },
     { "text": "Ha kyllingen tilbake og hell over sausen. Rør til sausen tykner.", "anim": "stir", "icon": "🥄", "timer": 2 },
-    { "text": "Server med ris eller nudler.", "anim": "serve", "icon": "🍚" }
+    { "text": "Server med ris eller nudler.", "anim": "serve", "icon": "🍚", "ingredients": [{ "name": "Ris eller nudler til servering", "label": "Ris eller nudler" }] }
   ]
 }

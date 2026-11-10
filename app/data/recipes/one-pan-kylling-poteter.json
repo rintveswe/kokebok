@@ -22,10 +22,10 @@
     { "name": "Sitron", "qty": "1 stk", "optional": true }
   ],
   "steps": [
-    { "text": "Sett ovnen på 220 °C. Skjær poteter, gulrot og løk i biter.", "anim": "chop", "icon": "🥔" },
-    { "text": "Vend grønnsakene i olje, salt, pepper og timian på en stor langpanne.", "anim": "season", "icon": "🥕" },
-    { "text": "Gni kyllinglårene med olje, paprika, salt og pepper. Legg dem på toppen med skinnsiden opp.", "anim": "season", "icon": "🍗" },
+    { "text": "Sett ovnen på 220 °C. Skjær poteter, gulrot og løk i biter.", "anim": "chop", "icon": "🥔", "ingredients": ["Poteter, i terninger", "Gulrot", "Rødløk"] },
+    { "text": "Vend grønnsakene i olje, salt, pepper og timian på en stor langpanne.", "anim": "season", "icon": "🥕", "ingredients": [{ "name": "Olivenolje", "qty": "4 ss i alt" }, "Timian", "Salt og pepper", "Hvitløksfedd"] },
+    { "text": "Gni kyllinglårene med olje, paprika, salt og pepper. Legg dem på toppen med skinnsiden opp.", "anim": "season", "icon": "🍗", "ingredients": ["Kyllinglår med skinn", "Paprikapulver"] },
     { "text": "Stek midt i ovnen til skinnet er sprøtt og kjernetemperaturen er 165 °F.", "anim": "bake", "icon": "🔥", "timer": 40 },
-    { "text": "Press sitron over og server direkte fra pannen.", "anim": "serve", "icon": "🍋" }
+    { "text": "Press sitron over og server direkte fra pannen.", "anim": "serve", "icon": "🍋", "ingredients": ["Sitron"] }
   ]
 }

@@ -25,10 +25,10 @@
     { "name": "Kraft (okse eller grønnsak)", "qty": "2 dl" }
   ],
   "steps": [
-    { "text": "Hakk løk, hvitløk og paprika.", "anim": "chop", "icon": "🧅" },
-    { "text": "Brun kjøttdeigen i en stor gryte. Tilsett løk og hvitløk, og stek til løken er blank.", "anim": "fry", "icon": "🥩" },
-    { "text": "Rør inn tomatpuré og alle krydder, og la det steke ett minutt.", "anim": "season", "icon": "🌶️" },
-    { "text": "Tilsett tomater, bønner, paprika og kraft. Småkok under lokk i 30–40 minutter.", "anim": "boil", "icon": "🍲", "timer": 35 },
-    { "text": "Smak til med salt. Server med ris, rømme og ost.", "anim": "serve", "icon": "🍚" }
+    { "text": "Hakk løk, hvitløk og paprika.", "anim": "chop", "icon": "🧅", "ingredients": ["Løk", "Hvitløksfedd", "Paprika", "Ferske chili, finhakket"] },
+    { "text": "Brun kjøttdeigen i en stor gryte. Tilsett løk og hvitløk, og stek til løken er blank.", "anim": "fry", "icon": "🥩", "ingredients": ["Kjøttdeig"] },
+    { "text": "Rør inn tomatpuré og alle krydder, og la det steke ett minutt.", "anim": "season", "icon": "🌶️", "ingredients": ["Tomatpuré", "Kumin", "Paprikapulver", "Chilipulver"] },
+    { "text": "Tilsett tomater, bønner, paprika og kraft. Småkok under lokk i 30–40 minutter.", "anim": "boil", "icon": "🍲", "timer": 35, "ingredients": ["Hermetiske tomater", "Kidneybønner", "Svarte bønner eller mais", { "name": "Kraft (okse eller grønnsak)", "label": "Kraft" }] },
+    { "text": "Smak til med salt. Server med ris, rømme og ost.", "anim": "serve", "icon": "🍚", "ingredients": ["Salt"] }
   ]
 }

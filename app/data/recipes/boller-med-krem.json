@@ -17,11 +17,11 @@
     { "name": "Kokos eller strøsel", "qty": "til pynt", "optional": true }
   ],
   "steps": [
-    { "text": "Lag vaniljekremen etter oppskriften og la den kjøle seg ned i kjøleskapet.", "anim": "stir", "icon": "🥣" },
-    { "text": "Lag bolledeig, hev og stek bollene som i oppskriften for luftige boller. La dem avkjøles helt.", "anim": "bake", "icon": "🥐" },
+    { "text": "Lag vaniljekremen etter oppskriften og la den kjøle seg ned i kjøleskapet.", "anim": "stir", "icon": "🥣", "ingredients": ["Vaniljekrem (se Vaniljekrem)"] },
+    { "text": "Lag bolledeig, hev og stek bollene som i oppskriften for luftige boller. La dem avkjøles helt.", "anim": "bake", "icon": "🥐", "ingredients": ["Bolledeig (se Luftige boller)"] },
     { "text": "Stikk hull i siden av hver bolle med en pinne eller skarp kniv, og lag en liten lomme.", "anim": "assemble", "icon": "🔪" },
     { "text": "Fyll kremen i en sprøytepose og sprøyt inn i hver bolle til den er godt fylt.", "anim": "assemble", "icon": "🟡" },
-    { "text": "Rør melis med litt vann til en glasur, pensle på toppen og strø over kokos.", "anim": "season", "icon": "🥥" },
+    { "text": "Rør melis med litt vann til en glasur, pensle på toppen og strø over kokos.", "anim": "season", "icon": "🥥", "ingredients": ["Melis", "Kokos eller strøsel"] },
     { "text": "Server med kakao eller melk.", "anim": "serve", "icon": "🥛" }
   ]
 }

@@ -24,6 +24,10 @@ python -m http.server 8080
 2. Legg `<id>` til i `app/data/index.json`.
 3. Sett `"status": "testet"` når dere har laget retten. Bare testede retter kommer med i den trykte boka.
 4. Bilder: legg `.webp` i `app/data/images/` og sett `"image": "data/images/<id>.webp"`.
+5. Mengder i stegene: gi hvert steg en liste `"ingredients"` med navnene på ingrediensene steget bruker,
+   skrevet nøyaktig som i ingredienslisten. Da viser steg-modus «Du trenger» med mengdene under instruksjonen.
+   Bruker steget bare en del, skriver du `{ "name": "Revet ost", "qty": "150 g" }`. Står samme navn i flere
+   grupper, legger du til `"group"`. Kjør `python design/sjekk-mengder.py` etterpå – den sier fra om navn som ikke treffer.
 
 ## Live-adresser (publisert)
 - Kokebok: https://rintveswe.github.io/kokebok/

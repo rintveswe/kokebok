@@ -336,26 +336,52 @@ function stageHtml(r, n) {
     ? `<div class="medal photo"><img src="${esc(s.image)}" alt=""></div>`
     : `<div class="medal a-${esc(s.anim || 'none')}"><span>${esc(s.icon || r.emoji || '🍽️')}</span></div>`;
 }
+/**
+ * Mengdene et steg trenger. Steget peker på ingredienser med navn («ingredients» i oppskriften),
+ * og mengden hentes fra ingredienslisten – så tallene står bare ett sted. Mild versjon regnes ut som ellers.
+ */
+function stepAmounts(r, s) {
+  const out = [];
+  for (const ref of s.ingredients || []) {
+    const o = typeof ref === 'string' ? { name: ref } : ref;
+    const i = r.ingredients.find((x) => x.name === o.name && (!o.group || x.group === o.group));
+    if (!i) continue;
+    let name = o.label || i.name.replace(/\s*\(se .+\)$/, ''), qty = o.qty || i.qty || '';
+    if (state.mild && i.spicy) { if (!i.alt) continue; name = i.alt.name; qty = i.alt.qty || ''; }
+    out.push({ name, qty });
+  }
+  return out;
+}
 function sayHtml(r, n, dir) {
   const { done, s } = stepOf(r, n);
+  const need = done ? [] : stepAmounts(r, s);
   return `<div class="say-in ${dir}">
     <p class="stepno label"><span>${done ? esc(r.title) : `Steg ${n + 1}`}</span><i></i></p>
     <p class="t ${done ? 'fin' : ''}" data-xl="${!done && s.text.length <= 70 ? 1 : 0}">${esc(done ? 'Ferdig! Server og nyt.' : s.text)}</p>
+    ${need.length ? `<div class="need"><p class="label dim">Du trenger</p><ul>${need.map((x) => `<li><span>${esc(x.name)}</span>${x.qty ? `<b>${esc(x.qty)}</b>` : ''}</li>`).join('')}</ul></div>` : ''}
     ${!done && s.note ? `<p class="note">${esc(s.note)}</p>` : ''}
   </div>`;
 }
 /** Krymper instruksjonen trinnvis hvis den ikke får plass – teksten skal aldri kuttes. */
 function fit() {
-  const say = $('.say'), t = say?.querySelector('.t');
+  const say = $('.say'), t = say?.querySelector('.t'), stage = $('.cook-stage');
   if (!t) return;
   const sizes = ['s1', 's2', 's3'];
   t.classList.remove(...sizes);
+  say.classList.remove('dense');
+  stage?.classList.remove('tight');
   t.classList.toggle('xl', t.dataset.xl === '1');
+  const fits = () => say.scrollHeight <= say.clientHeight + 1;
   for (const c of ['', ...sizes]) {
-    if (say.scrollHeight <= say.clientHeight + 1) break;
+    if (fits()) return;
     t.classList.remove('xl', ...sizes);
     if (c) t.classList.add(c);
   }
+  // Siste utvei for steg med mange mengder: mengdelisten settes litt tettere,
+  // og på mobil gir symbolet over fra seg litt plass
+  if (!say.querySelector('.need')) return;
+  if (!fits()) say.classList.add('dense');
+  if (!fits()) stage?.classList.add('tight');
 }
 addEventListener('resize', fit);
 document.fonts?.ready.then(fit);

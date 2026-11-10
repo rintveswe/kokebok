@@ -21,11 +21,11 @@
     { "name": "Sterk saus", "qty": "etter smak", "spicy": true, "optional": true }
   ],
   "steps": [
-    { "text": "Kutt kyllingen i terninger og krydre. Stek i en varm panne eller på platen.", "anim": "fry", "icon": "🍗", "note": "Kjernetemperatur 165 °F." },
-    { "text": "Hakk det ferdigstekte kjøttet i små biter med to spatler. Hakk løken og stek den også.", "anim": "chop", "icon": "🔪" },
-    { "text": "Legg osten over og la den smelte. Hakk det hele videre så ost og kjøtt blander seg.", "anim": "chop", "icon": "🧀" },
-    { "text": "Skjær brødet opp og rist det lett. Smør på aioli.", "anim": "season", "icon": "🥖" },
-    { "text": "Hakk tomat og salat og bland i kjøttblandingen, eller legg i brødet.", "anim": "chop", "icon": "🥬" },
-    { "text": "Fyll brødet, pakk i folie og skjær i to. Server med en gang.", "anim": "serve", "icon": "🥪" }
+    { "text": "Kutt kyllingen i terninger og krydre. Stek i en varm panne eller på platen.", "anim": "fry", "icon": "🍗", "note": "Kjernetemperatur 165 °F.", "ingredients": ["Kyllingfilet eller kjøttdeig", "Krydder: salt, pepper, løkpulver, hvitløkspulver"] },
+    { "text": "Hakk det ferdigstekte kjøttet i små biter med to spatler. Hakk løken og stek den også.", "anim": "chop", "icon": "🔪", "ingredients": ["Løk"] },
+    { "text": "Legg osten over og la den smelte. Hakk det hele videre så ost og kjøtt blander seg.", "anim": "chop", "icon": "🧀", "ingredients": ["Cheddar eller amerikansk ost"] },
+    { "text": "Skjær brødet opp og rist det lett. Smør på aioli.", "anim": "season", "icon": "🥖", "ingredients": ["Baguett eller sandwichbrød", "Aioli (se Aioli)"] },
+    { "text": "Hakk tomat og salat og bland i kjøttblandingen, eller legg i brødet.", "anim": "chop", "icon": "🥬", "ingredients": ["Tomat", "Isbergsalat"] },
+    { "text": "Fyll brødet, pakk i folie og skjær i to. Server med en gang.", "anim": "serve", "icon": "🥪", "ingredients": ["Sterk saus"] }
   ]
 }

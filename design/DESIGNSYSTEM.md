@@ -60,6 +60,10 @@ To fonter. **Bodoni Moda** (serif med høy kontrast) er stemmen – titler, steg
 - Kursiv Bodoni brukes bare til ordmerket, romertall, tomme tilstander og dialogspørsmål.
 - Stegteksten har fire størrelser. Korte steg (inntil 70 tegn) settes ekstra stort (3,75 rem).
   Lange steg krymper trinnvis til de får plass – teksten skal aldri måtte rulles.
+- Under instruksjonen står **«Du trenger»**: ingrediensene steget bruker, med mengden i messing og en tynn strek
+  mellom hver (Jost 400, 1,45 rem). Da slipper man å bla tilbake til ingredienslisten. Linjen er hjelpetekst og skal
+  aldri konkurrere med instruksjonen. Blir det trangt, krymper instruksjonen først, så settes mengdene tettere
+  (`.say.dense`), og på mobil gir til slutt symbolet fra seg plass (`.cook-stage.tight`). Mild versjon gjelder også her.
 - `1 rem` følger skjermbredden (16 px ved 1340 px bredde). Da ser oppsettet likt ut på nettbrettet
   uansett pikseltetthet. På mobil og stående skjerm er `1 rem` alltid 16 px.
 

@@ -23,13 +23,13 @@
     { "group": "Topping", "name": "Chilihonning", "qty": "til servering", "spicy": true, "optional": true }
   ],
   "steps": [
-    { "text": "Bland mel, vann, gjær og salt til en klissete deig. Elt i noen minutter.", "anim": "knead", "icon": "🥣" },
+    { "text": "Bland mel, vann, gjær og salt til en klissete deig. Elt i noen minutter.", "anim": "knead", "icon": "🥣", "ingredients": ["Hvetemel", "Lunkent vann", "Tørrgjær", "Salt", { "name": "Olivenolje (+ til formen)", "label": "Olivenolje" }] },
     { "text": "La deigen heve under et klede i 1 time.", "anim": "rest", "icon": "⏳", "timer": 60 },
     { "text": "Smør formen rikelig med olje. Trykk deigen ut i hjørnene. Hvis den trekker seg tilbake, hvil 10 min og prøv igjen.", "anim": "knead", "icon": "🫓" },
     { "text": "La heve 30 minutter til. Sett ovnen på 250 °C.", "anim": "rest", "icon": "⏳", "timer": 30 },
-    { "text": "Dekk deigen med ost helt ut til alle kantene. Legg pepperoni på.", "anim": "assemble", "icon": "🧀" },
-    { "text": "Hell sausen i brede striper over osten.", "anim": "assemble", "icon": "🍅" },
+    { "text": "Dekk deigen med ost helt ut til alle kantene. Legg pepperoni på.", "anim": "assemble", "icon": "🧀", "ingredients": ["Mozzarella i terninger", "Pepperoni"] },
+    { "text": "Hell sausen i brede striper over osten.", "anim": "assemble", "icon": "🍅", "ingredients": ["Pizzasaus", "Hvitløkspulver"] },
     { "text": "Stek nederst i ovnen til kantene er mørke og sprø.", "anim": "bake", "icon": "🔥", "timer": 15 },
-    { "text": "Løsne kantene med kniv. Løft ut pizzaen og skjær i firkanter.", "anim": "serve", "icon": "🍕" }
+    { "text": "Løsne kantene med kniv. Løft ut pizzaen og skjær i firkanter.", "anim": "serve", "icon": "🍕", "ingredients": ["Chilihonning"] }
   ]
 }

@@ -18,8 +18,8 @@
     { "name": "Pepper", "qty": "etter smak" }
   ],
   "steps": [
-    { "text": "Ha alt i en høy beholder.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Ha alt i en høy beholder.", "anim": "assemble", "icon": "🧀", "ingredients": ["Feta", "Gresk yoghurt", "Olivenolje", "Sitronsaft", "Hvitløksfedd", "Tørket oregano"] },
     { "text": "Kjør med stavmikser til jevn dressing.", "anim": "stir", "icon": "🌀" },
-    { "text": "Smak til med pepper og tynn med litt vann eller melk hvis den er for tykk.", "anim": "season", "icon": "🥄" }
+    { "text": "Smak til med pepper og tynn med litt vann eller melk hvis den er for tykk.", "anim": "season", "icon": "🥄", "ingredients": ["Pepper"] }
   ]
 }

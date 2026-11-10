@@ -22,11 +22,11 @@
     { "name": "Spinat", "qty": "1 neve", "optional": true }
   ],
   "steps": [
-    { "text": "Stek kyllingbitene i panna med olje, salt og pepper. Ta dem ut.", "anim": "fry", "icon": "🍗" },
-    { "text": "Stek løk og hvitløk i samme panne.", "anim": "fry", "icon": "🧅" },
-    { "text": "Tilsett tomater, kraft, krydder og pasta. Rør godt. Legg kyllingen tilbake.", "anim": "stir", "icon": "🍝" },
+    { "text": "Stek kyllingbitene i panna med olje, salt og pepper. Ta dem ut.", "anim": "fry", "icon": "🍗", "ingredients": ["Kyllingfilet, i biter"] },
+    { "text": "Stek løk og hvitløk i samme panne.", "anim": "fry", "icon": "🧅", "ingredients": ["Løk", "Hvitløksfedd"] },
+    { "text": "Tilsett tomater, kraft, krydder og pasta. Rør godt. Legg kyllingen tilbake.", "anim": "stir", "icon": "🍝", "ingredients": ["Hermetiske tomater", "Kraft", "Italiensk krydder", "Penne eller fusilli"] },
     { "text": "Kok under lokk og rør jevnlig til pastaen er mør og det meste av væsken er borte.", "anim": "boil", "icon": "🍲", "timer": 14 },
-    { "text": "Rør inn fløte, parmesan og spinat. La det trekke ett minutt.", "anim": "stir", "icon": "🧀" },
+    { "text": "Rør inn fløte, parmesan og spinat. La det trekke ett minutt.", "anim": "stir", "icon": "🧀", "ingredients": ["Fløte eller matlagingskrem", "Revet parmesan", "Spinat"] },
     { "text": "Server rett fra pannen.", "anim": "serve", "icon": "🍽️" }
   ]
 }
