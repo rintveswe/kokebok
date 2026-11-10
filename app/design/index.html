@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Familiekokeboka – tre designretninger</title>
+<style>
+  *{box-sizing:border-box;margin:0}
+  body{font:17px/1.5 system-ui,sans-serif;background:#F4F1EC;color:#1c1c1c;min-height:100dvh;display:grid;place-content:center;padding:32px}
+  h1{font-size:28px;margin-bottom:6px}
+  p{color:#555;margin-bottom:28px;max-width:60ch}
+  nav{display:grid;grid-template-columns:repeat(3,minmax(0,18rem));gap:16px}
+  a{display:grid;gap:6px;min-height:150px;padding:24px;text-decoration:none;align-content:end}
+  a b{font-size:22px}
+  a span{font-size:15px;opacity:.8}
+  .a{background:#F2EDE3;color:#1B1815;border:1.5px solid #1B1815}
+  .b{background:#0E0C0A;color:#F1EADF;border:1.5px solid #D4A960}
+  .c{background:#2E4A3D;color:#fff;border-radius:150px 150px 16px 16px;text-align:center}
+  @media (max-width:800px){nav{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Tre designretninger</h1>
+  <p>Hver retning har en fungerende forside og rettside. «Start matlagingen» og «Handleliste» går foreløpig til dagens app.</p>
+  <nav>
+    <a class="a" href="a/"><b>A – Magasinet</b><span>Redaksjonell, papir og blekk</span></a>
+    <a class="b" href="b/"><b>B – Kveldsservering</b><span>Mørk restaurant, messing</span></a>
+    <a class="c" href="c/"><b>C – Lyst kjøkken</b><span>Lys skandinavisk, buer</span></a>
+  </nav>
+</main>
+</body>
+</html>
