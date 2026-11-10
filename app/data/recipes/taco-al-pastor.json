@@ -1,0 +1,47 @@
+{
+  "id": "taco-al-pastor", "title": "Taco al pastor", "category": "Mexicansk", "emoji": "🍍",
+  "image": null, "servings": "4–6 personer (ca. 16 taco)", "time": { "active": 50, "total": 300 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Tynne skiver svinekjøtt i rød chili- og ananasmarinade, stekt til de er svidd i kantene og servert med grillet ananas.",
+  "headsUp": "Kjøttet må ligge i marinaden i minst 4 timer, gjerne over natten.",
+  "tips": [
+    "Achiotepasta gir den røde fargen og den typiske smaken. Den finnes på nett og i noen butikker. Har du den ikke, bruk 1 ss paprikapulver og 1 ss ekstra eddik.",
+    "Be slakteren skjære kjøttet i tynne skiver, så sparer du tid.",
+    "Ikke legg for mye kjøtt i pannen om gangen. Da koker kjøttet i stedet for å steke.",
+    "Som på spyd: stable skivene tett på et grillspyd stukket ned i en halv løk i en form. Stek 1,5 time på 180 °C og skjær tynne skiver fra utsiden.",
+    "Om sommeren: grill kjøtt og ananas på grillen."
+  ],
+  "uses": ["maistortilla"],
+  "pairs": { "drink": ["Ananasjuice med lime", "Cola"], "side": ["salsa-verde", "guacamole-saus", "salsa-roja"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Svinenakke uten ben", "qty": "1 kg" },
+    { "group": "Marinade", "name": "Tørkede guajillo-chili (mild)", "qty": "4 stk", "note": "Fjern frø og stilk" },
+    { "group": "Marinade", "name": "Chipotle i adobo", "qty": "1 ss", "spicy": true, "optional": true, "alt": { "name": "Røkt paprikapulver", "qty": "1 ts" } },
+    { "group": "Marinade", "name": "Achiotepasta", "qty": "50 g", "note": "Se tipsene hvis du ikke har den" },
+    { "group": "Marinade", "name": "Ananasjuice", "qty": "1 dl" },
+    { "group": "Marinade", "name": "Eplecidereddik", "qty": "3 ss" },
+    { "group": "Marinade", "name": "Hvitløksfedd", "qty": "4 stk" },
+    { "group": "Marinade", "name": "Løk", "qty": "½ stk" },
+    { "group": "Marinade", "name": "Oregano", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Salt", "qty": "2 ts" },
+    { "group": "Marinade", "name": "Brunt sukker", "qty": "1 ss" },
+    { "group": "Steking", "name": "Nøytral olje", "qty": "2 ss" },
+    { "group": "Steking", "name": "Fersk ananas", "qty": "½ stk" },
+    { "group": "Servering", "name": "Maistortillalefser (se Maistortillalefser)", "qty": "16 stk" },
+    { "group": "Servering", "name": "Finhakket løk og koriander", "qty": "1 neve" },
+    { "group": "Servering", "name": "Lime i båter", "qty": "2 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær kjøttet i tynne skiver, ca. ½ cm.", "anim": "chop", "icon": "🔪", "ingredients": ["Svinenakke uten ben"] },
+    { "text": "Rist chiliene i en tørr panne i 30 sekunder på hver side. Legg dem i varmt vann i 15 minutter.", "note": "Ikke la dem bli svarte, da blir marinaden bitter.", "anim": "rest", "icon": "🌶️", "timer": 15, "ingredients": [{ "name": "Tørkede guajillo-chili (mild)", "label": "Tørkede guajillo-chili" }] },
+    { "text": "Ha chili, achiote, ananasjuice, eddik, hvitløk og løk i en blender.", "anim": "assemble", "icon": "🫙", "ingredients": ["Chipotle i adobo", "Achiotepasta", "Ananasjuice", "Eplecidereddik", "Hvitløksfedd", "Løk"] },
+    { "text": "Tilsett oregano, kumin, salt og sukker, og kjør til en jevn marinade.", "anim": "stir", "icon": "🥄", "ingredients": ["Oregano", "Kumin", "Salt", "Brunt sukker"] },
+    { "text": "Vend kjøttet godt i marinaden. Dekk til og sett kaldt i minst 4 timer, gjerne over natten.", "anim": "rest", "icon": "❄️", "timer": 240 },
+    { "text": "Skjær ananasen i skiver på ca. 1 cm.", "anim": "chop", "icon": "🍍", "ingredients": ["Fersk ananas"] },
+    { "text": "Varm litt olje i en stekepanne på høy varme. Stek kjøttet i omganger, 2–3 minutter på hver side, til det er svidd i kantene.", "anim": "fry", "icon": "🍳", "ingredients": ["Nøytral olje"] },
+    { "text": "Stek ananasskivene i samme panne til de får brune striper.", "anim": "fry", "icon": "🍍" },
+    { "text": "Hakk kjøtt og ananas i små biter og bland dem.", "anim": "chop", "icon": "🔪" },
+    { "text": "Server i varme tortillalefser med løk, koriander, lime og salsa.", "anim": "serve", "icon": "🌮", "ingredients": [{ "name": "Maistortillalefser (se Maistortillalefser)", "label": "Maistortillalefser" }, "Finhakket løk og koriander", "Lime i båter"] }
+  ]
+}

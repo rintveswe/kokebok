@@ -1,0 +1,32 @@
+{
+  "id": "salsa-roja", "title": "Salsa roja", "category": "Saus og tilbehør", "emoji": "🍅",
+  "image": null, "servings": "ca. 6 dl", "time": { "active": 20, "total": 45 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Klassisk rød taco-salsa av grillede tomater og tørket chili. Røkt, fyldig og passe sterk.",
+  "tips": [
+    "Guajillo-chili er mild og gir farge og smak. Chile de árbol gir varmen, så bruk færre eller dropp den for en mild salsa.",
+    "Om vinteren går hermetiske tomater fint: bruk 1 boks og grill bare løk og hvitløk.",
+    "Å koke salsaen i olje til slutt gir den dypere smak og mørkere farge. Det er slik de gjør det på taco-sjappene.",
+    "Holder seg 5 dager i et glass med lokk i kjøleskapet."
+  ],
+  "pairs": { "side": ["taco-al-pastor", "carnitas", "birria-taco", "Nachochips"] },
+  "ingredients": [
+    { "name": "Plommetomater", "qty": "6 stk", "note": "Ca. 600 g" },
+    { "name": "Løk", "qty": "½ stk" },
+    { "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "name": "Tørkede guajillo-chili (mild)", "qty": "2 stk", "note": "Fjern frø og stilk" },
+    { "name": "Tørket chile de árbol", "qty": "2–4 stk", "spicy": true, "optional": true },
+    { "name": "Fersk koriander", "qty": "½ bunt" },
+    { "name": "Lime", "qty": "½ stk", "note": "Saften" },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Nøytral olje", "qty": "1 ss" }
+  ],
+  "steps": [
+    { "text": "Legg tomater, løk og hvitløk på et stekebrett. Grill øverst i ovnen på 250 °C i 12 minutter, til de er svidd i flekker.", "anim": "bake", "icon": "🔥", "timer": 12, "ingredients": ["Plommetomater", "Løk", "Hvitløksfedd"] },
+    { "text": "Rist chiliene i en tørr panne i 30 sekunder på hver side, til de dufter.", "note": "Ikke la dem bli svarte, da blir salsaen bitter.", "anim": "fry", "icon": "🌶️", "ingredients": [{ "name": "Tørkede guajillo-chili (mild)", "label": "Tørkede guajillo-chili" }, "Tørket chile de árbol"] },
+    { "text": "Legg chiliene i varmt vann i 10 minutter, til de er myke.", "anim": "rest", "icon": "⏳", "timer": 10 },
+    { "text": "Ha tomater, løk, hvitløk og chili i en blender med koriander, limesaft og salt. Kjør til en jevn salsa.", "anim": "stir", "icon": "🫙", "ingredients": ["Fersk koriander", "Lime", "Salt"] },
+    { "text": "Varm oljen i en kjele, hell i salsaen og la den småkoke i 5 minutter.", "note": "Det spruter litt når salsaen treffer oljen.", "anim": "boil", "icon": "🍲", "timer": 5, "ingredients": ["Nøytral olje"] },
+    { "text": "Smak til med salt og lime, og la salsaen bli kald.", "anim": "season", "icon": "🧂" }
+  ]
+}

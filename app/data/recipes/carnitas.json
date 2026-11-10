@@ -1,0 +1,44 @@
+{
+  "id": "carnitas", "title": "Pork carnitas", "category": "Mexicansk", "emoji": "🐖",
+  "image": null, "servings": "4–6 personer (ca. 16 taco)", "time": { "active": 40, "total": 225 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Svinekjøtt som er langtidsstekt med appelsin og hvitløk til det faller fra hverandre, og stekt sprøtt til slutt. Mørt inni og sprøtt i kantene.",
+  "headsUp": "Kjøttet skal i ovnen i 3 timer. Start senest 3,5 time før dere skal spise.",
+  "tips": [
+    "Kjøttet kan lages dagen før. Oppbevar det i kraften, og stek det sprøtt rett før servering.",
+    "Ikke rør i kjøttet når det steker i pannen. Det er skorpen som gjør carnitas så godt.",
+    "Ikke skjær bort fettet. Det smelter i ovnen og gjør kjøttet saftig.",
+    "Rester er gode i quesadilla, burrito eller på nachos.",
+    "Hvetetortillalefser går også fint."
+  ],
+  "uses": ["maistortilla"],
+  "pairs": { "drink": ["Limonade med lime", "Cola"], "side": ["salsa-verde", "guacamole-saus", "salsa-roja"], "dessert": ["Vaniljeis med kanel"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Svinenakke uten ben", "qty": "1,5 kg", "note": "Svinebog går også" },
+    { "group": "Kjøtt", "name": "Salt", "qty": "1 ss" },
+    { "group": "Kjøtt", "name": "Kumin", "qty": "2 ts" },
+    { "group": "Kjøtt", "name": "Oregano", "qty": "2 ts" },
+    { "group": "Kjøtt", "name": "Svart pepper", "qty": "1 ts" },
+    { "group": "Kjøtt", "name": "Appelsin", "qty": "1 stk" },
+    { "group": "Kjøtt", "name": "Lime", "qty": "1 stk" },
+    { "group": "Kjøtt", "name": "Løk", "qty": "1 stk" },
+    { "group": "Kjøtt", "name": "Hvitløksfedd", "qty": "6 stk" },
+    { "group": "Kjøtt", "name": "Laurbærblad", "qty": "2 stk" },
+    { "group": "Kjøtt", "name": "Kanelstang", "qty": "1 stk", "optional": true },
+    { "group": "Kjøtt", "name": "Vann", "qty": "2 dl" },
+    { "group": "Kjøtt", "name": "Nøytral olje eller smult", "qty": "2 ss" },
+    { "group": "Servering", "name": "Maistortillalefser (se Maistortillalefser)", "qty": "16 stk" },
+    { "group": "Servering", "name": "Finhakket løk og koriander", "qty": "1 neve" },
+    { "group": "Servering", "name": "Lime i båter", "qty": "2 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær kjøttet i biter på ca. 5 cm. Ta med fettet.", "anim": "chop", "icon": "🔪", "ingredients": ["Svinenakke uten ben"] },
+    { "text": "Bland salt, kumin, oregano og pepper, og gni det godt inn i kjøttet.", "anim": "season", "icon": "🧂", "ingredients": ["Salt", "Kumin", "Oregano", "Svart pepper"] },
+    { "text": "Legg kjøttet i en ildfast form. Press over appelsin og lime, og legg de pressede appelsinhalvdelene oppi.", "anim": "assemble", "icon": "🍊", "ingredients": ["Appelsin", "Lime"] },
+    { "text": "Del løken i båter og legg den i formen sammen med hvitløk, laurbærblad, kanel og vann.", "anim": "chop", "icon": "🧅", "ingredients": ["Løk", "Hvitløksfedd", "Laurbærblad", "Kanelstang", "Vann"] },
+    { "text": "Dekk formen med lokk eller folie og stek på 160 °C i 3 timer, til kjøttet faller fra hverandre.", "anim": "bake", "icon": "🔥", "timer": 180 },
+    { "text": "Ta ut kjøttet og riv det grovt med to gafler. Ta vare på kraften i formen.", "anim": "stir", "icon": "🍴" },
+    { "text": "Varm oljen i en stor panne på høy varme. Stek kjøttet i omganger uten å røre, til det er sprøtt under.", "note": "Hell over en skvett av kraften til slutt, så blir det saftig.", "anim": "fry", "icon": "🍳", "ingredients": ["Nøytral olje eller smult"] },
+    { "text": "Server i varme tortillalefser med løk, koriander, lime og salsa.", "anim": "serve", "icon": "🌮", "ingredients": [{ "name": "Maistortillalefser (se Maistortillalefser)", "label": "Maistortillalefser" }, "Finhakket løk og koriander", "Lime i båter"] }
+  ]
+}
