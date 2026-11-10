@@ -1,0 +1,49 @@
+{
+  "id": "pineapple-jerk-chicken", "title": "Pineapple jerk chicken", "category": "Mexicansk", "emoji": "🍍",
+  "image": null, "servings": "4 personer (8 lefser)", "time": { "active": 35, "total": 100 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kylling i jamaicansk jerk-marinade med allehånde, timian og lime, servert i tortillalefser med frisk ananassalsa og rømme.",
+  "headsUp": "Kyllingen bør ligge i marinaden i minst 1 time, gjerne over natten.",
+  "tips": [
+    "Scotch bonnet og habanero er veldig sterke. Start med en halv, og fjern frø og hvite hinner.",
+    "Allehånde er hemmeligheten i jerk. Ikke bytt den ut.",
+    "Kyllinglår blir saftigere enn bryst og tåler høy varme.",
+    "Om sommeren: grill kyllingen og noen ananasskiver på grillen.",
+    "Ananassalsaen er også god til nachos og grillmat."
+  ],
+  "uses": ["hvetetortilla"],
+  "pairs": { "drink": ["Ananasjuice med lime", "Ingefærøl"], "side": ["guacamole-saus", "Ris og bønner"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllinglårfilet", "qty": "800 g" },
+    { "group": "Kylling", "name": "Nøytral olje til steking", "qty": "1 ss" },
+    { "group": "Jerk-marinade", "name": "Vårløk", "qty": "4 stk" },
+    { "group": "Jerk-marinade", "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "group": "Jerk-marinade", "name": "Fersk ingefær", "qty": "2 cm" },
+    { "group": "Jerk-marinade", "name": "Scotch bonnet eller habanero", "qty": "½–1 stk", "spicy": true, "alt": { "name": "Rød paprika", "qty": "¼ stk" } },
+    { "group": "Jerk-marinade", "name": "Allehånde, malt", "qty": "2 ts" },
+    { "group": "Jerk-marinade", "name": "Timian, tørket", "qty": "1 ts" },
+    { "group": "Jerk-marinade", "name": "Kanel", "qty": "½ ts" },
+    { "group": "Jerk-marinade", "name": "Svart pepper", "qty": "1 ts" },
+    { "group": "Jerk-marinade", "name": "Brunt sukker", "qty": "2 ss" },
+    { "group": "Jerk-marinade", "name": "Soyasaus", "qty": "2 ss" },
+    { "group": "Jerk-marinade", "name": "Lime", "qty": "1 stk", "note": "Saften" },
+    { "group": "Jerk-marinade", "name": "Salt", "qty": "1 ts" },
+    { "group": "Ananassalsa", "name": "Fersk ananas", "qty": "¼ stk", "note": "Ca. 250 g" },
+    { "group": "Ananassalsa", "name": "Rødløk", "qty": "½ stk" },
+    { "group": "Ananassalsa", "name": "Fersk koriander", "qty": "1 neve" },
+    { "group": "Ananassalsa", "name": "Lime", "qty": "½ stk", "note": "Saften" },
+    { "group": "Servering", "name": "Hvetetortillalefser (se Hvetetortillalefser)", "qty": "8 stk" },
+    { "group": "Servering", "name": "Hvitkål, fint strimlet", "qty": "2 never" },
+    { "group": "Servering", "name": "Rømme", "qty": "2 dl" }
+  ],
+  "steps": [
+    { "text": "Grovhakk vårløk, hvitløk, ingefær og chili.", "note": "Bruk hansker når du tar i chilien.", "anim": "chop", "icon": "🔪", "ingredients": ["Vårløk", "Hvitløksfedd", "Fersk ingefær", "Scotch bonnet eller habanero"] },
+    { "text": "Ha alt i en blender med krydder, sukker, soyasaus, limesaft og salt. Kjør til en jevn marinade.", "anim": "stir", "icon": "🫙", "ingredients": ["Allehånde, malt", "Timian, tørket", "Kanel", "Svart pepper", "Brunt sukker", "Soyasaus", { "name": "Lime", "group": "Jerk-marinade" }, "Salt"] },
+    { "text": "Vend kyllingen i marinaden. Dekk til og sett kaldt i minst 1 time, gjerne over natten.", "anim": "rest", "icon": "❄️", "timer": 60, "ingredients": ["Kyllinglårfilet"] },
+    { "text": "Hakk ananas og rødløk i små terninger, og bland med hakket koriander og limesaft.", "anim": "chop", "icon": "🍍", "ingredients": ["Fersk ananas", "Rødløk", "Fersk koriander", { "name": "Lime", "group": "Ananassalsa" }] },
+    { "text": "Stek kyllingen i en varm panne med litt olje, 5–6 minutter på hver side, til den er gjennomstekt og litt svidd.", "note": "Kjernetemperatur 75 °C.", "anim": "fry", "icon": "🍳", "timer": 12, "ingredients": ["Nøytral olje til steking"] },
+    { "text": "La kyllingen hvile i 5 minutter, og skjær den i strimler.", "anim": "rest", "icon": "🔪", "timer": 5 },
+    { "text": "Varm tortillalefsene i en tørr panne, ca. 20 sekunder på hver side.", "anim": "fry", "icon": "🫓", "ingredients": [{ "name": "Hvetetortillalefser (se Hvetetortillalefser)", "label": "Hvetetortillalefser" }] },
+    { "text": "Fyll lefsene med kål, kylling, ananassalsa og en skje rømme.", "anim": "assemble", "icon": "🌯", "ingredients": ["Hvitkål, fint strimlet", "Rømme"] }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "guacamole-saus", "title": "Guacamolesaus", "category": "Saus og tilbehør", "emoji": "🥑",
+  "image": null, "servings": "ca. 5 dl", "time": { "active": 10, "total": 10 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Glatt og litt rennende guacamole som kan helles over tacoen, slik de lager den på taco-sjappene i Mexico.",
+  "tips": [
+    "Avokadoene skal være helt modne. De skal gi etter når du klemmer lett på dem.",
+    "En flaske med tut gjør det lett å dryppe sausen over tacoene.",
+    "Limesaften holder sausen grønn. Skal den stå, legg plastfolie rett på sausen så den ikke blir brun.",
+    "Best samme dag, men holder seg til neste dag i kjøleskapet."
+  ],
+  "pairs": { "side": ["carnitas", "taco-al-pastor", "pineapple-jerk-chicken", "Nachochips"] },
+  "ingredients": [
+    { "name": "Moden avokado", "qty": "2 stk" },
+    { "name": "Lime", "qty": "1 stk", "note": "Saften" },
+    { "name": "Fersk koriander", "qty": "½ bunt" },
+    { "name": "Hvitløksfedd", "qty": "1 stk" },
+    { "name": "Løk", "qty": "¼ stk" },
+    { "name": "Jalapeño", "qty": "½–1 stk", "spicy": true, "optional": true },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Kaldt vann", "qty": "ca. 1,5 dl" }
+  ],
+  "steps": [
+    { "text": "Del avokadoene, ta ut steinen og skrap ut kjøttet med en skje.", "anim": "chop", "icon": "🥑", "ingredients": ["Moden avokado"] },
+    { "text": "Ha avokado, limesaft, koriander, hvitløk, løk, chili og salt i en blender.", "anim": "assemble", "icon": "🫙", "ingredients": ["Lime", "Fersk koriander", "Hvitløksfedd", "Løk", "Jalapeño", "Salt"] },
+    { "text": "Kjør mens du heller i vannet litt etter litt, til sausen er glatt og rennende.", "note": "Den skal kunne helles, omtrent som tykk yoghurt.", "anim": "stir", "icon": "🥄", "ingredients": ["Kaldt vann"] },
+    { "text": "Smak til med salt og lime. Spe med mer vann hvis du vil ha den tynnere.", "anim": "season", "icon": "🧂" },
+    { "text": "Hell sausen over i en flaske eller bolle og server med en gang.", "anim": "serve", "icon": "🌮" }
+  ]
+}

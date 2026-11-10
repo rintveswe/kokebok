@@ -1,0 +1,29 @@
+{
+  "id": "maistortilla", "title": "Maistortillalefser", "category": "Mexicansk", "emoji": "🫓",
+  "image": null, "servings": "12 små lefser (ca. 15 cm)", "time": { "active": 30, "total": 45 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Myke, små maislefser til taco. Bare tre ingredienser, og de smaker mye mer mais enn de kjøpte.",
+  "headsUp": "Du trenger masa harina, et spesielt maismel til tortilla (f.eks. Maseca). Vanlig maismel eller polenta virker ikke.",
+  "tips": [
+    "En tortillapresse gjør det mye enklere, men en tung kjele og to biter bakepapir eller en oppklippet frysepose går fint.",
+    "Sprekker kantene når du presser, er deigen for tørr. Elt inn litt mer vann.",
+    "Lefsene blir mykere av å ligge tett sammen i håndkleet i 10 minutter etter steking.",
+    "Varm dem opp igjen i en tørr panne, ca. 20 sekunder på hver side.",
+    "De kan fryses med bakepapir mellom. Tin dem i romtemperatur og varm dem i panne."
+  ],
+  "pairs": { "side": ["taco-al-pastor", "carnitas", "salsa-verde", "salsa-roja", "guacamole-saus"] },
+  "ingredients": [
+    { "name": "Masa harina", "qty": "250 g", "note": "Ca. 4 dl" },
+    { "name": "Salt", "qty": "½ ts" },
+    { "name": "Varmt vann", "qty": "ca. 3,5 dl" }
+  ],
+  "steps": [
+    { "text": "Bland masa harina og salt i en bolle.", "anim": "stir", "icon": "🥣", "ingredients": ["Masa harina", "Salt"] },
+    { "text": "Hell i det varme vannet og rør. Elt med hendene i 1–2 minutter til en myk deig.", "note": "Deigen skal kjennes som lekeleire og ikke klistre til hendene.", "anim": "knead", "icon": "🤲", "ingredients": ["Varmt vann"] },
+    { "text": "Dekk til bollen og la deigen hvile i 15 minutter.", "anim": "rest", "icon": "⏳", "timer": 15 },
+    { "text": "Del deigen i 12 like store kuler, omtrent som en golfball.", "anim": "assemble", "icon": "⚪" },
+    { "text": "Legg en kule mellom to biter bakepapir og press den flat med en tortillapresse eller en tung kjele.", "note": "Ca. 15 cm bred og 2 mm tykk.", "anim": "knead", "icon": "🫓" },
+    { "text": "Stek i en tørr, varm panne i 30–45 sekunder. Snu og stek i 1 minutt, snu igjen og stek i 20 sekunder til.", "note": "Det er et godt tegn hvis lefsen blåser seg litt opp.", "anim": "fry", "icon": "🍳" },
+    { "text": "Legg lefsene i et rent kjøkkenhåndkle mens du steker resten. Da holder de seg myke.", "anim": "rest", "icon": "🧺" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "hvetetortilla", "title": "Hvetetortillalefser", "category": "Mexicansk", "emoji": "🫓",
+  "image": null, "servings": "8 lefser (ca. 20 cm)", "time": { "active": 35, "total": 55 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Myke og smidige hvetelefser som tåler mye fyll. Til taco, burrito og quesadilla.",
+  "tips": [
+    "Til små taco: del deigen i 12 kuler og kjevle dem ut til ca. 15 cm.",
+    "Til store burritoer: del deigen i 6 kuler og kjevle dem så tynt du klarer.",
+    "Ikke hopp over hvilen. Da trekker deigen seg sammen når du kjevler.",
+    "Pannen skal være varm, men ikke rykende. Lefsene skal få lyse brune flekker, ikke bli harde.",
+    "Rester holder seg et par dager i en pose. Varm dem i tørr panne før servering."
+  ],
+  "pairs": { "side": ["pineapple-jerk-chicken", "carnitas", "guacamole-saus"] },
+  "ingredients": [
+    { "name": "Hvetemel", "qty": "300 g", "note": "Ca. 5 dl" },
+    { "name": "Bakepulver", "qty": "1 ts" },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Smør eller smult", "qty": "60 g" },
+    { "name": "Varmt vann", "qty": "ca. 1,8 dl" }
+  ],
+  "steps": [
+    { "text": "Bland mel, bakepulver og salt i en bolle.", "anim": "stir", "icon": "🥣", "ingredients": ["Hvetemel", "Bakepulver", "Salt"] },
+    { "text": "Smuldre fettet inn i melet med fingrene til det ligner grov sand.", "anim": "knead", "icon": "🧈", "ingredients": ["Smør eller smult"] },
+    { "text": "Hell i det varme vannet og elt i 3–4 minutter til en glatt og myk deig.", "anim": "knead", "icon": "🤲", "ingredients": ["Varmt vann"] },
+    { "text": "Del deigen i 8 kuler. Dekk dem til og la dem hvile i 20 minutter.", "note": "Hvilen gjør deigen lett å kjevle.", "anim": "rest", "icon": "⏳", "timer": 20 },
+    { "text": "Kjevle hver kule tynt ut til ca. 20 cm på en lett melet benk.", "anim": "knead", "icon": "🫓" },
+    { "text": "Stek i en tørr, varm panne i 30–60 sekunder på hver side, til det kommer lyse brune flekker.", "anim": "fry", "icon": "🍳" },
+    { "text": "Legg lefsene i et rent kjøkkenhåndkle mens du steker resten. Da holder de seg myke.", "anim": "rest", "icon": "🧺" }
+  ]
+}

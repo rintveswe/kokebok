@@ -1,0 +1,32 @@
+{
+  "id": "salsa-verde", "title": "Salsa verde", "category": "Saus og tilbehør", "emoji": "🟢",
+  "image": null, "servings": "ca. 6 dl", "time": { "active": 15, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Frisk og syrlig grønn salsa av grillede tomatillos, koriander og lime. Perfekt til svinekjøtt og kylling.",
+  "headsUp": "Ferske tomatillos er vanskelige å finne i Norge. Hermetiske (f.eks. La Costeña) finnes i mange butikker og på nett, og fungerer fint.",
+  "tips": [
+    "Hermetiske tomatillos: bruk en boks på ca. 800 g og hell av væsken. De skal ikke grilles, bare løk, hvitløk og chili.",
+    "For mildere salsa: fjern frø og hvite hinner fra jalapeñoen.",
+    "Salsaen tykner i kjøleskapet. Rør den opp og spe med en skvett vann hvis den blir for tykk.",
+    "Holder seg 4–5 dager i et glass med lokk i kjøleskapet."
+  ],
+  "pairs": { "side": ["carnitas", "taco-al-pastor", "pineapple-jerk-chicken", "Nachochips"] },
+  "ingredients": [
+    { "name": "Tomatillos", "qty": "500 g", "note": "Ferske eller hermetiske, se «Før du begynner»" },
+    { "name": "Løk", "qty": "½ stk" },
+    { "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "name": "Jalapeño", "qty": "1–2 stk", "spicy": true, "alt": { "name": "Grønn paprika", "qty": "½ stk" } },
+    { "name": "Fersk koriander", "qty": "1 bunt" },
+    { "name": "Lime", "qty": "1 stk", "note": "Saften" },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Vann", "qty": "ca. ½ dl", "optional": true }
+  ],
+  "steps": [
+    { "text": "Fjern skallet på tomatilloene og skyll dem. Det er normalt at de er litt klissete.", "anim": "chop", "icon": "🟢", "ingredients": ["Tomatillos"] },
+    { "text": "Legg tomatillos, løk, hvitløk og chili på et stekebrett. Grill øverst i ovnen på 250 °C i 10 minutter.", "note": "Hermetiske tomatillos skal ikke grilles. Grill bare løk, hvitløk og chili.", "anim": "bake", "icon": "🔥", "timer": 10, "ingredients": ["Løk", "Hvitløksfedd", "Jalapeño"] },
+    { "text": "Snu grønnsakene og grill i 5 minutter til, til de er myke og svidd i flekker.", "anim": "bake", "icon": "🔥", "timer": 5 },
+    { "text": "Ha alt i en blender med koriander, limesaft og salt. Kjør til en litt grov salsa.", "anim": "stir", "icon": "🫙", "ingredients": ["Fersk koriander", "Lime", "Salt"] },
+    { "text": "Smak til med mer salt og lime. Spe med litt vann hvis den er for tykk.", "anim": "season", "icon": "🧂", "ingredients": ["Vann"] },
+    { "text": "La salsaen bli kald før servering.", "anim": "rest", "icon": "❄️" }
+  ]
+}
