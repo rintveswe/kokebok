@@ -10,7 +10,7 @@
     "Vil du ha den mildere, kutt grønn chili og ta litt mer fløte.",
     "Kok risen mens sausen småkoker."
   ],
-  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita"], "dessert": ["Mango og is"] },
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["naan", "Raita"], "dessert": ["Mango og is"] },
   "ingredients": [
     { "group": "Marinade", "name": "Kyllingfilet", "qty": "800 g" },
     { "group": "Marinade", "name": "Yoghurt naturell", "qty": "1,5 dl" },

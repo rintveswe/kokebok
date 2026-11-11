@@ -1,0 +1,42 @@
+{
+  "id": "naan", "title": "Naanbrød", "category": "Indisk", "emoji": "🫓",
+  "image": null, "servings": "8 stk", "time": { "active": 40, "total": 115 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Tynne, luftige naanbrød med svarte bobler og sprø kanter, stekt i rykende varm støpejernspanne og pensla med hvitløkssmør.",
+  "headsUp": "Deigen skal heve i ca. 1 time. Du trenger en støpejernspanne eller en tykk stekepanne som tåler høy varme.",
+  "tips": [
+    "Pannen må være rykende varm. Er den for kald, blir naanen blek og myk i stedet for sprø.",
+    "Tynn deig gir sprø naan. Tykk deig gir myk naan. Kjevle til ca. ½ cm.",
+    "Hold dem varme i ovnen uten lokk og håndkle. Legger du dem i et håndkle, blir de myke.",
+    "Har dere pizzaovn: stek naanen i ca. 1 minutt. På pizzastein på Traegeren eller i ovnen på høyeste varme tar de 3–4 minutter.",
+    "Deigen kan heve sakte i kjøleskapet over natten. Ta den ut 1 time før steking.",
+    "Rester kan varmes i tørr panne eller brødrister."
+  ],
+  "pairs": { "side": ["butter-chicken", "tikka-masala", "murgh-mango"] },
+  "ingredients": [
+    { "group": "Deig", "name": "Lunkent vann", "qty": "2 dl" },
+    { "group": "Deig", "name": "Tørrgjær", "qty": "1 ts (5 g)" },
+    { "group": "Deig", "name": "Sukker", "qty": "1 ss" },
+    { "group": "Deig", "name": "Hvetemel", "qty": "500 g", "note": "Ca. 8 dl" },
+    { "group": "Deig", "name": "Salt", "qty": "1,5 ts" },
+    { "group": "Deig", "name": "Bakepulver", "qty": "1 ts" },
+    { "group": "Deig", "name": "Yoghurt naturell", "qty": "1,5 dl" },
+    { "group": "Deig", "name": "Nøytral olje", "qty": "2 ss" },
+    { "group": "Hvitløkssmør", "name": "Smør", "qty": "50 g" },
+    { "group": "Hvitløkssmør", "name": "Hvitløksfedd, revet", "qty": "2 stk", "optional": true },
+    { "group": "Hvitløkssmør", "name": "Fersk koriander, hakket", "qty": "1 neve", "optional": true },
+    { "group": "Hvitløkssmør", "name": "Flaksalt", "qty": "1 klype", "optional": true }
+  ],
+  "steps": [
+    { "text": "Rør gjær og sukker ut i det lunkne vannet, og la det stå i 5 minutter.", "anim": "stir", "icon": "🥛", "timer": 5, "ingredients": ["Lunkent vann", "Tørrgjær", "Sukker"] },
+    { "text": "Bland mel, salt og bakepulver i en bolle.", "anim": "stir", "icon": "🥣", "ingredients": ["Hvetemel", "Salt", "Bakepulver"] },
+    { "text": "Tilsett gjærvannet, yoghurt og olje. Elt i 5 minutter til en myk og litt klissete deig.", "anim": "knead", "icon": "🤲", "timer": 5, "ingredients": ["Yoghurt naturell", "Nøytral olje"] },
+    { "text": "Dekk til og la deigen heve til dobbel størrelse, ca. 1 time.", "anim": "rest", "icon": "⏳", "timer": 60 },
+    { "text": "Del deigen i 8 kuler og la dem hvile under et håndkle i 10 minutter.", "anim": "rest", "icon": "⚪", "timer": 10 },
+    { "text": "Smelt smøret med hvitløk og koriander. Sett ovnen på 100 °C.", "anim": "stir", "icon": "🧈", "ingredients": ["Smør", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, { "name": "Fersk koriander, hakket", "label": "Koriander, hakket" }] },
+    { "text": "Kjevle en kule tynt ut til en avlang lefse, ca. ½ cm tykk.", "note": "Tynn deig gir sprø naan.", "anim": "knead", "icon": "🫓" },
+    { "text": "Stek i en rykende varm, tørr støpejernspanne i 1–2 minutter, til den bobler opp og er brun under.", "anim": "fry", "icon": "🍳" },
+    { "text": "Snu og stek i 1 minutt til, til den har svarte flekker.", "anim": "fry", "icon": "🔥" },
+    { "text": "Pensle med hvitløkssmør, strø over flaksalt og legg den i ovnen mens du steker resten.", "note": "Ikke dekk dem til, da blir de myke.", "anim": "serve", "icon": "✨", "ingredients": ["Flaksalt"] }
+  ]
+}

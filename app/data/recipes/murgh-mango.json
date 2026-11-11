@@ -8,7 +8,7 @@
     "Grønn chili kan sløyfes helt for en helt mild versjon.",
     "Lårfilet blir saftigere enn bryst og tåler å småkoke."
   ],
-  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita"], "dessert": ["Vaniljeis"] },
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["naan", "Raita"], "dessert": ["Vaniljeis"] },
   "ingredients": [
     { "group": "Gryte", "name": "Kyllinglårfilet", "qty": "800 g" },
     { "group": "Gryte", "name": "Nøytral olje", "qty": "2 ss" },

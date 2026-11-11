@@ -10,7 +10,7 @@
     "Kok risen mens sausen småkoker.",
     "Retten blir enda bedre dagen etter. Varm den forsiktig opp."
   ],
-  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita", "Agurksalat"], "dessert": ["Mango og is"] },
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["naan", "Raita", "Agurksalat"], "dessert": ["Mango og is"] },
   "ingredients": [
     { "group": "Marinade", "name": "Kyllinglårfilet", "qty": "800 g" },
     { "group": "Marinade", "name": "Yoghurt naturell", "qty": "1,5 dl" },
