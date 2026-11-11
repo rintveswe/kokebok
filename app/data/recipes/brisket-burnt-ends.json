@@ -1,0 +1,37 @@
+{
+  "id": "brisket-burnt-ends", "title": "Brisket burnt ends", "category": "BBQ", "emoji": "🍢",
+  "image": null, "servings": "6–8 personer", "time": { "active": 40, "total": 600 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Den fete delen av brisketen (point), røykt mør, skåret i terninger og glasert i BBQ-saus til den blir klissete og karamellisert. Kansas Citys stolthet.",
+  "headsUp": "Kjøttet trenger 8–10 timer på Traegeren. Du trenger et steketermometer.",
+  "tips": [
+    "Lager du hel brisket, kan du skjære av pointen etter at den er røykt og pakket, og gå rett til terningene.",
+    "Point er fetere enn flaten. Det er fettet som gjør burnt ends så saftige.",
+    "De er ferdige når en tannpirker glir lett inn i terningene.",
+    "Server som de er, på brød eller i taco."
+  ],
+  "pairs": { "drink": ["Cola", "Sitronbrus"], "side": ["brisket", "Coleslaw", "Potetsalat"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Brisket point", "qty": "2,5–3 kg", "note": "Den fete delen av oksebringen. Bestill hos slakteren." },
+    { "group": "Kjøtt", "name": "Gul sennep", "qty": "2 ss" },
+    { "group": "Krydder", "name": "Grovt salt", "qty": "2 ss" },
+    { "group": "Krydder", "name": "Grovkvernet svart pepper", "qty": "2 ss" },
+    { "group": "Krydder", "name": "Hvitløkspulver", "qty": "1 ts" },
+    { "group": "Røyking", "name": "Slakterpapir eller folie", "qty": "ca. 1 m" },
+    { "group": "Glasur", "name": "BBQ-saus", "qty": "2 dl" },
+    { "group": "Glasur", "name": "Smør, smeltet", "qty": "50 g" },
+    { "group": "Glasur", "name": "Brunt sukker", "qty": "2 ss" },
+    { "group": "Glasur", "name": "Honning", "qty": "2 ss" },
+    { "group": "Glasur", "name": "Aluform", "qty": "1 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær bort hardt fett. Smør kjøttet inn med sennep og krydre med salt, pepper og hvitløkspulver.", "anim": "season", "icon": "🧂", "ingredients": ["Brisket point", "Gul sennep", "Grovt salt", "Grovkvernet svart pepper", "Hvitløkspulver"] },
+    { "text": "Varm Traegeren til 120 °C (250 °F).", "anim": "rest", "icon": "🔥" },
+    { "text": "Røyk kjøttet i 5–6 timer, til skorpen er mørk og kjernen er ca. 74 °C.", "anim": "bake", "icon": "💨" },
+    { "text": "Pakk kjøttet inn i slakterpapir og røyk videre til kjernen er ca. 90 °C, ca. 2 timer til.", "anim": "bake", "icon": "📜", "ingredients": ["Slakterpapir eller folie"] },
+    { "text": "Skjær kjøttet i terninger på 3 cm og legg dem i en aluform.", "anim": "chop", "icon": "🔪", "ingredients": ["Aluform"] },
+    { "text": "Bland BBQ-saus, smeltet smør, brunt sukker og honning, og vend terningene godt i sausen.", "anim": "stir", "icon": "🥄", "ingredients": ["BBQ-saus", "Smør, smeltet", "Brunt sukker", "Honning"] },
+    { "text": "Sett formen uten lokk i Traegeren og stek i ca. 1 time, til sausen er klissete og kjøttet mørt.", "anim": "bake", "icon": "🔥", "timer": 60 },
+    { "text": "La dem hvile i 10 minutter før servering.", "anim": "rest", "icon": "⏳", "timer": 10 }
+  ]
+}

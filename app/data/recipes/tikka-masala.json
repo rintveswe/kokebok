@@ -1,0 +1,53 @@
+{
+  "id": "tikka-masala", "title": "Chicken tikka masala", "category": "Indisk", "emoji": "🍢",
+  "image": null, "servings": "4 personer", "time": { "active": 45, "total": 110 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Grillede kyllingspyd i en krydret, kremet tomatsaus. Mer krydder og løk enn butter chicken, og litt mer kraft.",
+  "headsUp": "Kyllingen bør marineres i minst 1 time, gjerne over natten.",
+  "tips": [
+    "Kyllingspydene kan grilles på Traegeren på høyeste varme. Da får de en fin røyksmak.",
+    "Stek løken skikkelig gyllen. Det er der dybden i sausen kommer fra.",
+    "Vil du ha den mildere, kutt grønn chili og ta litt mer fløte.",
+    "Kok risen mens sausen småkoker."
+  ],
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Marinade", "name": "Kyllingfilet", "qty": "800 g" },
+    { "group": "Marinade", "name": "Yoghurt naturell", "qty": "1,5 dl" },
+    { "group": "Marinade", "name": "Garam masala", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Kashmiri chilipulver", "qty": "1 ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "1 ts" } },
+    { "group": "Marinade", "name": "Hvitløksfedd, revet", "qty": "2 stk" },
+    { "group": "Marinade", "name": "Fersk ingefær, revet", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Salt", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Sitronsaft", "qty": "1 ss" },
+    { "group": "Saus", "name": "Nøytral olje", "qty": "2 ss" },
+    { "group": "Saus", "name": "Løk", "qty": "2 stk" },
+    { "group": "Saus", "name": "Hvitløksfedd, revet", "qty": "3 stk" },
+    { "group": "Saus", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Saus", "name": "Grønn chili", "qty": "1 stk", "spicy": true, "optional": true },
+    { "group": "Saus", "name": "Garam masala", "qty": "2 ts" },
+    { "group": "Saus", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Saus", "name": "Koriander, malt", "qty": "1 ts" },
+    { "group": "Saus", "name": "Paprikapulver", "qty": "1 ts" },
+    { "group": "Saus", "name": "Gurkemeie", "qty": "½ ts" },
+    { "group": "Saus", "name": "Knuste tomater", "qty": "1 boks" },
+    { "group": "Saus", "name": "Sukker", "qty": "1 ts" },
+    { "group": "Saus", "name": "Kremfløte", "qty": "2 dl" },
+    { "group": "Saus", "name": "Salt", "qty": "etter smak" },
+    { "group": "Servering", "name": "Basmatiris", "qty": "4 dl" },
+    { "group": "Servering", "name": "Naanbrød", "qty": "4 stk", "optional": true },
+    { "group": "Servering", "name": "Fersk koriander", "qty": "1 neve", "optional": true },
+    { "group": "Servering", "name": "Grillspyd", "qty": "6–8 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i store biter og bland med yoghurt, krydder, hvitløk, ingefær, salt og sitronsaft.", "anim": "stir", "icon": "🍗", "ingredients": ["Kyllingfilet", "Yoghurt naturell", { "name": "Garam masala", "group": "Marinade" }, "Kashmiri chilipulver", { "name": "Hvitløksfedd, revet", "group": "Marinade", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "group": "Marinade", "label": "Ingefær, revet" }, { "name": "Salt", "group": "Marinade" }, "Sitronsaft"] },
+    { "text": "Dekk til og la kyllingen marinere kaldt i minst 1 time, gjerne over natten.", "anim": "rest", "icon": "❄️", "timer": 60 },
+    { "text": "Træ kyllingen på spyd og grill øverst i ovnen på 250 °C i 12 minutter, til den er svidd i kantene.", "note": "Ligger trespydene i vann i 20 minutter først, brenner de ikke.", "anim": "bake", "icon": "🔥", "timer": 12, "ingredients": ["Grillspyd"] },
+    { "text": "Varm oljen i en gryte og stek finhakket løk gyllen i 10 minutter.", "anim": "fry", "icon": "🧅", "timer": 10, "ingredients": ["Nøytral olje", "Løk"] },
+    { "text": "Tilsett hvitløk, ingefær og chili, og stek i 1 minutt.", "anim": "stir", "icon": "🧄", "ingredients": [{ "name": "Hvitløksfedd, revet", "group": "Saus", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "group": "Saus", "label": "Ingefær, revet" }, "Grønn chili"] },
+    { "text": "Rør inn krydderne og stek i 30 sekunder, til de dufter.", "anim": "stir", "icon": "🥄", "ingredients": [{ "name": "Garam masala", "group": "Saus" }, "Kumin", "Koriander, malt", "Paprikapulver", "Gurkemeie"] },
+    { "text": "Hell i tomatene og sukkeret, og la sausen småkoke i 15 minutter.", "anim": "boil", "icon": "🍅", "timer": 15, "ingredients": ["Knuste tomater", "Sukker"] },
+    { "text": "Rør inn fløten, legg i kyllingen og la det småkoke i 5 minutter. Smak til med salt.", "anim": "boil", "icon": "🍲", "timer": 5, "ingredients": ["Kremfløte", { "name": "Salt", "group": "Saus" }] },
+    { "text": "Server med ris, naan og hakket koriander.", "anim": "serve", "icon": "🍛", "ingredients": ["Basmatiris", "Naanbrød", "Fersk koriander"] }
+  ]
+}

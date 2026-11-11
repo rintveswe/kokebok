@@ -1,0 +1,37 @@
+{
+  "id": "kyllingvinger", "title": "Røykte kyllingvinger", "category": "BBQ", "emoji": "🍗",
+  "image": null, "servings": "4 personer", "time": { "active": 20, "total": 90 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kyllingvinger røykt på Traegeren og stekt sprø på høy varme, vendt i buffalo-saus med smør. Mild versjon får BBQ-saus i stedet.",
+  "tips": [
+    "Bakepulveret gjør skinnet sprøtt. Bruk vanlig bakepulver, ikke natron.",
+    "Tørk vingene godt. Vått skinn blir aldri sprøtt.",
+    "Vinger blir best når kjernen er 80–85 °C. Da slipper kjøttet beinet lett.",
+    "Frank's RedHot er den klassiske sausen til buffalo-vinger.",
+    "Vil noen ha sterke og noen milde: del vingene i to boller og bruk hver sin saus."
+  ],
+  "pairs": { "drink": ["Cola", "Iste"], "side": ["Blåmuggostdressing eller ranch", "Selleristenger", "queso-dip"] },
+  "ingredients": [
+    { "group": "Vinger", "name": "Kyllingvinger", "qty": "1,5 kg" },
+    { "group": "Vinger", "name": "Bakepulver", "qty": "1 ss" },
+    { "group": "Vinger", "name": "Salt", "qty": "2 ts" },
+    { "group": "Vinger", "name": "Røkt paprikapulver", "qty": "2 ts" },
+    { "group": "Vinger", "name": "Hvitløkspulver", "qty": "1 ts" },
+    { "group": "Vinger", "name": "Løkpulver", "qty": "1 ts" },
+    { "group": "Vinger", "name": "Svart pepper", "qty": "1 ts" },
+    { "group": "Vinger", "name": "Brunt sukker", "qty": "1 ss" },
+    { "group": "Saus", "name": "Smør", "qty": "50 g" },
+    { "group": "Saus", "name": "Hot sauce (f.eks. Frank's RedHot)", "qty": "1 dl", "spicy": true, "alt": { "name": "BBQ-saus", "qty": "1 dl" } },
+    { "group": "Saus", "name": "Honning", "qty": "1 ss", "optional": true },
+    { "group": "Servering", "name": "Blåmuggostdressing eller ranch", "qty": "2 dl" },
+    { "group": "Servering", "name": "Selleristenger", "qty": "4 stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Tørk vingene godt med tørkepapir. Del dem i ledd hvis de er hele.", "anim": "chop", "icon": "🔪", "ingredients": ["Kyllingvinger"] },
+    { "text": "Bland bakepulver og krydder, og vend vingene godt i blandingen.", "anim": "season", "icon": "🧂", "ingredients": ["Bakepulver", "Salt", "Røkt paprikapulver", "Hvitløkspulver", "Løkpulver", "Svart pepper", "Brunt sukker"] },
+    { "text": "Varm Traegeren til 110 °C (225 °F) og røyk vingene i 30 minutter.", "anim": "bake", "icon": "💨", "timer": 30 },
+    { "text": "Skru opp til 200 °C (400 °F) og stek i 30–40 minutter til, til skinnet er sprøtt. Snu dem én gang.", "note": "Kjernen skal være minst 80 °C.", "anim": "bake", "icon": "🔥", "timer": 35 },
+    { "text": "Smelt smøret og rør inn hot sauce og honning.", "anim": "stir", "icon": "🥄", "ingredients": ["Smør", { "name": "Hot sauce (f.eks. Frank's RedHot)", "label": "Hot sauce" }, "Honning"] },
+    { "text": "Vend vingene i sausen og server med dressing og selleri.", "anim": "serve", "icon": "🍗", "ingredients": ["Blåmuggostdressing eller ranch", "Selleristenger"] }
+  ]
+}

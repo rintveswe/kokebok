@@ -1,0 +1,42 @@
+{
+  "id": "murgh-mango", "title": "Murgh mango", "category": "Indisk", "emoji": "🥭",
+  "image": null, "servings": "4 personer", "time": { "active": 35, "total": 45 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kylling i en mild, kremet karri med mango og kokosmelk. Søt, frisk og god til alle aldre.",
+  "tips": [
+    "Hermetisk mangopuré (gjerne Alphonso) gir best smak. Den finnes i innvandrerbutikker og mange store butikker. Du kan også blende 2 helt modne mango.",
+    "Grønn chili kan sløyfes helt for en helt mild versjon.",
+    "Lårfilet blir saftigere enn bryst og tåler å småkoke."
+  ],
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "group": "Gryte", "name": "Kyllinglårfilet", "qty": "800 g" },
+    { "group": "Gryte", "name": "Nøytral olje", "qty": "2 ss" },
+    { "group": "Gryte", "name": "Løk", "qty": "1 stk" },
+    { "group": "Gryte", "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "group": "Gryte", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Gryte", "name": "Grønn chili", "qty": "1 stk", "spicy": true, "optional": true },
+    { "group": "Gryte", "name": "Garam masala", "qty": "2 ts" },
+    { "group": "Gryte", "name": "Gurkemeie", "qty": "1 ts" },
+    { "group": "Gryte", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Gryte", "name": "Koriander, malt", "qty": "1 ts" },
+    { "group": "Gryte", "name": "Kashmiri chilipulver", "qty": "½ ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "½ ts" } },
+    { "group": "Gryte", "name": "Tomatpuré", "qty": "2 ss" },
+    { "group": "Gryte", "name": "Mangopuré", "qty": "2,5 dl" },
+    { "group": "Gryte", "name": "Kokosmelk", "qty": "1 boks (4 dl)" },
+    { "group": "Gryte", "name": "Salt", "qty": "1 ts" },
+    { "group": "Gryte", "name": "Lime", "qty": "½ stk", "note": "Saften" },
+    { "group": "Servering", "name": "Basmatiris", "qty": "4 dl" },
+    { "group": "Servering", "name": "Fersk koriander", "qty": "1 neve", "optional": true },
+    { "group": "Servering", "name": "Fersk mango i terninger", "qty": "1 stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter og stek den gyllen i olje i en gryte. Ta den opp.", "anim": "fry", "icon": "🍗", "ingredients": ["Kyllinglårfilet", "Nøytral olje"] },
+    { "text": "Stek finhakket løk myk i samme gryte i 8 minutter.", "anim": "fry", "icon": "🧅", "timer": 8, "ingredients": ["Løk"] },
+    { "text": "Tilsett hvitløk, ingefær og chili, og stek i 1 minutt.", "anim": "stir", "icon": "🧄", "ingredients": ["Hvitløksfedd", { "name": "Fersk ingefær, revet", "label": "Ingefær, revet" }, "Grønn chili"] },
+    { "text": "Rør inn krydderne og tomatpuréen, og stek i 1 minutt til.", "anim": "stir", "icon": "🥄", "ingredients": ["Garam masala", "Gurkemeie", "Kumin", "Koriander, malt", "Kashmiri chilipulver", "Tomatpuré"] },
+    { "text": "Hell i mangopuré og kokosmelk, legg i kyllingen og la det småkoke i 15 minutter.", "anim": "boil", "icon": "🥭", "timer": 15, "ingredients": ["Mangopuré", "Kokosmelk"] },
+    { "text": "Smak til med salt og limesaft.", "anim": "season", "icon": "🧂", "ingredients": ["Salt", "Lime"] },
+    { "text": "Server med ris, koriander og friske mangobiter.", "anim": "serve", "icon": "🍛", "ingredients": ["Basmatiris", "Fersk koriander", "Fersk mango i terninger"] }
+  ]
+}

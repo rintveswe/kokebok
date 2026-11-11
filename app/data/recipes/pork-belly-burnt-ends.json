@@ -1,0 +1,37 @@
+{
+  "id": "pork-belly-burnt-ends", "title": "Pork belly burnt ends", "category": "BBQ", "emoji": "🥓",
+  "image": null, "servings": "6–8 personer", "time": { "active": 30, "total": 330 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Terninger av sideflesk røykt på Traegeren og glasert i smør, honning og BBQ-saus. Klissete og sprø utenpå, myke inni. Kalles ofte «godteri for voksne».",
+  "headsUp": "Rett fra Traegeren er de brennvarme inni. La dem hvile i 10 minutter før dere spiser.",
+  "tips": [
+    "Kjøp sideflesk uten svor. Har det svor, skjær den bort først.",
+    "La det være litt avstand mellom terningene på risten, så røyken kommer til på alle sider.",
+    "De er ferdige når en tannpirker glir lett inn.",
+    "Server som forrett, på burger eller i taco."
+  ],
+  "pairs": { "drink": ["Cola", "Eplejuice"], "side": ["Coleslaw", "Syltet agurk", "queso-dip"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Sideflesk uten svor", "qty": "2 kg" },
+    { "group": "Rub", "name": "Brunt sukker", "qty": "2 ss" },
+    { "group": "Rub", "name": "Røkt paprikapulver", "qty": "1 ss" },
+    { "group": "Rub", "name": "Salt", "qty": "1 ss" },
+    { "group": "Rub", "name": "Svart pepper", "qty": "2 ts" },
+    { "group": "Rub", "name": "Hvitløkspulver", "qty": "2 ts" },
+    { "group": "Glasur", "name": "Smør", "qty": "100 g" },
+    { "group": "Glasur", "name": "Brunt sukker", "qty": "1 dl" },
+    { "group": "Glasur", "name": "Honning", "qty": "3 ss" },
+    { "group": "Glasur", "name": "BBQ-saus", "qty": "2 dl" },
+    { "group": "Glasur", "name": "Aluform", "qty": "1 stk" }
+  ],
+  "steps": [
+    { "text": "Skjær sideflesket i terninger på 3–4 cm.", "anim": "chop", "icon": "🔪", "ingredients": ["Sideflesk uten svor"] },
+    { "text": "Bland krydderne og vend terningene godt i blandingen.", "anim": "season", "icon": "🧂", "ingredients": [{ "name": "Brunt sukker", "group": "Rub" }, "Røkt paprikapulver", "Salt", "Svart pepper", "Hvitløkspulver"] },
+    { "text": "Varm Traegeren til 120 °C (250 °F). Legg terningene på risten og røyk dem i 3 timer.", "anim": "bake", "icon": "💨", "timer": 180 },
+    { "text": "Legg terningene i en aluform. Fordel smør i biter, brunt sukker og honning over.", "anim": "assemble", "icon": "🍯", "ingredients": ["Aluform", "Smør", { "name": "Brunt sukker", "group": "Glasur" }, "Honning"] },
+    { "text": "Dekk formen med folie og stek videre i ca. 1,5 time, til terningene er møre.", "anim": "bake", "icon": "🔥", "timer": 90 },
+    { "text": "Ta av folien, hell over BBQ-sausen og vend godt.", "anim": "stir", "icon": "🥄", "ingredients": ["BBQ-saus"] },
+    { "text": "Stek uten folie i 15 minutter, til sausen har satt seg og er klissete.", "anim": "bake", "icon": "🔥", "timer": 15 },
+    { "text": "La dem hvile i 10 minutter før servering.", "anim": "rest", "icon": "⏳", "timer": 10 }
+  ]
+}

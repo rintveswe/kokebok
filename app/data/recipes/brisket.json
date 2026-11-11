@@ -1,0 +1,37 @@
+{
+  "id": "brisket", "title": "Brisket", "category": "BBQ", "emoji": "🥩",
+  "image": null, "servings": "12–15 personer", "time": { "active": 60, "total": 1440 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Hel oksebringe røykt lavt og lenge på Traegeren, pakket inn med oksetalg og hvilt i ovnen i 12–20 timer. Saftige skiver med svart skorpe og rød røykring.",
+  "headsUp": "Start dagen før, gjerne tidlig om morgenen. Brisketen trenger 10–14 timer på Traegeren og 12–20 timer hvile i ovnen. Du trenger et steketermometer.",
+  "tips": [
+    "Bestill en hel brisket («packer») hos slakteren, med både den magre delen (flat) og den fete delen (point).",
+    "Point kan skjæres i terninger og bli til brisket burnt ends.",
+    "Lang hvile i ovnen gjør flaten saftig og mør. Kjøttet er trygt så lenge det holder over 60 °C.",
+    "Sjekk ovnen med et termometer. Mange ovner er ikke nøyaktige på lave temperaturer.",
+    "Det er følelsen som teller: termometeret skal gli inn som i mykt smør overalt i flaten.",
+    "Skjær alltid på tvers av fibrene. Flat og point har fibre som går i hver sin retning.",
+    "Rester kan fryses i skiver med litt av saften."
+  ],
+  "pairs": { "drink": ["Cola", "Sitronbrus"], "side": ["brisket-burnt-ends", "Coleslaw", "Potetsalat", "queso-dip"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Hel brisket (oksebringe)", "qty": "5–6 kg" },
+    { "group": "Kjøtt", "name": "Gul sennep", "qty": "3 ss", "note": "Bare for at krydderet skal sitte. Smaker ikke." },
+    { "group": "Krydder", "name": "Grovt salt", "qty": "3 ss" },
+    { "group": "Krydder", "name": "Grovkvernet svart pepper", "qty": "3 ss" },
+    { "group": "Krydder", "name": "Hvitløkspulver", "qty": "1 ss", "optional": true },
+    { "group": "Røyking", "name": "Eplecidereddik og vann til spraying", "qty": "3 dl", "note": "Halvt av hver i en sprayflaske" },
+    { "group": "Røyking", "name": "Oksetalg (beef tallow), smeltet", "qty": "150 g" },
+    { "group": "Røyking", "name": "Slakterpapir (butcher paper)", "qty": "ca. 2 m", "note": "Folie går også, men skorpen blir mykere" }
+  ],
+  "steps": [
+    { "text": "Trim brisketen: skjær bort hardt fett og la ca. ½ cm fett være igjen på fettsiden. Rund av de tynne kantene.", "note": "Ta vare på fettet hvis du vil smelte din egen talg.", "anim": "chop", "icon": "🔪", "ingredients": [{ "name": "Hel brisket (oksebringe)", "label": "Hel brisket" }] },
+    { "text": "Smør inn med sennep og krydre godt med salt, pepper og hvitløkspulver på alle sider.", "anim": "season", "icon": "🧂", "ingredients": ["Gul sennep", "Grovt salt", "Grovkvernet svart pepper", "Hvitløkspulver"] },
+    { "text": "Varm Traegeren til 110 °C (225 °F) mens kjøttet står i romtemperatur.", "anim": "rest", "icon": "🔥", "timer": 30 },
+    { "text": "Røyk brisketen med fettsiden opp i 6–8 timer, til skorpen er mørk og kjernen er ca. 74 °C.", "note": "Spray hver time etter de første 3 timene.", "anim": "bake", "icon": "💨", "ingredients": ["Eplecidereddik og vann til spraying"] },
+    { "text": "Legg brisketen på slakterpapir, smør over smeltet oksetalg og pakk den stramt inn.", "anim": "assemble", "icon": "📜", "ingredients": [{ "name": "Oksetalg (beef tallow), smeltet", "label": "Oksetalg, smeltet" }, { "name": "Slakterpapir (butcher paper)", "label": "Slakterpapir" }] },
+    { "text": "Skru opp til 120 °C (250 °F) og røyk videre til kjernen er ca. 95 °C og termometeret glir lett inn, 3–5 timer til.", "anim": "bake", "icon": "🌡️" },
+    { "text": "Sett ovnen på 70 °C. La brisketen hvile innpakket i ovnen i 12–20 timer.", "note": "Kjøttet er trygt så lenge det holder seg over 60 °C.", "anim": "rest", "icon": "😴" },
+    { "text": "Pakk opp og skill flat og point. Skjær flaten i blyanttykke skiver på tvers av fibrene.", "anim": "serve", "icon": "🥩" }
+  ]
+}
