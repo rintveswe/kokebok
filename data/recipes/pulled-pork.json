@@ -1,0 +1,39 @@
+{
+  "id": "pulled-pork", "title": "Pulled pork", "category": "BBQ", "emoji": "🐷",
+  "image": null, "servings": "10–12 personer", "time": { "active": 45, "total": 840 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Svinenakke røykt i mange timer på Traegeren til den kan rives med gafler. Søt og krydret skorpe, saftig kjøtt og masse røyksmak.",
+  "headsUp": "Kjøttet trenger 10–14 timer på Traegeren og 1 time hvile. Start tidlig om morgenen, eller kvelden før. Du trenger et steketermometer.",
+  "tips": [
+    "Svinenakke med bein er best. Når beinet glir lett ut, er kjøttet ferdig.",
+    "Kjøttet kan bli stående på samme temperatur lenge (stallen). Ikke skru opp varmen, bare vent. Det er nå fettet smelter.",
+    "Hvile innpakket i en kjølebag med håndklær holder kjøttet varmt i flere timer.",
+    "Bland saften fra papiret inn i kjøttet når du river det. Da blir det saftig.",
+    "Rester fryses fint i porsjonsposer med litt av saften."
+  ],
+  "pairs": { "drink": ["Cola", "Eplejuice"], "side": ["brioche-burgerbrod", "Coleslaw", "Syltet rødløk", "queso-dip"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Svinenakke med bein", "qty": "3–4 kg" },
+    { "group": "Kjøtt", "name": "Gul sennep", "qty": "3 ss", "note": "Bare for at krydderet skal sitte. Smaker ikke." },
+    { "group": "Rub", "name": "Brunt sukker", "qty": "3 ss" },
+    { "group": "Rub", "name": "Røkt paprikapulver", "qty": "2 ss" },
+    { "group": "Rub", "name": "Salt", "qty": "2 ss" },
+    { "group": "Rub", "name": "Svart pepper", "qty": "1 ss" },
+    { "group": "Rub", "name": "Hvitløkspulver", "qty": "1 ss" },
+    { "group": "Rub", "name": "Løkpulver", "qty": "1 ss" },
+    { "group": "Rub", "name": "Cayennepepper", "qty": "1 ts", "spicy": true, "optional": true },
+    { "group": "Røyking", "name": "Eplejuice og eplecidereddik til spraying", "qty": "3 dl", "note": "2 dl juice og 1 dl eddik i en sprayflaske" },
+    { "group": "Røyking", "name": "Slakterpapir eller folie", "qty": "ca. 1,5 m" },
+    { "group": "Servering", "name": "BBQ-saus", "qty": "2 dl" }
+  ],
+  "steps": [
+    { "text": "Tørk kjøttet og smør det inn med et tynt lag sennep.", "anim": "season", "icon": "🐖", "ingredients": ["Svinenakke med bein", "Gul sennep"] },
+    { "text": "Bland alle krydderne til en rub og dryss den godt over alle sider.", "anim": "season", "icon": "🧂", "ingredients": ["Brunt sukker", "Røkt paprikapulver", "Salt", "Svart pepper", "Hvitløkspulver", "Løkpulver", "Cayennepepper"] },
+    { "text": "Varm Traegeren til 110 °C (225 °F).", "anim": "rest", "icon": "🔥" },
+    { "text": "Røyk kjøttet med fettsiden opp i 6–8 timer, til skorpen er mørk og kjernen er ca. 74 °C.", "note": "Spray hver time etter de første 3 timene.", "anim": "bake", "icon": "💨", "ingredients": ["Eplejuice og eplecidereddik til spraying"] },
+    { "text": "Pakk kjøttet stramt inn i slakterpapir eller folie.", "anim": "assemble", "icon": "📜", "ingredients": ["Slakterpapir eller folie"] },
+    { "text": "Røyk videre til kjernen er 93–95 °C og beinet løsner lett, 2–4 timer til.", "anim": "bake", "icon": "🌡️" },
+    { "text": "La kjøttet hvile innpakket i minst 1 time, gjerne i en kjølebag med håndklær.", "anim": "rest", "icon": "⏳", "timer": 60 },
+    { "text": "Riv kjøttet med to gafler og fjern beinet. Bland med saften fra papiret og litt BBQ-saus.", "anim": "stir", "icon": "🍴", "ingredients": ["BBQ-saus"] }
+  ]
+}

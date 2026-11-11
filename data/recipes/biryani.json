@@ -1,0 +1,47 @@
+{
+  "id": "biryani", "title": "Kyllingbiryani", "category": "Indisk", "emoji": "🍚",
+  "image": null, "servings": "4–5 personer", "time": { "active": 60, "total": 150 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Krydret kylling og duftende basmatiris lagt i lag med sprøstekt løk, mynte og safran, og dampet sammen under tett lokk.",
+  "headsUp": "Kyllingen bør marineres i minst 1 time. Du trenger en tykkbunnet gryte med tett lokk.",
+  "tips": [
+    "Den sprøstekte løken er hjertet i biryani. Ta deg tid, og stek den mørk gyllen.",
+    "Risen skal bare være halvkokt når den legges i gryta. Den koker ferdig i dampen.",
+    "Ikke løft lokket mens biryanien damper. Er lokket utett, legg et stykke folie under det.",
+    "Server med raita: yoghurt med revet agurk, salt og litt kumin."
+  ],
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Raita", "Agurksalat"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllinglårfilet", "qty": "800 g" },
+    { "group": "Kylling", "name": "Yoghurt naturell", "qty": "2 dl" },
+    { "group": "Kylling", "name": "Garam masala", "qty": "1 ss" },
+    { "group": "Kylling", "name": "Kashmiri chilipulver", "qty": "1 ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "1 ts" } },
+    { "group": "Kylling", "name": "Gurkemeie", "qty": "½ ts" },
+    { "group": "Kylling", "name": "Hvitløksfedd, revet", "qty": "4 stk" },
+    { "group": "Kylling", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Kylling", "name": "Salt", "qty": "1,5 ts" },
+    { "group": "Løk", "name": "Løk", "qty": "3 stk" },
+    { "group": "Løk", "name": "Nøytral olje", "qty": "1 dl" },
+    { "group": "Ris", "name": "Basmatiris", "qty": "5 dl" },
+    { "group": "Ris", "name": "Salt til risvannet", "qty": "1 ss" },
+    { "group": "Ris", "name": "Kardemommekapsler", "qty": "4 stk" },
+    { "group": "Ris", "name": "Laurbærblad", "qty": "2 stk" },
+    { "group": "Ris", "name": "Kanelstang", "qty": "1 stk" },
+    { "group": "Lagene", "name": "Fersk mynte", "qty": "1 neve" },
+    { "group": "Lagene", "name": "Fersk koriander", "qty": "1 neve" },
+    { "group": "Lagene", "name": "Safran", "qty": "1 klype", "optional": true },
+    { "group": "Lagene", "name": "Varm melk", "qty": "3 ss" },
+    { "group": "Lagene", "name": "Smør, smeltet", "qty": "30 g" }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter og bland med yoghurt, krydder, hvitløk, ingefær og salt. Marinér kaldt i minst 1 time.", "anim": "stir", "icon": "🍗", "timer": 60, "ingredients": ["Kyllinglårfilet", "Yoghurt naturell", "Garam masala", "Kashmiri chilipulver", "Gurkemeie", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "label": "Ingefær, revet" }, "Salt"] },
+    { "text": "Skyll risen til vannet er klart, og la den ligge i kaldt vann i 30 minutter.", "anim": "rest", "icon": "🍚", "timer": 30, "ingredients": ["Basmatiris"] },
+    { "text": "Skjær løken i tynne skiver og stek den mørk gyllen og sprø i oljen, ca. 15 minutter. Legg den på tørkepapir.", "anim": "fry", "icon": "🧅", "timer": 15, "ingredients": [{ "name": "Løk", "group": "Løk" }, "Nøytral olje"] },
+    { "text": "Ha kyllingen med marinaden i en tykkbunnet gryte, og stek på middels varme i 10 minutter.", "anim": "fry", "icon": "🍲", "timer": 10 },
+    { "text": "Kok opp rikelig med vann med salt, kardemomme, laurbærblad og kanel. Kok risen i 5 minutter, og sil av.", "note": "Risen skal bare være halvkokt.", "anim": "boil", "icon": "🫕", "timer": 5, "ingredients": ["Salt til risvannet", "Kardemommekapsler", "Laurbærblad", "Kanelstang"] },
+    { "text": "Strø halvparten av løken, mynte og koriander over kyllingen. Fordel risen over i et jevnt lag.", "anim": "assemble", "icon": "🌿", "ingredients": ["Fersk mynte", "Fersk koriander"] },
+    { "text": "Rør safran ut i den varme melken. Drypp den og smøret over risen, og strø over resten av løken.", "anim": "assemble", "icon": "✨", "ingredients": ["Safran", "Varm melk", "Smør, smeltet"] },
+    { "text": "Legg på tett lokk og la gryta dampe på lav varme i 30 minutter.", "note": "Ikke løft lokket underveis.", "anim": "rest", "icon": "♨️", "timer": 30 },
+    { "text": "La gryta stå i 10 minutter. Vend forsiktig fra bunnen når du serverer, så lagene blandes.", "anim": "serve", "icon": "🍛", "timer": 10 }
+  ]
+}

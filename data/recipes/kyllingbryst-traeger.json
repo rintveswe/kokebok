@@ -1,0 +1,34 @@
+{
+  "id": "kyllingbryst-traeger", "title": "Røykt kyllingfilet", "category": "BBQ", "emoji": "🍗",
+  "image": null, "servings": "4 personer", "time": { "active": 20, "total": 90 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Saftig kyllingfilet røykt rolig på Traegeren og brent av på høy varme til slutt. Lite arbeid, mye smak.",
+  "tips": [
+    "Røyk på lav varme først og brenn av til slutt. Da blir filetene saftige helt inn.",
+    "Bank filetene jevnt tykke, så blir de ferdige samtidig.",
+    "Har du tid, la krydderet ligge på i kjøleskapet i 1–12 timer. Da trekker saltet inn og kjøttet blir saftigere.",
+    "Kyllingen er ferdig ved 74 °C i kjernen. Bruk termometer, så slipper du tørr kylling.",
+    "Rester er gode i salat, wraps og på pizza."
+  ],
+  "pairs": { "drink": ["Iste", "Sitronbrus"], "side": ["Maiskolber", "Coleslaw", "Potetsalat"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllingfilet", "qty": "4 stk (ca. 800 g)" },
+    { "group": "Kylling", "name": "Olivenolje", "qty": "1 ss" },
+    { "group": "Rub", "name": "Brunt sukker", "qty": "1 ss" },
+    { "group": "Rub", "name": "Røkt paprikapulver", "qty": "2 ts" },
+    { "group": "Rub", "name": "Hvitløkspulver", "qty": "1 ts" },
+    { "group": "Rub", "name": "Løkpulver", "qty": "1 ts" },
+    { "group": "Rub", "name": "Salt", "qty": "2 ts" },
+    { "group": "Rub", "name": "Svart pepper", "qty": "1 ts" },
+    { "group": "Rub", "name": "Cayennepepper", "qty": "¼ ts", "spicy": true, "optional": true },
+    { "group": "Til slutt", "name": "BBQ-saus", "qty": "1 dl", "optional": true }
+  ],
+  "steps": [
+    { "text": "Bank filetene jevnt tykke mellom to lag bakepapir.", "anim": "knead", "icon": "🍗", "ingredients": ["Kyllingfilet"] },
+    { "text": "Bland alle krydderne til en rub.", "anim": "stir", "icon": "🥣", "ingredients": ["Brunt sukker", "Røkt paprikapulver", "Hvitløkspulver", "Løkpulver", "Salt", "Svart pepper", "Cayennepepper"] },
+    { "text": "Pensle filetene med olje og dryss rub på alle sider.", "anim": "season", "icon": "🧂", "ingredients": ["Olivenolje"] },
+    { "text": "Varm Traegeren til 110 °C (225 °F) og røyk kyllingen i 45–60 minutter, til kjernen er 60 °C.", "anim": "bake", "icon": "💨" },
+    { "text": "Skru opp til høyeste varme og stek 2–3 minutter på hver side, til kjernen er 74 °C.", "note": "Pensle gjerne med BBQ-saus det siste minuttet.", "anim": "fry", "icon": "🔥", "ingredients": ["BBQ-saus"] },
+    { "text": "La kyllingen hvile i 5 minutter før du skjærer den i skiver.", "anim": "rest", "icon": "⏳", "timer": 5 }
+  ]
+}

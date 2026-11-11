@@ -1,0 +1,40 @@
+{
+  "id": "st-louis-ribs", "title": "St. Louis ribs", "category": "BBQ", "emoji": "🍖",
+  "image": null, "servings": "4–6 personer", "time": { "active": 30, "total": 400 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Svineribbe røykt på Traegeren etter 3-2-1-metoden: 3 timer røyk, 2 timer innpakket med smør og honning, og 1 time med BBQ-saus. Møre, glinsende og klissete.",
+  "headsUp": "Ribba trenger ca. 6 timer på Traegeren. Start i god tid før middag.",
+  "tips": [
+    "St. Louis-ribbe er spareribs der brusken og den tynne flika er skåret bort, så ribba blir jevn og rektangulær. Kjøp spareribs og trim selv, eller spør slakteren.",
+    "Hinnen på baksiden må av. Løsne den med en kniv og dra den av med tørkepapir.",
+    "Bøy-testen: løft ribba på midten med en tang. Bøyer den seg og sprekker litt i overflaten, er den ferdig.",
+    "Er ribba tynn, kort ned tiden innpakket (f.eks. 3-1,5-1), ellers blir den så mør at den faller fra hverandre."
+  ],
+  "pairs": { "drink": ["Cola", "Eplejuice"], "side": ["Coleslaw", "Maiskolber", "Potetsalat", "queso-dip"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "St. Louis-ribbe (svine-spareribs)", "qty": "2 stk (ca. 3 kg)" },
+    { "group": "Kjøtt", "name": "Gul sennep", "qty": "2 ss" },
+    { "group": "Rub", "name": "Brunt sukker", "qty": "3 ss" },
+    { "group": "Rub", "name": "Røkt paprikapulver", "qty": "2 ss" },
+    { "group": "Rub", "name": "Salt", "qty": "1 ss" },
+    { "group": "Rub", "name": "Svart pepper", "qty": "2 ts" },
+    { "group": "Rub", "name": "Hvitløkspulver", "qty": "2 ts" },
+    { "group": "Rub", "name": "Løkpulver", "qty": "2 ts" },
+    { "group": "Rub", "name": "Cayennepepper", "qty": "½ ts", "spicy": true, "optional": true },
+    { "group": "Røyking", "name": "Eplejuice til spraying", "qty": "2 dl" },
+    { "group": "Innpakking", "name": "Folie", "qty": "ca. 2 m" },
+    { "group": "Innpakking", "name": "Smør", "qty": "50 g" },
+    { "group": "Innpakking", "name": "Honning", "qty": "3 ss" },
+    { "group": "Innpakking", "name": "Brunt sukker", "qty": "3 ss" },
+    { "group": "Glasur", "name": "BBQ-saus", "qty": "2 dl" }
+  ],
+  "steps": [
+    { "text": "Dra av hinnen på baksiden av ribba, og trim den til et jevnt rektangel.", "anim": "chop", "icon": "🔪", "ingredients": [{ "name": "St. Louis-ribbe (svine-spareribs)", "label": "St. Louis-ribbe" }] },
+    { "text": "Smør inn med sennep og dryss rub godt på begge sider.", "anim": "season", "icon": "🧂", "ingredients": ["Gul sennep", { "name": "Brunt sukker", "group": "Rub" }, "Røkt paprikapulver", "Salt", "Svart pepper", "Hvitløkspulver", "Løkpulver", "Cayennepepper"] },
+    { "text": "Varm Traegeren til 110 °C (225 °F). Røyk ribba med kjøttsiden opp i 3 timer.", "note": "Spray hver time etter den første.", "anim": "bake", "icon": "💨", "timer": 180, "ingredients": ["Eplejuice til spraying"] },
+    { "text": "Legg ribba med kjøttsiden ned på folie med smør, honning og brunt sukker, og pakk den tett inn.", "anim": "assemble", "icon": "🍯", "ingredients": ["Folie", "Smør", "Honning", { "name": "Brunt sukker", "group": "Innpakking" }] },
+    { "text": "Røyk videre innpakket i 2 timer.", "anim": "bake", "icon": "🔥", "timer": 120 },
+    { "text": "Pakk opp, pensle med BBQ-saus og røyk i 1 time til uten folie, til sausen har satt seg.", "anim": "bake", "icon": "🖌️", "timer": 60, "ingredients": ["BBQ-saus"] },
+    { "text": "La ribba hvile i 10 minutter, og skjær mellom beina.", "anim": "serve", "icon": "🍖", "timer": 10 }
+  ]
+}

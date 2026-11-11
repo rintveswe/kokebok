@@ -1,0 +1,51 @@
+{
+  "id": "butter-chicken", "title": "Butter chicken", "category": "Indisk", "emoji": "🍛",
+  "image": null, "servings": "4 personer", "time": { "active": 45, "total": 110 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Murgh makhani: marinert, svidd kylling i en mild, glatt tomatsaus med smør og fløte. Indias mest kjente rett, og en favoritt for hele familien.",
+  "headsUp": "Kyllingen bør marineres i minst 1 time, gjerne over natten.",
+  "tips": [
+    "Kashmiri chilipulver gir den røde fargen uten å være særlig sterkt. Vanlig chilipulver er mye sterkere.",
+    "Tørket bukkehornkløver (kasoori methi) gir den typiske smaken fra restauranten. Den finnes i innvandrerbutikker.",
+    "Kok risen mens sausen småkoker.",
+    "Retten blir enda bedre dagen etter. Varm den forsiktig opp."
+  ],
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["Naanbrød", "Raita", "Agurksalat"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Marinade", "name": "Kyllinglårfilet", "qty": "800 g" },
+    { "group": "Marinade", "name": "Yoghurt naturell", "qty": "1,5 dl" },
+    { "group": "Marinade", "name": "Garam masala", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Kashmiri chilipulver", "qty": "1 ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "1 ts" } },
+    { "group": "Marinade", "name": "Hvitløksfedd, revet", "qty": "2 stk" },
+    { "group": "Marinade", "name": "Fersk ingefær, revet", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Salt", "qty": "1 ts" },
+    { "group": "Marinade", "name": "Sitronsaft", "qty": "1 ss" },
+    { "group": "Saus", "name": "Smør", "qty": "50 g" },
+    { "group": "Saus", "name": "Løk", "qty": "1 stk" },
+    { "group": "Saus", "name": "Hvitløksfedd, revet", "qty": "3 stk" },
+    { "group": "Saus", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Saus", "name": "Garam masala", "qty": "2 ts" },
+    { "group": "Saus", "name": "Kashmiri chilipulver", "qty": "1 ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "1 ts" } },
+    { "group": "Saus", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Saus", "name": "Tomatpuré", "qty": "2 ss" },
+    { "group": "Saus", "name": "Knuste tomater", "qty": "1 boks" },
+    { "group": "Saus", "name": "Sukker", "qty": "1 ts" },
+    { "group": "Saus", "name": "Kremfløte", "qty": "2 dl" },
+    { "group": "Saus", "name": "Tørket bukkehornkløver (kasoori methi)", "qty": "1 ss", "optional": true },
+    { "group": "Saus", "name": "Salt", "qty": "etter smak" },
+    { "group": "Servering", "name": "Basmatiris", "qty": "4 dl" },
+    { "group": "Servering", "name": "Naanbrød", "qty": "4 stk", "optional": true },
+    { "group": "Servering", "name": "Fersk koriander", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter og bland med yoghurt, krydder, hvitløk, ingefær, salt og sitronsaft.", "anim": "stir", "icon": "🍗", "ingredients": ["Kyllinglårfilet", "Yoghurt naturell", { "name": "Garam masala", "group": "Marinade" }, { "name": "Kashmiri chilipulver", "group": "Marinade" }, { "name": "Hvitløksfedd, revet", "group": "Marinade", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "group": "Marinade", "label": "Ingefær, revet" }, { "name": "Salt", "group": "Marinade" }, "Sitronsaft"] },
+    { "text": "Dekk til og la kyllingen marinere kaldt i minst 1 time, gjerne over natten.", "anim": "rest", "icon": "❄️", "timer": 60 },
+    { "text": "Legg kyllingen på et stekebrett og grill øverst i ovnen på 250 °C i 10 minutter, til den er svidd i kantene.", "note": "Den trenger ikke være gjennomstekt ennå. Den koker ferdig i sausen.", "anim": "bake", "icon": "🔥", "timer": 10 },
+    { "text": "Smelt smøret i en gryte og stek finhakket løk myk i 8 minutter.", "anim": "fry", "icon": "🧅", "timer": 8, "ingredients": ["Smør", "Løk"] },
+    { "text": "Tilsett hvitløk, ingefær og krydder, og stek i 1 minutt til det dufter.", "anim": "stir", "icon": "🥄", "ingredients": [{ "name": "Hvitløksfedd, revet", "group": "Saus", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "group": "Saus", "label": "Ingefær, revet" }, { "name": "Garam masala", "group": "Saus" }, { "name": "Kashmiri chilipulver", "group": "Saus" }, "Kumin"] },
+    { "text": "Rør inn tomatpuré, knuste tomater og sukker. La sausen småkoke i 15 minutter.", "anim": "boil", "icon": "🍅", "timer": 15, "ingredients": ["Tomatpuré", "Knuste tomater", "Sukker"] },
+    { "text": "Kjør sausen glatt med en stavmikser.", "anim": "stir", "icon": "🫙" },
+    { "text": "Rør inn fløte og bukkehornkløver, legg i kyllingen og la det småkoke i 10 minutter. Smak til med salt.", "anim": "boil", "icon": "🍲", "timer": 10, "ingredients": ["Kremfløte", { "name": "Tørket bukkehornkløver (kasoori methi)", "label": "Kasoori methi" }, { "name": "Salt", "group": "Saus" }] },
+    { "text": "Server med ris, naan og hakket koriander.", "anim": "serve", "icon": "🍛", "ingredients": ["Basmatiris", "Naanbrød", "Fersk koriander"] }
+  ]
+}

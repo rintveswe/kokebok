@@ -1,0 +1,36 @@
+{
+  "id": "beef-short-ribs", "title": "Beef short ribs", "category": "BBQ", "emoji": "🍖",
+  "image": null, "servings": "4–6 personer", "time": { "active": 45, "total": 1260 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Store, kjøttfulle okseribbe røykt på Traegeren til de har en mørk skorpe, pakket inn med oksetalg og hvilt i ovnen i 12–20 timer. Kjøttet blir så mørt at det kan spises med skje.",
+  "headsUp": "Start dagen før. Røyk ribba om formiddagen og ettermiddagen, la den hvile i ovnen over natten, og server neste dag. Du trenger et steketermometer.",
+  "tips": [
+    "Spør slakteren etter «short ribs» eller «plate ribs» av okse, gjerne et stykke med 3–4 bein.",
+    "Lang hvile i ovnen gjør at fett og bindevev smelter helt. Kjøttet er trygt så lenge det holder over 60 °C.",
+    "Sjekk ovnen med et termometer. Mange ovner er ikke nøyaktige på lave temperaturer.",
+    "Det er kjernetemperaturen og følelsen som teller, ikke klokka. Termometeret skal gli inn som i mykt smør.",
+    "Oksetalg finnes i noen butikker og på nett. Du kan også smelte fettet du trimmer bort.",
+    "Ta vare på fettet og saften i papiret og pensle det over kjøttet når du skjærer."
+  ],
+  "pairs": { "drink": ["Cola", "Sitronbrus"], "side": ["Coleslaw", "Potetsalat", "queso-dip"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Beef short ribs", "qty": "ca. 2 kg", "note": "3–4 bein i ett stykke" },
+    { "group": "Kjøtt", "name": "Gul sennep", "qty": "2 ss", "note": "Bare for at krydderet skal sitte. Smaker ikke." },
+    { "group": "Krydder", "name": "Grovt salt", "qty": "2 ss" },
+    { "group": "Krydder", "name": "Grovkvernet svart pepper", "qty": "2 ss" },
+    { "group": "Krydder", "name": "Hvitløkspulver", "qty": "1 ss" },
+    { "group": "Røyking", "name": "Eplecidereddik og vann til spraying", "qty": "2 dl", "note": "Halvt av hver i en sprayflaske" },
+    { "group": "Røyking", "name": "Oksetalg (beef tallow), smeltet", "qty": "100 g" },
+    { "group": "Røyking", "name": "Slakterpapir (butcher paper)", "qty": "ca. 1,5 m", "note": "Folie går også, men skorpen blir mykere" }
+  ],
+  "steps": [
+    { "text": "Skjær bort løst fett og den tynne hinnen på oversiden. Smør kjøttet inn med et tynt lag sennep.", "anim": "chop", "icon": "🔪", "ingredients": ["Beef short ribs", "Gul sennep"] },
+    { "text": "Bland salt, pepper og hvitløkspulver, og dryss jevnt over alle sider.", "anim": "season", "icon": "🧂", "ingredients": ["Grovt salt", "Grovkvernet svart pepper", "Hvitløkspulver"] },
+    { "text": "Varm Traegeren til 120 °C (250 °F) mens kjøttet står i romtemperatur.", "anim": "rest", "icon": "🔥", "timer": 30 },
+    { "text": "Røyk ribba med beinsiden ned i 5–6 timer, til skorpen er mørk og kjernen er 70–75 °C.", "note": "Spray hver time etter de første 3 timene.", "anim": "bake", "icon": "💨", "ingredients": ["Eplecidereddik og vann til spraying"] },
+    { "text": "Legg ribba på slakterpapir, smør over smeltet oksetalg og pakk den stramt inn.", "anim": "assemble", "icon": "📜", "ingredients": [{ "name": "Oksetalg (beef tallow), smeltet", "label": "Oksetalg, smeltet" }, { "name": "Slakterpapir (butcher paper)", "label": "Slakterpapir" }] },
+    { "text": "Røyk videre til kjernen er ca. 95 °C og termometeret glir lett inn, 2–3 timer til.", "anim": "bake", "icon": "🌡️" },
+    { "text": "Sett ovnen på 70 °C. La ribba hvile innpakket i ovnen i 12–20 timer.", "note": "Kjøttet er trygt så lenge det holder seg over 60 °C.", "anim": "rest", "icon": "😴" },
+    { "text": "Ta ribba ut, la den stå i 15 minutter og pakk den opp. Skjær mellom beina og pensle med saften fra papiret.", "anim": "serve", "icon": "🍖", "timer": 15 }
+  ]
+}

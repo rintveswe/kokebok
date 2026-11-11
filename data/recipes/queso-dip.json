@@ -1,0 +1,33 @@
+{
+  "id": "queso-dip", "title": "Røykt queso dip", "category": "BBQ", "emoji": "🧀",
+  "image": null, "servings": "6–8 personer", "time": { "active": 15, "total": 70 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Varm, røykt ostedip med krydret kjøtt, tomater og jalapeño, laget i støpejernspanne på Traegeren. Perfekt mens resten av maten røyker.",
+  "tips": [
+    "Rør hvert kvarter, så osten smelter jevnt og ikke skiller seg.",
+    "Blir dipen for tykk, rør inn litt mer melk.",
+    "Uten Traeger: varm alt opp i en kjele på svak varme og rør til osten har smeltet.",
+    "Monterey Jack finnes i mange butikker. Mild cheddar eller Norvegia går også.",
+    "Rester er gode over nachos, pommes frites eller i burrito."
+  ],
+  "pairs": { "drink": ["Cola", "Limonade"], "side": ["Nachochips", "Grønnsaksstaver"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Svinekjøttdeig eller chorizo", "qty": "400 g" },
+    { "group": "Dip", "name": "Kremost naturell", "qty": "200 g" },
+    { "group": "Dip", "name": "Cheddar, revet", "qty": "300 g" },
+    { "group": "Dip", "name": "Monterey Jack, revet", "qty": "200 g" },
+    { "group": "Dip", "name": "Melk", "qty": "2 dl" },
+    { "group": "Dip", "name": "Hakkede tomater, avrent", "qty": "1 boks" },
+    { "group": "Dip", "name": "Jalapeño, hakket", "qty": "2 stk", "spicy": true, "alt": { "name": "Grønn paprika, hakket", "qty": "½ stk" } },
+    { "group": "Dip", "name": "Løk, finhakket", "qty": "½ stk" },
+    { "group": "Dip", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Servering", "name": "Nachochips", "qty": "2 poser" }
+  ],
+  "steps": [
+    { "text": "Varm Traegeren til 180 °C (350 °F).", "anim": "rest", "icon": "🔥" },
+    { "text": "Stek kjøttdeigen smuldrete i en panne, og hell av fettet.", "anim": "fry", "icon": "🍳", "ingredients": ["Svinekjøttdeig eller chorizo"] },
+    { "text": "Ha kremost, ost, melk, tomater, jalapeño, løk og kumin i en støpejernspanne. Fordel kjøttet over.", "anim": "assemble", "icon": "🧀", "ingredients": ["Kremost naturell", "Cheddar, revet", "Monterey Jack, revet", "Melk", "Hakkede tomater, avrent", "Jalapeño, hakket", "Løk, finhakket", "Kumin"] },
+    { "text": "Sett pannen i Traegeren og røyk i 45 minutter. Rør hvert kvarter.", "anim": "bake", "icon": "💨", "timer": 45 },
+    { "text": "Rør godt og server varm, rett fra pannen, med nachochips.", "anim": "serve", "icon": "🌮", "ingredients": ["Nachochips"] }
+  ]
+}
