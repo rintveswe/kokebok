@@ -1,0 +1,40 @@
+{
+  "id": "bbq-saus", "title": "BBQ-saus", "category": "Saus og tilbehør", "emoji": "🫙",
+  "image": null, "servings": "ca. 7 dl", "time": { "active": 10, "total": 30 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Søt og syrlig BBQ-saus med honning, sennep og eplecidereddik. Til ribs, pulled pork, burnt ends og kylling fra Traegeren.",
+  "headsUp": "Bruk gjerne kjøkkenvekt. Mengdene er målt i gram, og mål i skjeer står under hver ingrediens.",
+  "tips": [
+    "Sennep: bruk amerikansk gul sennep, for eksempel French's Classic Yellow Mustard. Den er mild og syrlig, og den finnes i de fleste dagligvarebutikker. Idun sennep fungerer også, men gir en søtere og litt sterkere saus. Dijonsennep blir for skarp i så store mengder.",
+    "Sausen inneholder mye sukker og brenner lett. Pensle den på kjøttet bare de siste 10–15 minuttene på grillen.",
+    "Vil du ha mer røyksmak, rør inn ½ ts røkt paprikapulver.",
+    "Chiliflakene gir bare en svak varme. Dropper du dem, blir sausen helt mild.",
+    "Sausen tykner mer når den blir kald. Er den for tynn, kok den noen minutter til.",
+    "I et rent glass med lokk holder den seg ca. 1 måned i kjøleskapet."
+  ],
+  "pairs": { "side": ["pulled-pork", "st-louis-ribs", "brisket-burnt-ends", "pork-belly-burnt-ends", "kyllingbryst-traeger"] },
+  "ingredients": [
+    { "name": "Ketchup", "qty": "206 g", "note": "Ca. 1,8 dl" },
+    { "name": "Honning", "qty": "206 g", "note": "Ca. 1,5 dl" },
+    { "name": "Amerikansk gul sennep", "qty": "149 g", "note": "Ca. 1,4 dl. For eksempel French's. Idun sennep går også." },
+    { "name": "Eplecidereddik", "qty": "113 g", "note": "Ca. 1,1 dl" },
+    { "name": "Vann", "qty": "92 g", "note": "Ca. 0,9 dl" },
+    { "name": "Brunt sukker", "qty": "50 g", "note": "Ca. ½ dl, godt pakket" },
+    { "name": "Worcestershiresaus", "qty": "48 g", "note": "Ca. 3 ss" },
+    { "name": "Sort pepper, kvernet", "qty": "9 g", "note": "Ca. 4 ts" },
+    { "name": "Løkgranulat", "qty": "9 g", "note": "Ca. 1 ss. Løkpulver går også." },
+    { "name": "Hvitløksgranulat", "qty": "9 g", "note": "Ca. 1 ss. Hvitløkspulver går også." },
+    { "name": "Salt", "qty": "4 g", "note": "Ca. ¾ ts" },
+    { "name": "Chiliflak", "qty": "2 g", "note": "Ca. 1 ts", "spicy": true, "optional": true },
+    { "name": "Paprikapulver", "qty": "2 g", "note": "Ca. 1 ts" },
+    { "name": "Spisskummen (kumin), malt", "qty": "1 g", "note": "Ca. ½ ts" }
+  ],
+  "steps": [
+    { "text": "Ha ketchup, honning, sennep, eddik, vann, brunt sukker og worcestershiresaus i en kjele, og rør det sammen.", "anim": "stir", "icon": "🥣", "ingredients": ["Ketchup", "Honning", "Amerikansk gul sennep", "Eplecidereddik", "Vann", "Brunt sukker", "Worcestershiresaus"] },
+    { "text": "Rør inn alle krydderne.", "anim": "season", "icon": "🧂", "ingredients": ["Sort pepper, kvernet", "Løkgranulat", "Hvitløksgranulat", "Salt", "Chiliflak", "Paprikapulver", "Spisskummen (kumin), malt"] },
+    { "text": "Kok opp på middels varme mens du rører.", "anim": "boil", "icon": "🔥", "timer": 5 },
+    { "text": "Skru ned varmen og la sausen småkoke uten lokk i 15–20 minutter. Rør ofte, til den dekker baksiden av en skje.", "note": "Sausen spruter litt. Legg gjerne et lokk på skrå.", "anim": "boil", "icon": "🫕", "timer": 20 },
+    { "text": "Smak til. Tilsett litt salt, honning eller eddik hvis du synes den trenger det.", "anim": "season", "icon": "👅" },
+    { "text": "La sausen bli kald, og hell den over i rene glass med lokk. Oppbevar den i kjøleskapet.", "anim": "assemble", "icon": "🫙" }
+  ]
+}
