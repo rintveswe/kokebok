@@ -1,0 +1,35 @@
+{
+  "id": "gnocchi-sorrentina", "title": "Ovnsbakt gnocchi med mozzarella", "category": "Vegetar", "emoji": "🍅",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Gnocchi i en enkel tomatsaus med basilikum, gratinert med smeltet mozzarella. Italiensk hverdagsmat, kalt gnocchi alla sorrentina.",
+  "tips": [
+    "Gnocchien skal rett i sausen fra pakken. Den trenger ikke kokes først.",
+    "Har du en stekepanne som tåler ovn, kan alt lages i den. Da blir det bare én ting å vaske.",
+    "Ha i chiliflak hvis de voksne vil ha litt varme. Strø dem gjerne bare over halve formen.",
+    "Er sausen for tykk, rør inn litt vann før gnocchien går i ovnen."
+  ],
+  "pairs": { "drink": ["Eplemost"], "side": ["Grønn salat", "Hvitløksbrød"], "dessert": ["Vaniljeis med bær"] },
+  "ingredients": [
+    { "group": "Saus", "name": "Olivenolje", "qty": "2 ss" },
+    { "group": "Saus", "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "group": "Saus", "name": "Chiliflak", "qty": "½ ts", "spicy": true, "optional": true },
+    { "group": "Saus", "name": "Knuste tomater", "qty": "2 bokser" },
+    { "group": "Saus", "name": "Sukker", "qty": "1 ts" },
+    { "group": "Saus", "name": "Tørket oregano", "qty": "1 ts" },
+    { "group": "Saus", "name": "Salt og pepper", "qty": "etter smak" },
+    { "group": "Gnocchi", "name": "Gnocchi", "qty": "1 kg" },
+    { "group": "Gnocchi", "name": "Fersk basilikum", "qty": "1 potte" },
+    { "group": "Gnocchi", "name": "Mozzarella", "qty": "2 kuler (à 125 g)" },
+    { "group": "Gnocchi", "name": "Parmesan, revet", "qty": "50 g" }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 220 °C.", "anim": "bake", "icon": "🔥" },
+    { "text": "Varm oljen i en stekepanne, og stek hvitløk i tynne skiver og chiliflak i 1 minutt. Ikke la hvitløken bli brun.", "anim": "fry", "icon": "🧄", "ingredients": ["Olivenolje", { "name": "Hvitløksfedd", "label": "Hvitløk i skiver" }, "Chiliflak"] },
+    { "text": "Hell i tomatene, sukkeret og oreganoen. Smak til med salt og pepper, og la sausen småkoke.", "anim": "boil", "icon": "🍅", "timer": 10, "ingredients": ["Knuste tomater", "Sukker", "Tørket oregano", "Salt og pepper"] },
+    { "text": "Rør inn gnocchien rett fra pakken, og halvparten av basilikumbladene.", "anim": "stir", "icon": "🥄", "ingredients": ["Gnocchi", { "name": "Fersk basilikum", "label": "Basilikum, halvparten" }] },
+    { "text": "Hell alt over i en ildfast form, hvis panna ikke tåler ovn. Riv mozzarellaen i biter over, og strø parmesan på toppen.", "anim": "assemble", "icon": "🧀", "ingredients": ["Mozzarella", "Parmesan, revet"] },
+    { "text": "Stek midt i ovnen til osten har smeltet og er gyllen i kantene.", "anim": "bake", "icon": "♨️", "timer": 15 },
+    { "text": "Strø over resten av basilikumen, og server.", "note": "Formen er svært varm. La den stå noen minutter før barna forsyner seg.", "anim": "serve", "icon": "🌿", "ingredients": [{ "name": "Fersk basilikum", "label": "Basilikum, resten" }] }
+  ]
+}

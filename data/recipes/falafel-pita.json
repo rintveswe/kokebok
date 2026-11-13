@@ -1,0 +1,49 @@
+{
+  "id": "falafel-pita", "title": "Falafel i pita", "category": "Vegetar", "emoji": "🧆",
+  "image": null, "servings": "4 personer", "time": { "active": 40, "total": 80 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Sprø kikertboller med friske urter, servert i varme pitabrød med salat og hvitløksyoghurt.",
+  "headsUp": "Kikertene må ligge i vann over natten. Bruk tørkede kikerter. Kikerter fra boks gjør at bollene faller fra hverandre.",
+  "tips": [
+    "Massen skal være grov, omtrent som kuskus. Kjører du den for fint, blir falafelen kompakt.",
+    "Klistrer ikke massen seg sammen, rør inn 1 ss mel til.",
+    "Steketermometer gjør det lett. Er oljen for kald, suger bollene opp olje. Er den for varm, blir de rå inni.",
+    "I airfryer: pensle bollene med olje og stek på 200 °C i 12–14 minutter. Snu dem halvveis.",
+    "Rå falafelmasse kan fryses. Form bollene først, og stek dem rett fra fryseren."
+  ],
+  "pairs": { "drink": ["Mynteiste", "Sitronbrus"], "side": ["Pommes frites", "Hummus"] },
+  "ingredients": [
+    { "group": "Falafel", "name": "Tørkede kikerter", "qty": "250 g" },
+    { "group": "Falafel", "name": "Løk", "qty": "1 stk" },
+    { "group": "Falafel", "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "group": "Falafel", "name": "Fersk persille", "qty": "1 neve" },
+    { "group": "Falafel", "name": "Fersk koriander", "qty": "1 neve" },
+    { "group": "Falafel", "name": "Kumin", "qty": "2 ts" },
+    { "group": "Falafel", "name": "Koriander, malt", "qty": "1 ts" },
+    { "group": "Falafel", "name": "Salt", "qty": "1 ts" },
+    { "group": "Falafel", "name": "Bakepulver", "qty": "1 ts" },
+    { "group": "Falafel", "name": "Hvetemel", "qty": "2 ss" },
+    { "group": "Falafel", "name": "Nøytral olje til frityr", "qty": "ca. 7 dl" },
+    { "group": "Hvitløksyoghurt", "name": "Gresk yoghurt", "qty": "2 dl" },
+    { "group": "Hvitløksyoghurt", "name": "Tahini", "qty": "1 ss", "optional": true },
+    { "group": "Hvitløksyoghurt", "name": "Hvitløksfedd, revet", "qty": "1 stk" },
+    { "group": "Hvitløksyoghurt", "name": "Sitronsaft", "qty": "1 ss" },
+    { "group": "Hvitløksyoghurt", "name": "Salt", "qty": "1 klype" },
+    { "group": "Servering", "name": "Pitabrød", "qty": "4–6 stk" },
+    { "group": "Servering", "name": "Isbergsalat", "qty": "¼ hode" },
+    { "group": "Servering", "name": "Tomat", "qty": "2 stk" },
+    { "group": "Servering", "name": "Agurk", "qty": "½ stk" },
+    { "group": "Servering", "name": "Rødløk, tynne ringer", "qty": "½ stk", "optional": true },
+    { "group": "Servering", "name": "Chilisaus", "qty": "etter smak", "spicy": true, "optional": true }
+  ],
+  "steps": [
+    { "text": "Legg kikertene i en stor bolle med rikelig kaldt vann. La dem ligge over natten.", "note": "Kikertene vokser til over dobbel størrelse.", "anim": "rest", "icon": "💧", "ingredients": ["Tørkede kikerter"] },
+    { "text": "Hell av vannet, og tørk kikertene godt på et rent kjøkkenhåndkle.", "anim": "assemble", "icon": "🫘" },
+    { "text": "Kjør kikerter, grovhakket løk, hvitløk, persille og koriander i en foodprosessor til en grov masse.", "anim": "chop", "icon": "🌿", "ingredients": ["Løk", "Hvitløksfedd", "Fersk persille", "Fersk koriander"] },
+    { "text": "Rør inn krydderne, saltet, bakepulveret og melet. Sett massen kaldt.", "anim": "rest", "icon": "❄️", "timer": 30, "ingredients": ["Kumin", "Koriander, malt", { "name": "Salt", "group": "Falafel" }, "Bakepulver", "Hvetemel"] },
+    { "text": "Rør sammen hvitløksyoghurten, og sett den kaldt.", "anim": "stir", "icon": "🥣", "ingredients": ["Gresk yoghurt", "Tahini", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, "Sitronsaft", { "name": "Salt", "group": "Hvitløksyoghurt" }] },
+    { "text": "Form massen til små, litt flate boller på ca. 1 ss. Klem dem godt sammen.", "anim": "assemble", "icon": "🧆" },
+    { "text": "Varm oljen til 175 °C i en vid kjele. Stek bollene i omganger til de er mørkt gylne, og legg dem på kjøkkenpapir.", "note": "Varm olje er farlig. Ha lokk klart, og la barna holde avstand.", "anim": "fry", "icon": "🔥", "timer": 4, "ingredients": ["Nøytral olje til frityr"] },
+    { "text": "Varm pitabrødene. Fyll dem med salat, grønnsaker, falafel og hvitløksyoghurt.", "anim": "serve", "icon": "🥙", "ingredients": ["Pitabrød", "Isbergsalat", "Tomat", "Agurk", { "name": "Rødløk, tynne ringer", "label": "Rødløk" }, "Chilisaus"] }
+  ]
+}

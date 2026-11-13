@@ -1,0 +1,40 @@
+{
+  "id": "halloumiburger", "title": "Sprø halloumiburger", "category": "Vegetar", "emoji": "🍔",
+  "image": null, "servings": "4 burgere", "time": { "active": 25, "total": 25 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Tykke skiver halloumi i sprø panko, med hot honey og aioli i ristet briochebrød.",
+  "tips": [
+    "Tørk halloumien godt før paneringen. Da sitter panko-skorpen bedre.",
+    "Stek på middels varme. Er panna for varm, blir skorpen brun før osten er myk inni.",
+    "Lager du burgeren mild, bruker du vanlig honning i stedet for hot honey.",
+    "Halloumi er salt, så den trenger ikke mer salt."
+  ],
+  "uses": ["brioche-burgerbrod", "aioli", "hot-honey"],
+  "pairs": { "drink": ["Milkshake", "Cola"], "side": ["Pommes frites", "Coleslaw"], "dessert": ["Vaniljeis"] },
+  "ingredients": [
+    { "group": "Halloumi", "name": "Halloumi", "qty": "2 pk (à ca. 225 g)" },
+    { "group": "Halloumi", "name": "Hvetemel", "qty": "1 dl" },
+    { "group": "Halloumi", "name": "Egg", "qty": "2 stk" },
+    { "group": "Halloumi", "name": "Panko", "qty": "2 dl" },
+    { "group": "Halloumi", "name": "Paprikapulver", "qty": "1 ts" },
+    { "group": "Halloumi", "name": "Nøytral olje", "qty": "4 ss" },
+    { "group": "Burger", "name": "Brioche-hamburgerbrød (se Brioche)", "qty": "4 stk" },
+    { "group": "Burger", "name": "Smør", "qty": "1 ss" },
+    { "group": "Burger", "name": "Aioli (se Aioli)", "qty": "4 ss" },
+    { "group": "Burger", "name": "Hot honey (se Hot honey)", "qty": "4 ts", "spicy": true, "alt": { "name": "Honning", "qty": "4 ts" } },
+    { "group": "Burger", "name": "Isbergsalat", "qty": "4 blader" },
+    { "group": "Burger", "name": "Tomat", "qty": "1 stk" },
+    { "group": "Burger", "name": "Sylteagurk", "qty": "8 skiver", "optional": true },
+    { "group": "Burger", "name": "Rødløk, tynne ringer", "qty": "½ stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær hver halloumi på langs i 2 tykke skiver. Tørk dem godt med kjøkkenpapir.", "anim": "chop", "icon": "🔪", "ingredients": ["Halloumi"] },
+    { "text": "Sett fram tre dype tallerkener: én med mel, én med sammenvispet egg og én med panko blandet med paprikapulver.", "anim": "assemble", "icon": "🥚", "ingredients": ["Hvetemel", "Egg", "Panko", "Paprikapulver"] },
+    { "text": "Vend halloumiskivene først i mel, så i egg og til slutt i panko. Trykk pankoen godt fast.", "anim": "assemble", "icon": "🧀" },
+    { "text": "Rist brødene i smør i en panne til de er gylne. Smør aioli på begge sider.", "anim": "fry", "icon": "🍞", "ingredients": ["Brioche-hamburgerbrød (se Brioche)", "Smør", "Aioli (se Aioli)"] },
+    { "text": "Varm oljen i panna på middels varme. Stek halloumien i ca. 2 minutter på hver side, til den er gyllen og sprø.", "anim": "fry", "icon": "🔥", "timer": 4, "ingredients": ["Nøytral olje"] },
+    { "text": "Legg halloumien på kjøkkenpapir, og drypp hot honey over.", "anim": "season", "icon": "🍯", "ingredients": ["Hot honey (se Hot honey)"] },
+    { "text": "Bygg burgeren: bunn, salat, tomat, halloumi, sylteagurk, løk og topp.", "anim": "assemble", "icon": "🍔", "ingredients": ["Isbergsalat", { "name": "Tomat", "label": "Tomat i skiver" }, "Sylteagurk", { "name": "Rødløk, tynne ringer", "label": "Rødløk" }] },
+    { "text": "Server med en gang, mens halloumien er sprø.", "anim": "serve", "icon": "🍟" }
+  ]
+}

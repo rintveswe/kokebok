@@ -1,0 +1,47 @@
+{
+  "id": "paneer-butter-masala", "title": "Paneer butter masala", "category": "Vegetar", "emoji": "🍛",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 45 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Indisk ost i en mild, kremet tomatsaus med smør. Vegetarvarianten av butter chicken, og like god.",
+  "tips": [
+    "Paneer er en fast, mild indisk ost som ikke smelter. Den finnes i store dagligvarebutikker og i innvandrerbutikker.",
+    "Kashmiri chilipulver gir farge mer enn styrke. Lager du retten mild, får sausen den samme fine fargen av paprikapulver.",
+    "Cashewnøttene gjør sausen ekstra kremet. Dropper du dem, kan du ta ½ dl mer fløte.",
+    "Bukkehornkløver (kasuri methi) gir den typiske restaurantsmaken. Gni bladene mellom hendene når du strør dem i.",
+    "Kok risen mens sausen småkoker."
+  ],
+  "pairs": { "drink": ["Mango lassi", "Iste"], "side": ["naan", "Raita"], "dessert": ["Mango og is"] },
+  "ingredients": [
+    { "group": "Paneer", "name": "Paneer", "qty": "450 g" },
+    { "group": "Paneer", "name": "Nøytral olje", "qty": "1 ss" },
+    { "group": "Saus", "name": "Smør", "qty": "3 ss" },
+    { "group": "Saus", "name": "Løk", "qty": "1 stk" },
+    { "group": "Saus", "name": "Hvitløksfedd, revet", "qty": "3 stk" },
+    { "group": "Saus", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Saus", "name": "Garam masala", "qty": "2 ts" },
+    { "group": "Saus", "name": "Kashmiri chilipulver", "qty": "1 ts", "spicy": true, "alt": { "name": "Paprikapulver", "qty": "1 ts" } },
+    { "group": "Saus", "name": "Kumin", "qty": "1 ts" },
+    { "group": "Saus", "name": "Gurkemeie", "qty": "½ ts" },
+    { "group": "Saus", "name": "Tomatpuré", "qty": "2 ss" },
+    { "group": "Saus", "name": "Knuste tomater", "qty": "1 boks" },
+    { "group": "Saus", "name": "Cashewnøtter", "qty": "50 g", "optional": true },
+    { "group": "Saus", "name": "Vann", "qty": "1 dl" },
+    { "group": "Saus", "name": "Sukker", "qty": "1 ts" },
+    { "group": "Saus", "name": "Kremfløte", "qty": "2 dl" },
+    { "group": "Saus", "name": "Tørket bukkehornkløver (kasuri methi)", "qty": "1 ts", "optional": true },
+    { "group": "Saus", "name": "Salt", "qty": "etter smak" },
+    { "group": "Servering", "name": "Basmatiris", "qty": "4 dl" },
+    { "group": "Servering", "name": "Naanbrød", "qty": "4 stk", "optional": true },
+    { "group": "Servering", "name": "Fersk koriander", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær paneeren i terninger på ca. 2 cm. Stek dem gylne i olje i en stor panne, og ta dem ut.", "anim": "fry", "icon": "🧀", "timer": 4, "ingredients": ["Paneer", "Nøytral olje"] },
+    { "text": "Smelt smøret i samme panne, og stek finhakket løk myk og gyllen.", "anim": "fry", "icon": "🧅", "timer": 8, "ingredients": ["Smør", "Løk"] },
+    { "text": "Tilsett hvitløk og ingefær, og stek i 1 minutt.", "anim": "stir", "icon": "🧄", "ingredients": [{ "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "label": "Ingefær, revet" }] },
+    { "text": "Rør inn krydderne og tomatpuréen, og stek i 1 minutt til det dufter.", "anim": "stir", "icon": "🥄", "ingredients": ["Garam masala", "Kashmiri chilipulver", "Kumin", "Gurkemeie", "Tomatpuré"] },
+    { "text": "Hell i tomatene, cashewnøttene, vannet og sukkeret. La sausen småkoke under lokk.", "anim": "boil", "icon": "🍅", "timer": 15, "ingredients": ["Knuste tomater", "Cashewnøtter", "Vann", "Sukker"] },
+    { "text": "Kjør sausen helt glatt med en stavmikser.", "note": "Sausen er varm og spruter lett. Hold stavmikseren helt nede i sausen.", "anim": "stir", "icon": "🌀" },
+    { "text": "Rør inn fløten og bukkehornkløveren, og legg paneeren tilbake i sausen. La det småkoke litt, og smak til med salt.", "anim": "boil", "icon": "🍲", "timer": 5, "ingredients": ["Kremfløte", "Tørket bukkehornkløver (kasuri methi)", "Salt"] },
+    { "text": "Server med ris, naan og hakket koriander.", "anim": "serve", "icon": "🍛", "ingredients": ["Basmatiris", "Naanbrød", "Fersk koriander"] }
+  ]
+}
