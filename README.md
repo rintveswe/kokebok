@@ -21,7 +21,8 @@ python -m http.server 8080
 
 ## Legge til en rett
 1. Lag `app/data/recipes/<id>.json` (følg `data/schema/recipe.schema.json`).
-2. Legg `<id>` til i `app/data/index.json`.
+2. Legg `<id>` til i `app/data/index.json`, og først i `app/data/sist-lagt-til.json`.
+   Forsiden viser de 12 første derfra under «Sist lagt til», nyeste først.
 3. Sett `"status": "testet"` når dere har laget retten. Bare testede retter kommer med i den trykte boka.
 4. Bilder: legg `.webp` i `app/data/images/` og sett `"image": "data/images/<id>.webp"`.
 5. Mengder i stegene: gi hvert steg en liste `"ingredients"` med navnene på ingrediensene steget bruker,
