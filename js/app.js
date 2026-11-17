@@ -5,7 +5,7 @@ import { esc, icons, icon, toast, load, save, closeOverlay } from './ui.js';
 
 const $app = document.getElementById('app');
 const $ = (sel, root = $app) => root.querySelector(sel);
-const state = { recipes: new Map(), list: [], no: new Map(), cat: 'Alle', q: '', mild: load('mild', false), profiles: [], last: null, homeScroll: null };
+const state = { recipes: new Map(), list: [], no: new Map(), cat: 'Alle', q: '', mild: load('mild', false), profiles: [], nye: [], last: null, homeScroll: null };
 
 /* ---------- Data ---------- */
 async function loadAll() {
@@ -17,19 +17,27 @@ async function loadAll() {
   // Rettens faste nummer på menyen (Nº) følger alfabetet.
   [...state.list].sort(byTitle).forEach((r, i) => state.no.set(r.id, String(i + 1).padStart(2, '0')));
   state.profiles = await fetch('data/profiles.json').then((r) => r.json()).catch(() => []);
+  // «Sist lagt til»: egen liste med id-er, nyeste først. Mangler den, vises ikke valget.
+  const nye = await fetch('data/sist-lagt-til.json').then((r) => r.json()).catch(() => []);
+  state.nye = (Array.isArray(nye) ? nye : []).map((id) => state.recipes.get(id)).filter(Boolean).slice(0, NEW_MAX);
 }
 const byTitle = (a, b) => a.title.localeCompare(b.title, 'nb');
+const NEW = 'Sist lagt til', NEW_MAX = 12;
 
 function categories() {
   const m = new Map();
   state.list.forEach((r) => m.set(r.category, (m.get(r.category) || 0) + 1));
-  return [{ name: 'Alle', n: state.list.length }, ...[...m].map(([name, n]) => ({ name, n }))];
+  const nye = state.nye?.length ? [{ name: NEW, n: state.nye.length }] : [];
+  return [{ name: 'Alle', n: state.list.length }, ...nye, ...[...m].map(([name, n]) => ({ name, n }))];
 }
 function filtered() {
   const q = state.q.trim().toLowerCase();
+  const match = (r) => !q || r.title.toLowerCase().includes(q);
+  // Sist lagt til beholder sin egen rekkefølge (nyeste først)
+  if (state.cat === NEW) return (state.nye || []).filter(match);
   return state.list
     .filter((r) => state.cat === 'Alle' || r.category === state.cat)
-    .filter((r) => !q || r.title.toLowerCase().includes(q))
+    .filter(match)
     .sort(byTitle);
 }
 
@@ -106,7 +114,7 @@ function viewHome(from) {
 
   const paint = (still) => {
     // Retter med bilde først – bildene skal lede an. Nummeret (Nº) følger fortsatt alfabetet.
-    const items = filtered().sort((a, b) => !!b.image - !!a.image), term = state.q.trim();
+    const items = state.cat === NEW ? filtered() : filtered().sort((a, b) => !!b.image - !!a.image), term = state.q.trim();
     $('#label').textContent = term ? (state.cat === 'Alle' ? 'Søk i hele menyen' : `Søk i ${state.cat}`) : 'Menyen';
     $('#heading').textContent = term ? `«${term}»` : state.cat === 'Alle' ? 'Alle retter' : state.cat;
     $('#count').textContent = `${items.length} ${items.length === 1 ? 'rett' : 'retter'}`;
