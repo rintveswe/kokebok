@@ -1,0 +1,42 @@
+{
+  "id": "chorizopasta", "title": "Kremet chorizopasta med paprikasaus og sprø kikerter", "category": "Pasta", "emoji": "🍝",
+  "image": null, "servings": "4 personer", "time": { "active": 35, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Pasta i en glatt, kremet saus av paprika, løk og fløte, med chorizokjøttdeig. Sprø kikerter stekt i chorizofettet står i en skål på bordet, så hver enkelt kan strø over selv.",
+  "tips": [
+    "Chorizokjøttdeig varierer i styrke. Smak på sausen før du legger til chili eller ekstra krydder.",
+    "Ikke rør kikertene inn i sausen. Da blir de myke igjen i løpet av få minutter.",
+    "Sausen kjøres glatt, så det blir ingen biter av løk og paprika. Spinaten kjøres også inn og blir usynlig."
+  ],
+  "pairs": { "drink": ["Eplemost", "Sitronbrus"], "side": ["Grønn salat"] },
+  "ingredients": [
+    { "group": "Pasta og saus", "name": "Chorizokjøttdeig", "qty": "400 g" },
+    { "group": "Pasta og saus", "name": "Pasta (penne eller rigatoni)", "qty": "400 g" },
+    { "group": "Pasta og saus", "name": "Løk", "qty": "1 stk", "note": "Grovhakket" },
+    { "group": "Pasta og saus", "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "group": "Pasta og saus", "name": "Rød paprika", "qty": "1 stk", "note": "Grovhakket" },
+    { "group": "Pasta og saus", "name": "Tomatpuré", "qty": "1–2 ss" },
+    { "group": "Pasta og saus", "name": "Matfløte", "qty": "3 dl" },
+    { "group": "Pasta og saus", "name": "Kremost naturell", "qty": "2–3 ss", "note": "For eksempel Philadelphia" },
+    { "group": "Pasta og saus", "name": "Spinat", "qty": "1 neve", "optional": true },
+    { "group": "Pasta og saus", "name": "Sitron", "qty": "½ stk", "note": "Saft og litt revet skall" },
+    { "group": "Pasta og saus", "name": "Parmesan, revet", "qty": "til servering" },
+    { "group": "Sprø kikerter", "name": "Kikerter", "qty": "1 boks" },
+    { "group": "Sprø kikerter", "name": "Olje", "qty": "1 ss", "note": "Bare hvis du bruker airfryer eller ovn", "optional": true },
+    { "group": "Sprø kikerter", "name": "Salt", "qty": "etter smak" }
+  ],
+  "steps": [
+    { "text": "Skyll kikertene og la dem renne av. Tørk dem godt med kjøkkenpapir, og gni dem lett så skallene løsner. Fjern skallene som løsner.", "anim": "assemble", "icon": "🫘", "ingredients": ["Kikerter"] },
+    { "text": "Kok pastaen etter anvisningen på pakken. Ta vare på ca. 2 dl pastavann før du heller av.", "anim": "boil", "icon": "🍝", "ingredients": ["Pasta (penne eller rigatoni)"] },
+    { "text": "Brun chorizokjøttdeigen i en tørr panne på middels høy varme. Ta den ut med en hullsleiv, og la fettet bli igjen i panna.", "anim": "fry", "icon": "🥩", "ingredients": ["Chorizokjøttdeig"] },
+    { "text": "Stek kikertene i ett lag i fettet på høy varme til de er sprø. Legg dem på kjøkkenpapir, og dryss over salt.", "note": "Eller vend dem i olje: airfryer 200 °C i 12–15 min, ovn 220 °C i 25–30 min. Rist dem underveis.", "anim": "fry", "icon": "🔥", "timer": 10, "ingredients": ["Salt", "Olje"] },
+    { "text": "Stek løk og paprika i fettet på middels varme til de er helt myke. De skal være møre, ikke brune.", "anim": "fry", "icon": "🫑", "timer": 10, "ingredients": ["Løk", "Rød paprika"] },
+    { "text": "Ha i hvitløk og tomatpuré, og stek videre i 1 minutt.", "anim": "stir", "icon": "🧄", "ingredients": ["Hvitløksfedd", "Tomatpuré"] },
+    { "text": "Hell i fløten og kremosten, og la det koke opp. Har du med spinat, har du den i nå.", "anim": "boil", "icon": "🥛", "ingredients": ["Matfløte", "Kremost naturell", "Spinat"] },
+    { "text": "Kjør sausen helt glatt med en stavmikser, eller i en blender og tilbake i panna.", "note": "Sausen er varm og spruter lett. Hold stavmikseren helt nede i sausen.", "anim": "stir", "icon": "🌀" },
+    { "text": "Ha chorizoen tilbake i sausen, og la det småkoke.", "anim": "boil", "icon": "🍲", "timer": 5 },
+    { "text": "Vend inn pastaen. Spe med pastavann til sausen er blank og fester seg til pastaen.", "anim": "stir", "icon": "🥄" },
+    { "text": "Smak til med sitronsaft og litt revet skall. Salt trengs sjelden, siden chorizoen er salt fra før.", "anim": "season", "icon": "🍋", "ingredients": ["Sitron"] },
+    { "text": "Server med revet parmesan. Sett de sprø kikertene i en skål på bordet, så hver enkelt kan strø over selv.", "anim": "serve", "icon": "🍝", "ingredients": ["Parmesan, revet"] }
+  ]
+}
