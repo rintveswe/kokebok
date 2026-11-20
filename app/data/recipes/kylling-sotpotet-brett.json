@@ -1,0 +1,36 @@
+{
+  "id": "kylling-sotpotet-brett", "title": "Kylling med søtpotet og brokkoli på brett", "category": "Sunt og godt", "emoji": "🍠",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 50 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Alt stekes på ett brett i ovnen: krydret kylling, søte søtpoteter og sprø brokkoli, med honning og sitron til slutt.",
+  "tips": [
+    "Spre grønnsakene godt utover. Ligger de i haug, blir de dampet i stedet for stekt.",
+    "Søtpotetene trenger lengre tid enn kyllingen. Derfor går de inn først.",
+    "Fetaosten er valgfri, men den gir en fin salt kontrast til det søte."
+  ],
+  "pairs": { "drink": ["Eplemost"], "side": ["Gresk yoghurt med hvitløk"] },
+  "ingredients": [
+    { "name": "Kyllinglårfilet", "qty": "600 g" },
+    { "name": "Søtpotet", "qty": "2 stk (ca. 800 g)" },
+    { "name": "Brokkoli", "qty": "1 stk" },
+    { "name": "Rødløk", "qty": "2 stk" },
+    { "name": "Olivenolje", "qty": "3 ss" },
+    { "name": "Røkt paprikapulver", "qty": "2 ts" },
+    { "name": "Hvitløkspulver", "qty": "1 ts" },
+    { "name": "Tørket timian", "qty": "1 ts" },
+    { "name": "Salt", "qty": "1 ts" },
+    { "name": "Pepper", "qty": "½ ts" },
+    { "name": "Honning", "qty": "1 ss" },
+    { "name": "Sitron", "qty": "½ stk" },
+    { "name": "Fetaost", "qty": "100 g", "optional": true }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 220 °C.", "anim": "bake", "icon": "🔥" },
+    { "text": "Skrell søtpotetene, og skjær dem i terninger på ca. 2 cm. Del rødløken i båter.", "anim": "chop", "icon": "🔪", "ingredients": ["Søtpotet", "Rødløk"] },
+    { "text": "Bland olje, krydder, salt og pepper i en stor bolle.", "anim": "stir", "icon": "🥣", "ingredients": ["Olivenolje", "Røkt paprikapulver", "Hvitløkspulver", "Tørket timian", "Salt", "Pepper"] },
+    { "text": "Vend søtpotet og løk i halvparten av krydderoljen, og bre dem utover en stekeplate. Stek i 15 minutter.", "anim": "bake", "icon": "🍠", "timer": 15 },
+    { "text": "Skjær kyllingen i store biter og brokkolien i buketter. Vend dem i resten av krydderoljen.", "anim": "stir", "icon": "🥦", "ingredients": ["Kyllinglårfilet", "Brokkoli"] },
+    { "text": "Legg kylling og brokkoli på brettet, og stek videre til kyllingen er gjennomstekt.", "anim": "bake", "icon": "♨️", "timer": 20 },
+    { "text": "Drypp honning og sitronsaft over, og smuldre feta på toppen. Server rett fra brettet.", "anim": "serve", "icon": "🍋", "ingredients": ["Honning", "Sitron", "Fetaost"] }
+  ]
+}

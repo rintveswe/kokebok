@@ -1,0 +1,39 @@
+{
+  "id": "rod-linsesuppe", "title": "Rød linsesuppe", "category": "Sunt og godt", "emoji": "🥣",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Fyldig, glatt suppe av røde linser, gulrot og tomat med kumin og sitron. Mett, billig og full av protein og fiber.",
+  "tips": [
+    "Røde linser trenger ikke bløtlegges. De koker ut og gjør suppa tykk av seg selv.",
+    "Sitronsaften til slutt er viktig. Den løfter hele suppa.",
+    "Suppa tykner når den står. Spe med litt vann når du varmer den opp. Den kan også fryses."
+  ],
+  "pairs": { "side": ["Grovt brød", "naan"] },
+  "ingredients": [
+    { "group": "Suppe", "name": "Olivenolje", "qty": "2 ss" },
+    { "group": "Suppe", "name": "Løk", "qty": "1 stk" },
+    { "group": "Suppe", "name": "Gulrøtter", "qty": "2 stk" },
+    { "group": "Suppe", "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "group": "Suppe", "name": "Spisskummen (kumin), malt", "qty": "2 ts" },
+    { "group": "Suppe", "name": "Paprikapulver", "qty": "1 ts" },
+    { "group": "Suppe", "name": "Gurkemeie", "qty": "½ ts" },
+    { "group": "Suppe", "name": "Chiliflak", "qty": "½ ts", "spicy": true, "optional": true },
+    { "group": "Suppe", "name": "Tomatpuré", "qty": "2 ss" },
+    { "group": "Suppe", "name": "Røde linser", "qty": "3 dl" },
+    { "group": "Suppe", "name": "Grønnsaksbuljong", "qty": "1,2 l", "note": "Vann og 2 buljongterninger" },
+    { "group": "Suppe", "name": "Knuste tomater", "qty": "1 boks" },
+    { "group": "Suppe", "name": "Sitron", "qty": "½ stk" },
+    { "group": "Suppe", "name": "Salt", "qty": "etter smak" },
+    { "group": "Servering", "name": "Gresk yoghurt", "qty": "1 dl", "optional": true },
+    { "group": "Servering", "name": "Fersk persille eller koriander", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Finhakk løk og hvitløk, og riv gulrøttene grovt.", "anim": "chop", "icon": "🔪", "ingredients": ["Løk", "Hvitløksfedd", "Gulrøtter"] },
+    { "text": "Varm oljen i en stor gryte, og stek løk og gulrot myke på middels varme.", "anim": "fry", "icon": "🧅", "timer": 5, "ingredients": ["Olivenolje"] },
+    { "text": "Rør inn hvitløk, krydder og tomatpuré, og stek i 1 minutt.", "anim": "stir", "icon": "🥄", "ingredients": ["Spisskummen (kumin), malt", "Paprikapulver", "Gurkemeie", "Chiliflak", "Tomatpuré"] },
+    { "text": "Skyll linsene, og ha dem i gryta med buljong og tomater. La det småkoke til linsene er helt møre.", "anim": "boil", "icon": "🍲", "timer": 20, "ingredients": ["Røde linser", "Grønnsaksbuljong", "Knuste tomater"] },
+    { "text": "Kjør suppa glatt med en stavmikser.", "note": "Suppa er varm og spruter lett. Hold stavmikseren helt nede.", "anim": "stir", "icon": "🌀" },
+    { "text": "Smak til med sitronsaft og salt.", "anim": "season", "icon": "🍋", "ingredients": ["Sitron", "Salt"] },
+    { "text": "Server med en klatt yoghurt og hakkede urter.", "anim": "serve", "icon": "🥣", "ingredients": ["Gresk yoghurt", "Fersk persille eller koriander"] }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "shakshuka", "title": "Shakshuka", "category": "Sunt og godt", "emoji": "🍳",
+  "image": null, "servings": "4 personer", "time": { "active": 15, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Egg som trekker i en krydret saus av tomat og paprika, servert rett fra panna med feta og godt brød. Passer like godt til middag som til helgefrokost.",
+  "tips": [
+    "La sausen koke skikkelig inn før eggene går i. En tynn saus gir vassen shakshuka.",
+    "Legg lokk på, så stivner eggehviten uten at plommen blir hard.",
+    "Chiliflakene kan strøs over ved bordet i stedet, så retten blir mild for de som vil det."
+  ],
+  "pairs": { "drink": ["Appelsinjuice"], "side": ["Grovt brød", "focaccia-pizza"] },
+  "ingredients": [
+    { "name": "Olivenolje", "qty": "2 ss" },
+    { "name": "Løk", "qty": "1 stk" },
+    { "name": "Rød paprika", "qty": "2 stk" },
+    { "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "name": "Spisskummen (kumin), malt", "qty": "1 ts" },
+    { "name": "Paprikapulver", "qty": "2 ts" },
+    { "name": "Chiliflak", "qty": "½ ts", "spicy": true, "optional": true },
+    { "name": "Knuste tomater", "qty": "2 bokser" },
+    { "name": "Sukker", "qty": "1 ts" },
+    { "name": "Salt og pepper", "qty": "etter smak" },
+    { "name": "Egg", "qty": "6–8 stk" },
+    { "name": "Fetaost", "qty": "100 g" },
+    { "name": "Fersk persille eller koriander", "qty": "1 neve" },
+    { "name": "Grovt brød", "qty": "til servering" }
+  ],
+  "steps": [
+    { "text": "Finhakk løken, og skjær paprikaen i tynne strimler.", "anim": "chop", "icon": "🔪", "ingredients": ["Løk", "Rød paprika"] },
+    { "text": "Varm oljen i en stor panne med lokk, og stek løk og paprika myke på middels varme.", "anim": "fry", "icon": "🫑", "timer": 8, "ingredients": ["Olivenolje"] },
+    { "text": "Rør inn hakket hvitløk og krydderne, og stek i 1 minutt.", "anim": "stir", "icon": "🧄", "ingredients": ["Hvitløksfedd", "Spisskummen (kumin), malt", "Paprikapulver", "Chiliflak"] },
+    { "text": "Hell i tomatene og sukkeret, og smak til med salt og pepper. La sausen småkoke til den er tykk.", "anim": "boil", "icon": "🍅", "timer": 10, "ingredients": ["Knuste tomater", "Sukker", "Salt og pepper"] },
+    { "text": "Lag små groper i sausen med en skje, og knekk et egg i hver.", "anim": "assemble", "icon": "🥚", "ingredients": ["Egg"] },
+    { "text": "Legg på lokk, og la eggene trekke på lav varme til hviten har stivnet, men plommen fortsatt er blank.", "note": "Vil noen ha hard plomme, la panna stå et par minutter til.", "anim": "boil", "icon": "🍳", "timer": 7 },
+    { "text": "Smuldre fetaost og strø urter over. Server rett fra panna med godt brød.", "anim": "serve", "icon": "🌿", "ingredients": ["Fetaost", "Fersk persille eller koriander", "Grovt brød"] }
+  ]
+}

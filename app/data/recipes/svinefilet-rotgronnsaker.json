@@ -1,0 +1,34 @@
+{
+  "id": "svinefilet-rotgronnsaker", "title": "Svinefilet med eple og bakte rotgrønnsaker", "category": "Sunt og godt", "emoji": "🍎",
+  "image": null, "servings": "4 personer", "time": { "active": 20, "total": 55 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Mager svinefilet med sennepsskorpe, stekt sammen med gulrot, pastinakk og syrlige epler. Høstmat som er enkel og god.",
+  "tips": [
+    "Svinefilet er et av de magreste kjøttstykkene. Stek den til 65 °C inni, så blir den saftig og lyserosa.",
+    "Bruk syrlige epler, for eksempel Granny Smith eller norske Aroma. De holder formen i ovnen.",
+    "Har du rødbeter, kan de stekes sammen med de andre rotgrønnsakene."
+  ],
+  "pairs": { "drink": ["Eplemost"], "side": ["Grønn salat"] },
+  "ingredients": [
+    { "name": "Svinefilet", "qty": "600 g" },
+    { "name": "Gulrøtter", "qty": "4 stk" },
+    { "name": "Pastinakk", "qty": "2 stk" },
+    { "name": "Rødløk", "qty": "2 stk" },
+    { "name": "Epler, syrlige", "qty": "2 stk" },
+    { "name": "Olivenolje", "qty": "3 ss" },
+    { "name": "Tørket timian", "qty": "1 ts" },
+    { "name": "Dijonsennep", "qty": "1 ss" },
+    { "name": "Salt", "qty": "1,5 ts" },
+    { "name": "Pepper", "qty": "½ ts" },
+    { "name": "Honning", "qty": "1 ss" }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 220 °C.", "anim": "bake", "icon": "🔥" },
+    { "text": "Skrell gulrøtter og pastinakk, og skjær dem i staver. Del løk og epler i båter.", "anim": "chop", "icon": "🥕", "ingredients": ["Gulrøtter", "Pastinakk", "Rødløk", "Epler, syrlige"] },
+    { "text": "Vend gulrot, pastinakk og løk i olje, timian og salt på en stekeplate. Stek i 15 minutter.", "anim": "bake", "icon": "♨️", "timer": 15, "ingredients": [{ "name": "Olivenolje", "qty": "2 ss" }, "Tørket timian", { "name": "Salt", "qty": "1 ts" }] },
+    { "text": "Gni fileten inn med sennep, salt og pepper. Brun den på alle sider i resten av oljen i en varm panne.", "anim": "fry", "icon": "🥩", "timer": 4, "ingredients": ["Svinefilet", "Dijonsennep", { "name": "Salt", "qty": "½ ts" }, "Pepper", { "name": "Olivenolje", "qty": "1 ss" }] },
+    { "text": "Legg fileten og eplebåtene på brettet. Stek til kjøttet er 65 °C inni.", "note": "Uten steketermometer: kjøttet skal være lyserosa i midten.", "anim": "bake", "icon": "🍎", "timer": 20 },
+    { "text": "La kjøttet hvile under folie i 5 minutter. Drypp honning over grønnsakene og eplene.", "anim": "rest", "icon": "🍯", "timer": 5, "ingredients": ["Honning"] },
+    { "text": "Skjær kjøttet i skiver, og server med grønnsakene og eplene.", "anim": "serve", "icon": "🍽️" }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kjottdeigform-blomkalmos", "title": "Kjøttdeigform med blomkålmos", "category": "Sunt og godt", "emoji": "🥧",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 60 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "En lettere shepherd's pie: mager kjøttdeig med gulrot og erter i en fyldig saus, dekket med mos av blomkål og potet og gratinert med ost.",
+  "tips": [
+    "Karbonadedeig er mager kjøttdeig av storfe. Den har mindre fett enn vanlig kjøttdeig, men like mye smak.",
+    "Med halvparten blomkål i mosen merker de færreste forskjellen, og retten blir mye lettere.",
+    "Formen kan lages ferdig dagen før. Da trenger den ca. 10 minutter ekstra i ovnen."
+  ],
+  "pairs": { "drink": ["Melk", "Eplemost"], "side": ["Grønn salat"] },
+  "ingredients": [
+    { "group": "Kjøttsaus", "name": "Karbonadedeig", "qty": "500 g" },
+    { "group": "Kjøttsaus", "name": "Olivenolje", "qty": "1 ss" },
+    { "group": "Kjøttsaus", "name": "Løk", "qty": "1 stk" },
+    { "group": "Kjøttsaus", "name": "Gulrøtter", "qty": "2 stk" },
+    { "group": "Kjøttsaus", "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "group": "Kjøttsaus", "name": "Tomatpuré", "qty": "2 ss" },
+    { "group": "Kjøttsaus", "name": "Worcestershiresaus", "qty": "1 ss" },
+    { "group": "Kjøttsaus", "name": "Tørket timian", "qty": "1 ts" },
+    { "group": "Kjøttsaus", "name": "Kjøttbuljong", "qty": "2 dl", "note": "Vann og ½ buljongterning" },
+    { "group": "Kjøttsaus", "name": "Frosne erter", "qty": "2 dl" },
+    { "group": "Kjøttsaus", "name": "Salt og pepper", "qty": "etter smak" },
+    { "group": "Mos", "name": "Blomkål", "qty": "1 stk" },
+    { "group": "Mos", "name": "Poteter", "qty": "400 g" },
+    { "group": "Mos", "name": "Melk", "qty": "1 dl" },
+    { "group": "Mos", "name": "Smør", "qty": "1 ss" },
+    { "group": "Mos", "name": "Salt", "qty": "½ ts" },
+    { "group": "Mos", "name": "Revet ost", "qty": "1 dl" }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 200 °C.", "anim": "bake", "icon": "🔥" },
+    { "text": "Skrell potetene. Del poteter og blomkål i biter, og kok dem møre i lettsaltet vann.", "anim": "boil", "icon": "🥔", "timer": 15, "ingredients": ["Poteter", "Blomkål"] },
+    { "text": "Imens: finhakk løk og hvitløk, og riv gulrøttene.", "anim": "chop", "icon": "🔪", "ingredients": ["Løk", "Hvitløksfedd", "Gulrøtter"] },
+    { "text": "Brun kjøttdeigen i olje i en stor panne. Ha i løk, hvitløk og gulrot, og stek videre til grønnsakene er myke.", "anim": "fry", "icon": "🥩", "timer": 6, "ingredients": ["Karbonadedeig", "Olivenolje"] },
+    { "text": "Rør inn tomatpuré, worcestershiresaus, timian og buljong. La det småkoke i 10 minutter, og rør inn ertene til slutt.", "anim": "boil", "icon": "🍲", "timer": 10, "ingredients": ["Tomatpuré", "Worcestershiresaus", "Tørket timian", "Kjøttbuljong", "Frosne erter", "Salt og pepper"] },
+    { "text": "Hell av vannet. Mos poteter og blomkål med melk, smør og salt.", "anim": "stir", "icon": "🥄", "ingredients": ["Melk", "Smør", "Salt"] },
+    { "text": "Ha kjøttsausen i en ildfast form. Fordel mosen over, og strø ost på toppen.", "anim": "assemble", "icon": "🧀", "ingredients": ["Revet ost"] },
+    { "text": "Stek midt i ovnen til osten er gyllen.", "anim": "bake", "icon": "♨️", "timer": 20 },
+    { "text": "La formen stå i 5 minutter før servering.", "note": "Formen er svært varm. La barna vente litt før de forsyner seg.", "anim": "serve", "icon": "🥧" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "kylling-souvlaki", "title": "Kyllingsouvlaki med tzatziki", "category": "Sunt og godt", "emoji": "🍢",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 60 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Greske kyllingspyd med sitron, hvitløk og oregano, servert i pita med frisk salat og kald tzatziki. Mye smak og lite fett.",
+  "tips": [
+    "Lårfilet blir saftigere enn bryst, men bryst går fint hvis du ikke steker for lenge.",
+    "Klem agurken godt i et kjøkkenhåndkle. Da blir tzatzikien tykk og ikke vassen.",
+    "Spydene kan grilles på Traegeren eller vanlig grill på høy varme i ca. 10 minutter."
+  ],
+  "pairs": { "drink": ["Sitronvann", "Iste"], "side": ["Gresk salat"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllinglårfilet", "qty": "700 g" },
+    { "group": "Kylling", "name": "Olivenolje", "qty": "3 ss" },
+    { "group": "Kylling", "name": "Sitronsaft", "qty": "2 ss" },
+    { "group": "Kylling", "name": "Hvitløksfedd, revet", "qty": "3 stk" },
+    { "group": "Kylling", "name": "Tørket oregano", "qty": "2 ts" },
+    { "group": "Kylling", "name": "Paprikapulver", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Salt", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Pepper", "qty": "½ ts" },
+    { "group": "Kylling", "name": "Grillspyd", "qty": "8 stk" },
+    { "group": "Tzatziki", "name": "Gresk yoghurt", "qty": "3 dl" },
+    { "group": "Tzatziki", "name": "Agurk", "qty": "½ stk" },
+    { "group": "Tzatziki", "name": "Hvitløksfedd", "qty": "1 stk" },
+    { "group": "Tzatziki", "name": "Fersk mynte eller dill", "qty": "1 ss, hakket", "optional": true },
+    { "group": "Tzatziki", "name": "Salt", "qty": "1 klype" },
+    { "group": "Servering", "name": "Fullkornspita", "qty": "4 stk" },
+    { "group": "Servering", "name": "Hjertesalat", "qty": "1 stk" },
+    { "group": "Servering", "name": "Tomat", "qty": "2 stk" },
+    { "group": "Servering", "name": "Rødløk", "qty": "½ stk" }
+  ],
+  "steps": [
+    { "text": "Skjær kyllingen i biter på ca. 3 cm. Bland med olje, sitronsaft, hvitløk, oregano, paprika, salt og pepper.", "anim": "stir", "icon": "🍗", "ingredients": ["Kyllinglårfilet", "Olivenolje", "Sitronsaft", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, "Tørket oregano", "Paprikapulver", { "name": "Salt", "group": "Kylling" }, "Pepper"] },
+    { "text": "La kyllingen marinere kaldt i minst 30 minutter.", "anim": "rest", "icon": "❄️", "timer": 30 },
+    { "text": "Riv agurken grovt, og klem ut vannet. Rør den inn i yoghurten med revet hvitløk, urter og salt.", "anim": "stir", "icon": "🥒", "ingredients": ["Gresk yoghurt", "Agurk", "Hvitløksfedd", "Fersk mynte eller dill", { "name": "Salt", "group": "Tzatziki" }] },
+    { "text": "Træ kyllingbitene på spyd.", "note": "Ligger trespydene i vann i 20 minutter først, brenner de ikke.", "anim": "assemble", "icon": "🍢", "ingredients": ["Grillspyd"] },
+    { "text": "Stek spydene øverst i ovnen på 250 °C til de er gylne og gjennomstekte. Snu dem halvveis.", "anim": "bake", "icon": "🔥", "timer": 15 },
+    { "text": "Varm pitabrødene. Server med salat, tomat, rødløk og tzatziki.", "anim": "serve", "icon": "🥙", "ingredients": ["Fullkornspita", "Hjertesalat", "Tomat", "Rødløk"] }
+  ]
+}
