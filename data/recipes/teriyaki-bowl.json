@@ -1,0 +1,38 @@
+{
+  "id": "teriyaki-bowl", "title": "Teriyakikylling i bolle", "category": "Sunt og godt", "emoji": "🥗",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 30 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Kylling i blank, hjemmelaget teriyakisaus over ris, med edamame, agurk, gulrot og avokado. Hver enkelt kan bygge sin egen bolle.",
+  "tips": [
+    "Hjemmelaget teriyaki har mye mindre sukker enn den på flaske, og den tar bare to minutter.",
+    "Sett grønnsakene i egne skåler på bordet. Da velger barna selv hva de vil ha.",
+    "Fullkornsris gir mer fiber. Den trenger ca. 25 minutter, så sett den på først."
+  ],
+  "pairs": { "drink": ["Iste", "Vann med lime"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllingbryst", "qty": "600 g" },
+    { "group": "Kylling", "name": "Nøytral olje", "qty": "1 ss" },
+    { "group": "Teriyakisaus", "name": "Soyasaus, lett", "qty": "4 ss" },
+    { "group": "Teriyakisaus", "name": "Honning", "qty": "2 ss" },
+    { "group": "Teriyakisaus", "name": "Riseddik", "qty": "1 ss" },
+    { "group": "Teriyakisaus", "name": "Hvitløksfedd, revet", "qty": "2 stk" },
+    { "group": "Teriyakisaus", "name": "Fersk ingefær, revet", "qty": "1 ss" },
+    { "group": "Teriyakisaus", "name": "Maisenna", "qty": "1 ts" },
+    { "group": "Teriyakisaus", "name": "Vann", "qty": "1 dl" },
+    { "group": "Bolle", "name": "Ris (jasmin eller fullkorn)", "qty": "3 dl" },
+    { "group": "Bolle", "name": "Edamamebønner, frosne", "qty": "200 g" },
+    { "group": "Bolle", "name": "Agurk", "qty": "1 stk" },
+    { "group": "Bolle", "name": "Gulrøtter", "qty": "2 stk" },
+    { "group": "Bolle", "name": "Avokado", "qty": "1 stk" },
+    { "group": "Bolle", "name": "Sesamfrø", "qty": "1 ss" },
+    { "group": "Bolle", "name": "Vårløk", "qty": "2 stk", "optional": true }
+  ],
+  "steps": [
+    { "text": "Kok risen etter anvisningen på pakken.", "anim": "boil", "icon": "🍚", "ingredients": ["Ris (jasmin eller fullkorn)"] },
+    { "text": "Rør sammen alt til teriyakisausen i en kopp.", "anim": "stir", "icon": "🥣", "ingredients": ["Soyasaus, lett", "Honning", "Riseddik", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, { "name": "Fersk ingefær, revet", "label": "Ingefær, revet" }, "Maisenna", "Vann"] },
+    { "text": "Kok edamamebønnene i 3 minutter. Skjær agurk og avokado i biter, og riv gulrøttene.", "anim": "chop", "icon": "🥒", "timer": 3, "ingredients": ["Edamamebønner, frosne", "Agurk", "Gulrøtter", "Avokado"] },
+    { "text": "Skjær kyllingen i strimler. Stek dem i olje på høy varme til de er gylne og gjennomstekte.", "anim": "fry", "icon": "🍗", "timer": 6, "ingredients": ["Kyllingbryst", "Nøytral olje"] },
+    { "text": "Rør sausen godt, og hell den over kyllingen. La det koke til sausen er tykk og blank.", "anim": "boil", "icon": "🍯", "timer": 2 },
+    { "text": "Fordel risen i boller. Legg kylling og grønnsaker på toppen, og strø over sesamfrø og vårløk.", "anim": "serve", "icon": "🥗", "ingredients": ["Sesamfrø", "Vårløk"] }
+  ]
+}

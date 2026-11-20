@@ -1,0 +1,42 @@
+{
+  "id": "svinewok-brokkoli", "title": "Svinewok med brokkoli og ingefær", "category": "Sunt og godt", "emoji": "🥦",
+  "image": null, "servings": "4 personer", "time": { "active": 25, "total": 25 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Mørt svinekjøtt og sprø grønnsaker i en blank saus med ingefær og hvitløk. Raskere enn å bestille takeaway.",
+  "tips": [
+    "Maisennaen på kjøttet gjør det mørt og saftig, slik som på restaurant.",
+    "Ha alt kuttet og klart før du starter. Selve wokingen tar under 10 minutter.",
+    "Stek kjøttet i to omganger hvis panna er liten. Ellers koker det i stedet for å bli brunt."
+  ],
+  "pairs": { "drink": ["Iste"] },
+  "ingredients": [
+    { "group": "Kjøtt", "name": "Svinefilet", "qty": "500 g" },
+    { "group": "Kjøtt", "name": "Soyasaus, lett", "qty": "1 ss" },
+    { "group": "Kjøtt", "name": "Maisenna", "qty": "1 ts" },
+    { "group": "Saus", "name": "Soyasaus, lett", "qty": "3 ss" },
+    { "group": "Saus", "name": "Østerssaus", "qty": "2 ss" },
+    { "group": "Saus", "name": "Honning", "qty": "1 ss" },
+    { "group": "Saus", "name": "Riseddik", "qty": "1 ss" },
+    { "group": "Saus", "name": "Vann", "qty": "1 dl" },
+    { "group": "Saus", "name": "Maisenna", "qty": "1 ts" },
+    { "group": "Wok", "name": "Brokkoli", "qty": "1 stk" },
+    { "group": "Wok", "name": "Rød paprika", "qty": "1 stk" },
+    { "group": "Wok", "name": "Sukkererter", "qty": "150 g" },
+    { "group": "Wok", "name": "Hvitløksfedd", "qty": "3 stk" },
+    { "group": "Wok", "name": "Fersk ingefær", "qty": "2 ss, finhakket" },
+    { "group": "Wok", "name": "Nøytral olje", "qty": "2 ss" },
+    { "group": "Servering", "name": "Fullkornsnudler eller ris", "qty": "250 g" },
+    { "group": "Servering", "name": "Vårløk", "qty": "2 stk" },
+    { "group": "Servering", "name": "Cashewnøtter", "qty": "50 g", "optional": true }
+  ],
+  "steps": [
+    { "text": "Skjær kjøttet i tynne strimler, og vend dem i soyasaus og maisenna.", "anim": "chop", "icon": "🥩", "ingredients": ["Svinefilet", { "name": "Soyasaus, lett", "group": "Kjøtt" }, { "name": "Maisenna", "group": "Kjøtt" }] },
+    { "text": "Rør sammen alt til sausen i en kopp.", "anim": "stir", "icon": "🥣", "ingredients": [{ "name": "Soyasaus, lett", "group": "Saus" }, "Østerssaus", "Honning", "Riseddik", "Vann", { "name": "Maisenna", "group": "Saus" }] },
+    { "text": "Del brokkolien i små buketter og paprikaen i strimler. Finhakk hvitløk og ingefær.", "anim": "chop", "icon": "🔪", "ingredients": ["Brokkoli", "Rød paprika", "Sukkererter", "Hvitløksfedd", "Fersk ingefær"] },
+    { "text": "Kok nudlene eller risen etter anvisningen på pakken.", "anim": "boil", "icon": "🍜", "ingredients": ["Fullkornsnudler eller ris"] },
+    { "text": "Varm halvparten av oljen i en wok på høyeste varme. Stek kjøttet raskt til det er brunt, og ta det ut.", "anim": "fry", "icon": "🔥", "timer": 3, "ingredients": [{ "name": "Nøytral olje", "qty": "1 ss" }] },
+    { "text": "Ha i resten av oljen, og wok grønnsakene i 3 minutter. Ha i hvitløk og ingefær det siste minuttet.", "anim": "fry", "icon": "🥦", "timer": 3, "ingredients": [{ "name": "Nøytral olje", "qty": "1 ss" }] },
+    { "text": "Ha kjøttet tilbake. Rør sausen godt, hell den i, og la det koke til sausen er blank.", "anim": "stir", "icon": "🍯", "timer": 1 },
+    { "text": "Server over nudler eller ris, med vårløk og cashewnøtter på toppen.", "anim": "serve", "icon": "🥢", "ingredients": ["Vårløk", "Cashewnøtter"] }
+  ]
+}

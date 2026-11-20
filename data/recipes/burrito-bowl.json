@@ -1,0 +1,39 @@
+{
+  "id": "burrito-bowl", "title": "Burrito bowl med kylling og bønner", "category": "Sunt og godt", "emoji": "🌯",
+  "image": null, "servings": "4 personer", "time": { "active": 30, "total": 35 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Alt det gode fra en burrito, bare i en skål: krydret kylling, limeris, svarte bønner, mais, avokado og tomat.",
+  "tips": [
+    "Bønnene gir både protein og fiber, så du kan godt ta litt mindre kylling og flere bønner.",
+    "Gresk yoghurt er et godt og lettere alternativ til rømme.",
+    "Chilipulveret er valgfritt. Sett heller salsa på bordet, så kan de voksne ta mer varme selv."
+  ],
+  "pairs": { "drink": ["Vann med lime"], "side": ["salsa-roja", "guacamole-saus"] },
+  "ingredients": [
+    { "group": "Kylling", "name": "Kyllingfilet", "qty": "500 g" },
+    { "group": "Kylling", "name": "Spisskummen (kumin), malt", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Røkt paprikapulver", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Hvitløkspulver", "qty": "½ ts" },
+    { "group": "Kylling", "name": "Tørket oregano", "qty": "1 ts" },
+    { "group": "Kylling", "name": "Chilipulver", "qty": "½ ts", "spicy": true, "optional": true },
+    { "group": "Kylling", "name": "Salt", "qty": "½ ts" },
+    { "group": "Kylling", "name": "Olivenolje", "qty": "1 ss" },
+    { "group": "Skål", "name": "Brun ris", "qty": "3 dl" },
+    { "group": "Skål", "name": "Lime", "qty": "2 stk" },
+    { "group": "Skål", "name": "Svarte bønner", "qty": "1 boks" },
+    { "group": "Skål", "name": "Mais", "qty": "1 boks" },
+    { "group": "Skål", "name": "Cherrytomater", "qty": "200 g" },
+    { "group": "Skål", "name": "Avokado", "qty": "1 stk" },
+    { "group": "Skål", "name": "Rødløk", "qty": "½ stk" },
+    { "group": "Skål", "name": "Gresk yoghurt", "qty": "1,5 dl" },
+    { "group": "Skål", "name": "Fersk koriander", "qty": "1 neve", "optional": true }
+  ],
+  "steps": [
+    { "text": "Kok risen etter anvisningen. Rør inn saften av en halv lime når den er ferdig.", "anim": "boil", "icon": "🍚", "ingredients": ["Brun ris", { "name": "Lime", "qty": "½ stk" }] },
+    { "text": "Skjær kyllingen i strimler, og vend dem i krydder, salt og olje.", "anim": "season", "icon": "🧂", "ingredients": ["Kyllingfilet", "Spisskummen (kumin), malt", "Røkt paprikapulver", "Hvitløkspulver", "Tørket oregano", "Chilipulver", "Salt", "Olivenolje"] },
+    { "text": "Stek kyllingen i en varm panne til den er gyllen og gjennomstekt.", "anim": "fry", "icon": "🔥", "timer": 8 },
+    { "text": "Skyll bønnene, og varm dem med maisen i en liten kjele.", "anim": "boil", "icon": "🫘", "timer": 3, "ingredients": ["Svarte bønner", "Mais"] },
+    { "text": "Del tomatene, skjær avokadoen i terninger og finhakk løken.", "anim": "chop", "icon": "🥑", "ingredients": ["Cherrytomater", "Avokado", "Rødløk"] },
+    { "text": "Fordel ris, kylling, bønner, mais og grønnsaker i skåler. Topp med yoghurt, koriander og limebåter.", "anim": "serve", "icon": "🌯", "ingredients": ["Gresk yoghurt", "Fersk koriander", { "name": "Lime", "qty": "1½ stk", "label": "Lime i båter" }] }
+  ]
+}

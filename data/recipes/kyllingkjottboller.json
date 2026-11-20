@@ -1,0 +1,42 @@
+{
+  "id": "kyllingkjottboller", "title": "Kyllingkjøttboller i tomatsaus", "category": "Sunt og godt", "emoji": "🍝",
+  "image": null, "servings": "4 personer", "time": { "active": 25, "total": 40 },
+  "status": "kladd", "source": { "type": "egen" },
+  "intro": "Saftige kjøttboller av kyllingkjøttdeig, stekt i ovnen og lagt i en enkel tomatsaus. Servert med fullkornsspagetti og parmesan.",
+  "tips": [
+    "Kjøttbollene stekes i ovnen i stedet for i panne. Det trengs mindre fett, og alle blir ferdige samtidig.",
+    "Havregrynene holder på fuktigheten, så bollene blir saftige selv om kyllingdeigen er mager.",
+    "Barna kan gjerne rulle kjøttbollene. Våte hender gjør det lettere."
+  ],
+  "pairs": { "drink": ["Eplemost"], "side": ["Grønn salat"] },
+  "ingredients": [
+    { "group": "Kjøttboller", "name": "Kyllingkjøttdeig", "qty": "500 g" },
+    { "group": "Kjøttboller", "name": "Egg", "qty": "1 stk" },
+    { "group": "Kjøttboller", "name": "Havregryn", "qty": "½ dl" },
+    { "group": "Kjøttboller", "name": "Parmesan, revet", "qty": "30 g" },
+    { "group": "Kjøttboller", "name": "Hvitløksfedd, revet", "qty": "1 stk" },
+    { "group": "Kjøttboller", "name": "Tørket oregano", "qty": "1 ts" },
+    { "group": "Kjøttboller", "name": "Salt", "qty": "½ ts" },
+    { "group": "Saus", "name": "Olivenolje", "qty": "1 ss" },
+    { "group": "Saus", "name": "Løk", "qty": "1 stk" },
+    { "group": "Saus", "name": "Hvitløksfedd", "qty": "2 stk" },
+    { "group": "Saus", "name": "Knuste tomater", "qty": "2 bokser" },
+    { "group": "Saus", "name": "Tomatpuré", "qty": "1 ss" },
+    { "group": "Saus", "name": "Sukker", "qty": "1 ts" },
+    { "group": "Saus", "name": "Salt og pepper", "qty": "etter smak" },
+    { "group": "Saus", "name": "Fersk basilikum", "qty": "1 neve" },
+    { "group": "Servering", "name": "Fullkornsspagetti", "qty": "350 g" },
+    { "group": "Servering", "name": "Parmesan til servering", "qty": "etter smak" }
+  ],
+  "steps": [
+    { "text": "Sett ovnen på 220 °C, og legg bakepapir på en stekeplate.", "anim": "bake", "icon": "🔥" },
+    { "text": "Bland alt til kjøttbollene i en bolle.", "anim": "stir", "icon": "🥣", "ingredients": ["Kyllingkjøttdeig", "Egg", "Havregryn", "Parmesan, revet", { "name": "Hvitløksfedd, revet", "label": "Hvitløk, revet" }, "Tørket oregano", "Salt"] },
+    { "text": "Rull ca. 20 kjøttboller med våte hender, og legg dem på stekeplaten.", "anim": "assemble", "icon": "🧆" },
+    { "text": "Stek kjøttbollene midt i ovnen til de er gylne.", "anim": "bake", "icon": "♨️", "timer": 12 },
+    { "text": "Imens: finhakk løk og hvitløk, og stek dem myke i olje i en stor panne.", "anim": "fry", "icon": "🧅", "timer": 5, "ingredients": ["Olivenolje", "Løk", "Hvitløksfedd"] },
+    { "text": "Ha i tomater, tomatpuré og sukker, og smak til med salt og pepper. La sausen småkoke.", "anim": "boil", "icon": "🍅", "timer": 10, "ingredients": ["Knuste tomater", "Tomatpuré", "Sukker", "Salt og pepper"] },
+    { "text": "Kok spagettien etter anvisningen på pakken.", "anim": "boil", "icon": "🍝", "ingredients": ["Fullkornsspagetti"] },
+    { "text": "Legg kjøttbollene i sausen, og la dem trekke i 5 minutter. Riv basilikum over.", "anim": "boil", "icon": "🌿", "timer": 5, "ingredients": ["Fersk basilikum"] },
+    { "text": "Server kjøttbollene og sausen over spagettien, med revet parmesan.", "anim": "serve", "icon": "🍽️", "ingredients": ["Parmesan til servering"] }
+  ]
+}
